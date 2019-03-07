@@ -1,0 +1,3 @@
+JMH S 40 benchmark.ComparacionTiempoProcesamiento S 75 benchmark.generated.ComparacionTiempoProcesamiento_listadoFuncional_jmhTest S 16 listadoFuncional S 11 AverageTime E A 1 1 1 E I 1 1 E E I 1 3 E E I 1 1 I 1 1 E E E E E U 12 MILLISECONDS E E 
+JMH S 40 benchmark.ComparacionTiempoProcesamiento S 76 benchmark.generated.ComparacionTiempoProcesamiento_listadoImperativo_jmhTest S 17 listadoImperativo S 11 AverageTime E A 1 1 1 E I 1 1 E E I 1 3 E E I 1 1 I 1 1 E E E E E U 12 MILLISECONDS E E 
+JMH S 40 benchmark.ComparacionTiempoProcesamiento S 83 benchmark.generated.ComparacionTiempoProcesamiento_listadoFuncionalParalelo_jmhTest S 24 listadoFuncionalParalelo S 11 AverageTime E A 1 1 1 E I 1 1 E E I 1 3 E E I 1 1 I 1 1 E E E E E U 12 MILLISECONDS E E 

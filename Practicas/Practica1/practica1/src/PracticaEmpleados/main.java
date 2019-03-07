@@ -6,7 +6,9 @@ public class main {
 
     ListadoEmpleado a = new ListadoEmpleado("./data/datos.txt");
 
+    System.out.println(a.hayDnisRepetidosArchivo());
 
+    System.out.println(a.contarEmpleadosDnisRepetidos());
 
 
     }

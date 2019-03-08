@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe24fad9-ebd3-4a2c-a2ef-da19e6ebf944" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Practica1/practica1/src/PracticaEmpleados/ListaEmpleados.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Practica1/practica1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica1/practica1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica1/practica1/out/production/practica1/META-INF/practica1.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica1/practica1/out/production/practica1/PracticaEmpleados/ListadoEmpleado.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica1/practica1/out/production/practica1/PracticaEmpleados/ListadoEmpleado.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Practica1/practica1/out/production/practica1/PracticaEmpleados/ListadoEmpleado.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Practica1/practica1/out/production/practica1/PracticaEmpleados/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica1/practica1/out/production/practica1/PracticaEmpleados/main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica1/practica1/practica1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica1/practica1/practica1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica1/practica1/src/PracticaEmpleados/ListadoEmpleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica1/practica1/src/PracticaEmpleados/ListadoEmpleado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Practica1/practica1/out/production/practica1/Pruebas/ListadoTestP1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica1/practica1/out/production/practica1/Pruebas/ListadoTestP1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Practica1/practica1/src/PracticaEmpleados/ListadoEmpleado.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Practica1/practica1/src/PracticaEmpleados/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica1/practica1/src/PracticaEmpleados/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Practica1/practica1/src/Pruebas/ListadoTestP1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica1/practica1/src/Pruebas/ListadoTestP1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/base/ProcesarEmpleados.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-173">
-              <caret line="96" column="64" selection-start-line="96" selection-start-column="64" selection-end-line="96" selection-end-column="64" />
+            <state relative-caret-position="411">
+              <caret line="136" lean-forward="true" selection-start-line="136" selection-end-line="136" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -35,7 +36,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/base/ProcesadoArchivoTexto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
+            <state relative-caret-position="391">
               <caret line="33" column="82" selection-start-line="33" selection-start-column="82" selection-end-line="33" selection-end-column="82" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -117,8 +118,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="842" />
-    <option name="y" value="687" />
+    <option name="x" value="676" />
+    <option name="y" value="471" />
     <option name="width" value="1750" />
     <option name="height" value="872" />
   </component>
@@ -128,6 +129,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -156,14 +158,13 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551950767346" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Practica1/practica1" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -269,17 +270,18 @@
       <workItem from="1551944284143" duration="671000" />
       <workItem from="1551945908745" duration="3666000" />
       <workItem from="1551962698889" duration="1329000" />
+      <workItem from="1552044045265" duration="1029000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16768000" />
+    <option name="totallyTimeSpent" value="17797000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="842" y="687" width="1750" height="872" extended-state="0" />
+    <frame x="676" y="471" width="1750" height="872" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35739645" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36153847" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -315,6 +317,26 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/base/ListadoEmpleado.java" />
+    <entry file="file://$PROJECT_DIR$/src/base/ProcesarEmpleados.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="136" lean-forward="true" selection-start-line="136" selection-end-line="136" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/ProcesadoArchivoTexto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="33" column="82" selection-start-line="33" selection-start-column="82" selection-end-line="33" selection-end-column="82" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/base/NumerosAleatorios.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -348,26 +370,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="799">
           <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/ProcesadoArchivoTexto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="33" column="82" selection-start-line="33" selection-start-column="82" selection-end-line="33" selection-end-column="82" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/ProcesarEmpleados.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-173">
-          <caret line="96" column="64" selection-start-line="96" selection-start-column="64" selection-end-line="96" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

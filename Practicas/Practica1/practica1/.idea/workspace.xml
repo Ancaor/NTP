@@ -2,15 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27416222-40ef-4eaf-802c-11a84261222c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/PracticaEmpleados/ListaEmpleados.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practica1/PracticaEmpleados/ListadoEmpleado.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practica1/PracticaEmpleados/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/practica1/PracticaEmpleados/main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/practica1/PracticaEmpleados/Empleado.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/practica1/PracticaEmpleados/ListaEmpleados.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/practica1/PracticaEmpleados/Ruta.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/practica1/PracticaEmpleados/Sector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/practica1/PracticaEmpleados/main.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/practica1/Pruebas/ListadoTestP1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/practica1/Pruebas/ListadoTestP1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PracticaEmpleados/ListadoEmpleado.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PracticaEmpleados/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PracticaEmpleados/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticaEmpleados/Empleado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/listado/Empleado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticaEmpleados/ListaEmpleados.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/listado/ListadoEmpleados.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticaEmpleados/Ruta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/listado/Ruta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticaEmpleados/Sector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/listado/Sector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PracticaEmpleados/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/listado/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pruebas/ListadoTestP1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pruebas/ListadoTestP1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SeminarioPractica1/ejemplosUsoClasesPropias/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../SeminarioPractica1/ejemplosUsoClasesPropias/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,10 +26,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/PracticaEmpleados/Empleado.java">
+        <entry file="file://$PROJECT_DIR$/src/listado/Empleado.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1002">
-              <caret line="74" column="28" selection-start-line="74" selection-start-column="28" selection-end-line="74" selection-end-column="28" />
+            <state relative-caret-position="237">
+              <caret line="218" column="43" lean-forward="true" selection-start-line="218" selection-start-column="43" selection-end-line="218" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -34,12 +38,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/PracticaEmpleados/ListaEmpleados.java">
+        <entry file="file://$PROJECT_DIR$/src/listado/ListadoEmpleados.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="597">
-              <caret line="140" column="8" selection-start-line="140" selection-start-column="8" selection-end-line="140" selection-end-column="8" />
+            <state relative-caret-position="305">
+              <caret line="158" column="5" lean-forward="true" selection-start-line="158" selection-start-column="5" selection-end-line="158" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#5732#5733#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -48,8 +53,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Pruebas/ListadoTestP1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+            <state>
+              <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -58,19 +63,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/datos.txt">
+        <entry file="file://$PROJECT_DIR$/src/Pruebas/ListadoTestP2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84337">
-              <caret line="4961" column="49" selection-start-line="4961" selection-start-column="49" selection-end-line="4961" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/PracticaEmpleados/main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+            <state relative-caret-position="273">
+              <caret line="72" column="56" lean-forward="true" selection-start-line="72" selection-start-column="56" selection-end-line="72" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,19 +75,47 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/PracticaEmpleados/Ruta.java">
+        <entry file="file://$PROJECT_DIR$/data/asignacionRUTA1.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+            <state relative-caret-position="-663" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/asignacionSECTOR1.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="39">
+              <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/PracticaEmpleados/Sector.java">
+        <entry file="file://$PROJECT_DIR$/src/listado/Ruta.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+            <state>
+              <caret column="16" selection-start-column="16" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/listado/Sector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="16" selection-start-column="16" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/listado/main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -120,20 +144,23 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main.java" />
-        <option value="$PROJECT_DIR$/src/PracticaEmpleados/ListadoEmpleados.java" />
         <option value="$PROJECT_DIR$/data/datos.txt" />
         <option value="$PROJECT_DIR$/src/PracticaEmpleados/Empleado.java" />
-        <option value="$PROJECT_DIR$/src/Pruebas/ListadoTestP1.java" />
         <option value="$PROJECT_DIR$/src/PracticaEmpleados/ListadoEmpleado.java" />
         <option value="$PROJECT_DIR$/src/PracticaEmpleados/main.java" />
+        <option value="$PROJECT_DIR$/src/Pruebas/ListadoTestP1.java" />
         <option value="$PROJECT_DIR$/src/PracticaEmpleados/ListaEmpleados.java" />
+        <option value="$PROJECT_DIR$/src/PracticaEmpleados/ListadoEmpleados.java" />
+        <option value="$PROJECT_DIR$/src/Pruebas/ListadoTestP2.java" />
+        <option value="$PROJECT_DIR$/src/listado/main.java" />
+        <option value="$PROJECT_DIR$/src/listado/ListadoEmpleados.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="1341" />
-    <option name="height" value="1407" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="width" value="1342" />
+    <option name="height" value="1408" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -142,7 +169,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -164,7 +190,7 @@
               <item name="practica1" type="b2602c69:ProjectViewProjectNode" />
               <item name="practica1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="PracticaEmpleados" type="462c0819:PsiDirectoryNode" />
+              <item name="listado" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="practica1" type="b2602c69:ProjectViewProjectNode" />
@@ -176,6 +202,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -185,7 +212,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552048773374" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552473257907" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -195,6 +222,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Anton\Documents\Github\NTP\Practicas\Practica1\practica1\src\Pruebas" />
       <recent name="C:\Users\Anton\IdeaProjects\practica1\src\Pruebas" />
       <recent name="C:\Users\Anton\IdeaProjects\practica1\src" />
       <recent name="C:\Users\Anton\IdeaProjects\practica1\data" />
@@ -214,11 +242,11 @@
   </component>
   <component name="RunManager" selected="Application.main">
     <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PracticaEmpleados.main" />
+      <option name="MAIN_CLASS_NAME" value="listado.main" />
       <module name="practica1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PracticaEmpleados.*" />
+          <option name="PATTERN" value="listado.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -261,6 +289,7 @@
       <workItem from="1551945263101" duration="4877000" />
       <workItem from="1551961642459" duration="5591000" />
       <workItem from="1552044098312" duration="4653000" />
+      <workItem from="1552466484138" duration="6767000" />
     </task>
     <servers />
   </component>
@@ -268,15 +297,21 @@
     <history-entry file="ListadoTestP1 - 2019.03.07 at 10h 26m 14s.xml">
       <configuration name="ListadoTestP1" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ListadoTestP1 - 2019.03.13 at 09h 45m 04s.xml">
+      <configuration name="ListadoTestP1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ListadoTestP1 - 2019.03.13 at 09h 53m 00s.xml">
+      <configuration name="ListadoTestP1" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15121000" />
+    <option name="totallyTimeSpent" value="21888000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1341" height="1407" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17798595" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20536913" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -285,7 +320,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33124018" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25279328" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -295,7 +330,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3288854" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3282123" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -321,58 +356,8 @@
         <state relative-caret-position="-16027" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/asignacionSECTOR1.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/asignacionRUTA1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1365" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/practica1.iml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pruebas/ListadoTestP2.java" />
-    <entry file="file://$PROJECT_DIR$/src/Pruebas/ListadoTestP1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/datos.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84337">
-          <caret line="4961" column="49" selection-start-line="4961" selection-start-column="49" selection-end-line="4961" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PracticaEmpleados/Empleado.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1002">
-          <caret line="74" column="28" selection-start-line="74" selection-start-column="28" selection-end-line="74" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PracticaEmpleados/Ruta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PracticaEmpleados/Sector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/jre/lib/rt.jar!/java/util/function/Function.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -381,22 +366,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PracticaEmpleados/main.java">
+    <entry file="file://$PROJECT_DIR$/data/datos.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+        <state relative-caret-position="819">
+          <caret line="4961" column="49" selection-start-line="4961" selection-start-column="49" selection-end-line="4961" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/listado/Ruta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/listado/Empleado.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="218" column="43" lean-forward="true" selection-start-line="218" selection-start-column="43" selection-end-line="218" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PracticaEmpleados/ListaEmpleados.java">
+    <entry file="file://$PROJECT_DIR$/src/listado/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="597">
-          <caret line="140" column="8" selection-start-line="140" selection-start-column="8" selection-end-line="140" selection-end-column="8" />
+        <state relative-caret-position="299">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pruebas/ListadoTestP1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/asignacionRUTA1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-663" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pruebas/ListadoTestP2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="72" column="56" lean-forward="true" selection-start-line="72" selection-start-column="56" selection-end-line="72" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/asignacionSECTOR1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/listado/Sector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/listado/ListadoEmpleados.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="158" column="5" lean-forward="true" selection-start-line="158" selection-start-column="5" selection-end-line="158" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5732#5733#0" expanded="true" />
           </folding>
         </state>
       </provider>

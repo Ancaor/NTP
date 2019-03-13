@@ -1,10 +1,9 @@
-package PracticaEmpleados;
+package listado;
 
 import java.util.List;
 import java.util.Random;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 /**
  * Clase para gestionar empleados, dnis y grupos de practicas

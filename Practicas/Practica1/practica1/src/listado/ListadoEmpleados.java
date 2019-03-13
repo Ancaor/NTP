@@ -1,14 +1,16 @@
-package PracticaEmpleados;
+package listado;
 
+import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.*;
+import java.util.function.Predicate;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class ListaEmpleados {
+public class ListadoEmpleados {
 
 
     private List<Empleado> listadoArchivo;
@@ -17,12 +19,9 @@ public class ListaEmpleados {
     private Map<String,Empleado> listado;
 
 
-    public ListaEmpleados(String path) throws Exception{
+    public ListadoEmpleados(String path) throws Exception{
 
         listado = new TreeMap<>();
-
-        Pattern patron = Pattern.compile("\\,+");
-
 
         Stream<String> lineas = Files.lines(Paths.get(path), StandardCharsets.ISO_8859_1);
 
@@ -41,16 +40,13 @@ public class ListaEmpleados {
     }
 
     public boolean hayDnisRepetidosArchivo(){
-        boolean repetidos = false;
 
         long aux = listadoArchivo.stream().map(empleado -> empleado.obtenerDni()).distinct().count();
 
         //System.out.println("DNI no repetidos : " + aux );
 
-        if(aux < obtenerNumeroEmpleadosArchivo())
-            repetidos = true;
 
-        return repetidos;
+        return (aux < obtenerNumeroEmpleadosArchivo());
     }
 
     public Map<String, List<Empleado>> obtenerDnisRepetidosArchivo(){
@@ -131,16 +127,64 @@ public class ListaEmpleados {
 
     public void validarListaArchivo(){
 
-        Map<String, List<Empleado>> dnisRepetidos = this.obtenerDnisRepetidosArchivo();
-        Map<String, List<Empleado>> correosRepetidos = this.obtenerCorreosRepetidosArchivo();
+       // Map<String, List<Empleado>> dnisRepetidos = this.obtenerDnisRepetidosArchivo();
+       // Map<String, List<Empleado>> correosRepetidos = this.obtenerCorreosRepetidosArchivo();
 
-        repararDnisRepetidos(dnisRepetidos);
-        repararCorreosRepetidos(correosRepetidos);
+       // repararDnisRepetidos(dnisRepetidos);
+       // repararCorreosRepetidos(correosRepetidos);
 
         listado = listadoArchivo.stream().collect(Collectors.toMap(Empleado::obtenerDni, empleado -> empleado, (e1, e2) -> e1));
 
     }
 
+    public void cargarArchivoAsignacionSector(String path) throws IOException {
+
+        Stream<String> lineas = Files.lines(Paths.get(path), StandardCharsets.ISO_8859_1);
+
+        String sector = lineas.findFirst().get();
+        final Sector sector_ = procesarSector(sector);
+
+
+        lineas = Files.lines(Paths.get(path), StandardCharsets.ISO_8859_1);
+
+        lineas  = lineas.skip(2);
+
+
+        lineas.forEach( (linea) -> {
+            if(listado.containsKey(linea)) listado.get(linea).asignarSector(sector_);
+        });
+
+      //  listado.values().stream().forEach(e -> System.out.println(e.generarLineaDniSector()));
+
+    }
+
+    private Sector procesarSector(String cadenaSector){
+        Predicate<Sector> condicion = sector -> cadenaSector.equals(sector.name());
+        return Arrays.stream(Sector.values()).filter(condicion).findFirst().get();
+    }
+
+
+    public void cargarArchivoAsignacionRuta(String s) {
+
+
+    }
+
+    public Map<String, Empleado> buscarEmpleadosSinRuta(Sector nosector) {
+
+        //listado.entrySet().stream().filter(entry -> !entry.getValue().obtenerSector().equals(nosector)).collect(Collectors.toMap(entry -> entry.getKey(), entry -> entry.getValue(), (e1, e2) -> e1)))
+
+
+        return null;
+    }
+
+    public Map<Ruta, Long> obtenerContadoresRuta(Sector sector1) {
+
+        return null;
+    }
+
+    public Map<Sector, Map<Ruta, Long>> obtenerContadoresSectorRuta() {
+        return null;
+    }
 
 
 

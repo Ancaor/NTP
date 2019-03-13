@@ -1,4 +1,4 @@
-package PracticaEmpleados;
+package listado;
 
 /**
  * Enumerado para representar los sectores de actuacion de

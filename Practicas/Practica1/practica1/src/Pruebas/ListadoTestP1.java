@@ -7,7 +7,7 @@ import org.junit.Test;
 
 
 
-import PracticaEmpleados.ListaEmpleados;
+import listado.ListadoEmpleados;
 
 
 import java.io.IOException;
@@ -19,7 +19,7 @@ import static org.junit.Assert.assertTrue;
  * Práctica 1 NTP
  */
 public class ListadoTestP1 {
-   private static ListaEmpleados listado;
+   private static ListadoEmpleados listado;
 
    /**
     * Codigo a ejecutar antes de realizar las llamadas a los métodos
@@ -31,7 +31,7 @@ public class ListadoTestP1 {
       System.out.println("Metodo inicializacion conjunto pruebas");
       // Se genera el listado de empleados
       try {
-         listado = new ListaEmpleados("./data/datos.txt");
+         listado = new ListadoEmpleados("./data/datos.txt");
       } catch (IOException e) {
          System.out.println("Error en lectura de archivo de datos");
       };
@@ -64,6 +64,6 @@ public class ListadoTestP1 {
    @Test
    public void testComprobarContadoresDnisRepetidosArchivo() {
 
-      //assertTrue (listado.contarEmpleadosDnisRepetidos() == 4);
+      assertTrue (listado.contarEmpleadosDnisRepetidos() == 4);
    }
 }

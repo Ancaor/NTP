@@ -3,6 +3,7 @@ package listado;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
+import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.*;
 import java.util.function.Predicate;
@@ -137,25 +138,55 @@ public class ListadoEmpleados {
 
     }
 
-    public void cargarArchivoAsignacionSector(String path) throws IOException {
+    public long cargarArchivoAsignacionSector(String path) throws IOException {
 
-        Stream<String> lineas = Files.lines(Paths.get(path), StandardCharsets.ISO_8859_1);
+        List<String> lineas = Files.lines(Paths.get(path), StandardCharsets.ISO_8859_1).collect(Collectors.toList());
 
-        String sector = lineas.findFirst().get();
-        final Sector sector_ = procesarSector(sector);
+        String sector_s = lineas.get(0);
+        final Sector sector = procesarSector(sector_s);
 
+        long errores = lineas.stream().skip(2).
+                map(linea -> procesarAsignacionSector(sector,linea)).
+                filter(flag -> flag == false).count();
 
-        lineas = Files.lines(Paths.get(path), StandardCharsets.ISO_8859_1);
-
-        lineas  = lineas.skip(2);
-
-
-        lineas.forEach( (linea) -> {
-            if(listado.containsKey(linea)) listado.get(linea).asignarSector(sector_);
-        });
+        return errores;
 
       //  listado.values().stream().forEach(e -> System.out.println(e.generarLineaDniSector()));
 
+    }
+
+    public boolean procesarAsignacionSector(Sector sector, String linea){
+
+        if(listado.containsKey(linea)){
+            listado.get(linea).asignarSector(sector);
+
+            return true;
+        }else
+            return false;
+    }
+
+    public boolean procesarAsignacionRuta(Ruta ruta, String linea){
+
+        if(listado.containsKey(linea)){
+            listado.get(linea).asignarRuta(ruta);
+
+            return true;
+        }else
+            return false;
+    }
+
+    public long cargarArchivoAsignacionRuta(String path) throws IOException {
+
+        List<String> lineas = Files.lines(Paths.get(path), StandardCharsets.ISO_8859_1).collect(Collectors.toList());
+
+        String ruta_s = lineas.get(0);
+        Ruta ruta = procesarRuta(ruta_s);
+
+        long errores = lineas.stream().skip(2).
+                map(linea -> procesarAsignacionRuta(ruta,linea)).
+                filter(flag -> flag == false).count();
+
+        return errores;
     }
 
     private Sector procesarSector(String cadenaSector){
@@ -163,27 +194,66 @@ public class ListadoEmpleados {
         return Arrays.stream(Sector.values()).filter(condicion).findFirst().get();
     }
 
+    private Ruta procesarRuta(String cadenaRuta){
+        Predicate<Ruta> condicion = ruta -> cadenaRuta.equals(ruta.name());
+        return Arrays.stream(Ruta.values()).filter(condicion).findFirst().get();
+    }
 
-    public void cargarArchivoAsignacionRuta(String s) {
 
+    public List <Empleado> buscarEmpleadosSinRuta(Sector sector) {
+
+        return listado.values().stream().filter(empleado -> empleado.obtenerSector() == sector && empleado.obtenerRuta() == Ruta.NORUTA).collect(Collectors.toList());
 
     }
 
-    public Map<String, Empleado> buscarEmpleadosSinRuta(Sector nosector) {
+    public List <Empleado> buscarEmpleadosConSectorSinRuta(){
 
-        //listado.entrySet().stream().filter(entry -> !entry.getValue().obtenerSector().equals(nosector)).collect(Collectors.toMap(entry -> entry.getKey(), entry -> entry.getValue(), (e1, e2) -> e1)))
+        return Arrays.stream(Sector.values()).
+                filter(sector -> sector != Sector.NOSECTOR).
+                map(this::buscarEmpleadosSinRuta).
+                flatMap(Collection::stream).
+                collect(Collectors.toList());
 
-
-        return null;
     }
 
-    public Map<Ruta, Long> obtenerContadoresRuta(Sector sector1) {
+    public List<Empleado> buscarEmpleadosSinSector(Ruta ruta){
+        return listado.values().stream().filter(empleado -> empleado.obtenerSector() == Sector.NOSECTOR && empleado.obtenerRuta() == ruta).collect(Collectors.toList());
+    }
 
-        return null;
+    public List <Empleado> buscarEmpleadosSinSectorConRuta(){
+
+        return Arrays.stream(Ruta.values()).
+                filter(ruta -> ruta != Ruta.NORUTA).
+                map(this::buscarEmpleadosSinSector).
+                flatMap(Collection::stream).
+                collect(Collectors.toList());
+
+    }
+
+    public Map<Ruta, Long> obtenerContadoresRuta(Sector sector) {
+
+        Map<Ruta, Long> collect = listado.values().stream().filter(empleado -> empleado.obtenerSector() == sector).
+                sorted(Comparator.comparing(Empleado::obtenerRuta)).
+                collect(Collectors.groupingBy (Empleado::obtenerRuta,
+                LinkedHashMap::new,
+                Collectors.mapping(Empleado::obtenerRuta, Collectors.counting())));
+
+        return collect;
     }
 
     public Map<Sector, Map<Ruta, Long>> obtenerContadoresSectorRuta() {
-        return null;
+
+        Map<Sector, Map<Ruta, Long>> collect = Arrays.stream(Sector.values()).
+                collect(Collectors.toMap(sector -> sector, this::obtenerContadoresRuta));
+
+        return collect;
+    }
+
+    List <Empleado> buscarEmpleadosSinSectorSinRuta(){
+        Predicate<Empleado> condicion = (empleado) -> (empleado.obtenerSector() == Sector.NOSECTOR) && (empleado.obtenerRuta() == Ruta.NORUTA) ;
+
+        return listado.values().stream().filter(condicion).collect(Collectors.toList());
+
     }
 
 

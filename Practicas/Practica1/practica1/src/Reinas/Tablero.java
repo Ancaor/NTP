@@ -42,11 +42,21 @@ public class Tablero {
             int index = celda.getFila() * dimension + celda.getColumna();
             tableroChars[index] = 'R';
         });
-        return String.valueOf(tableroChars);
+        tablero= "";
+        for (int i=0; i < this.dimension; i ++){
+            for (int j=0; j < this.dimension; j++){
+                tablero = tablero + tableroChars[i*this.dimension + j];
+            }
+            tablero = tablero + "\n";
+        }
+
+        return tablero;
     }
 
+
+
     public static void main( String[] args){
-        Tablero a = new Tablero(2);
+        Tablero a = new Tablero(4);
         a.ponerReina(1,1);
         System.out.println(a.toString());
     }

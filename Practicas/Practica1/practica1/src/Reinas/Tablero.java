@@ -17,6 +17,13 @@ public class Tablero {
         contenido = new ArrayList<>();
     }
 
+    public static Tablero copy( Tablero other ) {
+        Tablero newTablero  = new Tablero(other.dimension);
+        newTablero.contenido = (ArrayList<Celda>) other.contenido.clone();
+
+        return newTablero;
+    }
+
     public void ponerReina(int fila, int columna){
         Celda celdaReina = new Celda(fila,columna);
         contenido.add(celdaReina);

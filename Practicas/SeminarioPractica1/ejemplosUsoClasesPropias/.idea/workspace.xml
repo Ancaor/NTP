@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe24fad9-ebd3-4a2c-a2ef-da19e6ebf944" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Practica1/practica1/src/PracticaEmpleados/ListaEmpleados.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica1/practica1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica1/practica1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica1/practica1/out/production/practica1/PracticaEmpleados/ListadoEmpleado.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica1/practica1/out/production/practica1/PracticaEmpleados/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica1/practica1/out/production/practica1/PracticaEmpleados/main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica1/practica1/out/production/practica1/Pruebas/ListadoTestP1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica1/practica1/out/production/practica1/Pruebas/ListadoTestP1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica1/practica1/src/PracticaEmpleados/ListadoEmpleado.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica1/practica1/src/PracticaEmpleados/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica1/practica1/src/PracticaEmpleados/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica1/practica1/src/Pruebas/ListadoTestP1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica1/practica1/src/Pruebas/ListadoTestP1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="fe24fad9-ebd3-4a2c-a2ef-da19e6ebf944" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,11 +11,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/base/ProcesarEmpleados.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="136" lean-forward="true" selection-start-line="136" selection-end-line="136" />
+            <state relative-caret-position="1001">
+              <caret line="83" column="49" selection-start-line="83" selection-start-column="49" selection-end-line="83" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -33,10 +23,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/base/ProcesadoArchivoTexto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
+            <state relative-caret-position="429">
               <caret line="33" column="82" selection-start-line="33" selection-start-column="82" selection-end-line="33" selection-end-column="82" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -48,7 +38,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/base/NumerosAleatorios.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
+            <state relative-caret-position="273">
               <caret line="26" column="126" selection-start-line="26" selection-start-column="126" selection-end-line="26" selection-end-column="126" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -60,7 +50,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/empleados.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
+            <state relative-caret-position="260">
               <caret line="20" column="28" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="28" />
             </state>
           </provider>
@@ -69,7 +59,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/benchmark/ComparacionTiempoProcesamiento.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
+            <state relative-caret-position="507">
               <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -83,7 +73,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/base/Empleado.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
+            <state relative-caret-position="611">
               <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
             </state>
           </provider>
@@ -103,9 +93,6 @@
       <find>ProcesarEmpleados</find>
     </findStrings>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -117,13 +104,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="676" />
-    <option name="y" value="471" />
-    <option name="width" value="1750" />
-    <option name="height" value="872" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
+    <option name="width" value="1343" />
+    <option name="height" value="1409" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -164,7 +149,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551950767346" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Practica1/practica1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../practica1" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -269,19 +254,19 @@
       <workItem from="1551867607867" duration="11000" />
       <workItem from="1551944284143" duration="671000" />
       <workItem from="1551945908745" duration="3666000" />
-      <workItem from="1551962698889" duration="1329000" />
-      <workItem from="1552044045265" duration="1029000" />
+      <workItem from="1552466274173" duration="743000" />
+      <workItem from="1552549152122" duration="613000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17797000" />
+    <option name="totallyTimeSpent" value="16795000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="676" y="471" width="1750" height="872" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36153847" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24496645" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -319,18 +304,8 @@
     <entry file="file://$PROJECT_DIR$/src/base/ListadoEmpleado.java" />
     <entry file="file://$PROJECT_DIR$/src/base/ProcesarEmpleados.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="136" lean-forward="true" selection-start-line="136" selection-end-line="136" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/ProcesadoArchivoTexto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="33" column="82" selection-start-line="33" selection-start-column="82" selection-end-line="33" selection-end-column="82" />
+        <state relative-caret-position="1001">
+          <caret line="83" column="49" selection-start-line="83" selection-start-column="49" selection-end-line="83" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -339,7 +314,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/base/NumerosAleatorios.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
+        <state relative-caret-position="273">
           <caret line="26" column="126" selection-start-line="26" selection-start-column="126" selection-end-line="26" selection-end-column="126" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -349,14 +324,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data/empleados.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
+        <state relative-caret-position="260">
           <caret line="20" column="28" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/benchmark/ComparacionTiempoProcesamiento.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
+        <state relative-caret-position="507">
           <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -368,8 +343,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/base/Empleado.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
+        <state relative-caret-position="611">
           <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/ProcesadoArchivoTexto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="33" column="82" selection-start-line="33" selection-start-column="82" selection-end-line="33" selection-end-column="82" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

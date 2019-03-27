@@ -1,7 +1,10 @@
 package Reinas;
 
+import java.awt.font.NumericShaper;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
 
 public class Buscador {
 
@@ -17,46 +20,28 @@ public class Buscador {
 
 
         if(fila == -1){
-            System.out.println("Caso base");
             Tablero tablero = new Tablero(dimension);
             ArrayList<Tablero> soluciones = new ArrayList<>();
             soluciones.add(tablero);
 
             return soluciones;
         }else{
-            System.out.println("Caso inductivo, fila : " + fila);
 
             ArrayList<Tablero> soluciones_anteriores = ubicarReina(fila-1);
             ArrayList<Tablero> soluciones = new ArrayList<>();
 
-            soluciones_anteriores.forEach(tablero -> {
+            soluciones_anteriores.forEach(tablero -> IntStream.range(0, dimension).
+                    mapToObj(columna -> new Celda(fila, columna)).
+                    forEach(celda -> {
 
-                for(int columna=0; columna < dimension; columna++){
+                        if (tablero.posicionSegura(celda)) {
 
-                    System.out.println("Columna : " + columna);
+                            Tablero aux = Tablero.copy(tablero);
+                            aux.ponerReina(fila, celda.getColumna());
+                            soluciones.add(aux);
+                        }
+                    }));
 
-                    Celda celda = new Celda(fila,columna);
-
-                    if(tablero.posicionSegura(celda)){
-
-                        Tablero aux = Tablero.copy(tablero);
-
-                        System.out.println("Posicion segura fila :" + fila + " , columna : "+ columna);
-                        aux.ponerReina(fila,columna);
-                        System.out.println(tablero.toString());
-                        soluciones.add(aux);
-
-                    }
-
-
-
-                }
-
-            });
-
-
-
-            System.out.println("Soluciones size : " + soluciones.size() );
             return soluciones;
         }
 
@@ -69,11 +54,15 @@ public class Buscador {
     }
 
     public static void main( String[] args){
-        Buscador b = new Buscador(8);
+        Buscador b = new Buscador(14);
 
         ArrayList<Tablero> resolver = b.resolver();
 
         System.out.println(resolver.size());
+
+        System.out.println(resolver.get(0).toString());
+        System.out.println(resolver.get(1).toString());
+
 
     }
 

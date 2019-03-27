@@ -39,6 +39,7 @@ public class Tablero {
     }
 
     public String toString(){
+
         String tablero = "";
         for(int i=0; i < dimension*dimension; i++){
             tablero = tablero + "X";

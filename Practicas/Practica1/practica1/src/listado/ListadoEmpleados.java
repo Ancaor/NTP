@@ -5,6 +5,7 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.security.KeyStore;
 import java.util.*;
 import java.util.function.Predicate;
 import java.util.regex.Pattern;
@@ -19,6 +20,11 @@ public class ListadoEmpleados {
 
     private Map<String,Empleado> listado;
 
+    /**
+     * Constructor de ListaEmpleados
+     * @param path ruta del archivo de datos.txt
+     * @throws Exception si datos.txt no está en la ruta indicada.
+     */
 
     public ListadoEmpleados(String path) throws Exception{
 
@@ -28,122 +34,157 @@ public class ListadoEmpleados {
 
         listadoArchivo = lineas.map( linea -> new Empleado(linea)).collect(Collectors.toList());
 
-        //Stream<String> palabras = lineas.flatMap(linea -> patron.splitAsStream(linea));
-
-        //palabras.forEach(palabra -> System.out.print(palabra));
-       // listadoArchivo.forEach(empleado -> System.out.println(empleado.toString()));
-
-
     }
+
+    /**
+     * Metodo para obtener el numero de empleados recogidos del archivo datos.txt
+     * @return numero de empleados recogidos de datos.txt
+     */
 
     public int obtenerNumeroEmpleadosArchivo(){
         return listadoArchivo.size();
     }
 
+
+    /**
+     * Metodo que comprueba si hay empleados con dni igual
+     * @return true si hay DNIs repetidos y false en caso contrario
+     */
     public boolean hayDnisRepetidosArchivo(){
 
-        long aux = listadoArchivo.stream().map(empleado -> empleado.obtenerDni()).distinct().count();
+        long empleadosDNIdistinto = listadoArchivo.stream().map(empleado -> empleado.obtenerDni()).distinct().count();
 
-        //System.out.println("DNI no repetidos : " + aux );
-
-
-        return (aux < obtenerNumeroEmpleadosArchivo());
+        return (empleadosDNIdistinto < obtenerNumeroEmpleadosArchivo());
     }
 
+    /**
+     * Obtiene los dnis repetidos y sus empleados asociados
+     * @return map de dnis y lista de empleados con dicho dni
+     */
     public Map<String, List<Empleado>> obtenerDnisRepetidosArchivo(){
 
-        Map<String,List<Empleado>> dnisRepetidos = new TreeMap<>();
+        // Se agrupan todos los empleados por su DNI
 
-        Map<String, List<Empleado>> agrupamientoDni = listadoArchivo.stream().collect(Collectors.groupingBy(Empleado::obtenerDni));
+        Map<String, List<Empleado>> agrupamientoDni = listadoArchivo.stream().
+                collect(Collectors.groupingBy(Empleado::obtenerDni));
 
-        agrupamientoDni.forEach((dni, empleados) -> {
-            if(empleados.size() > 1) dnisRepetidos.put(dni,empleados);
-        });
+        //Se fitra agrupamientoDni para quedarnos solo con los dni con mas de un empleado asociado
+
+        Map<String, List<Empleado>> dnisRepetidos = agrupamientoDni.entrySet().stream().
+                filter(entrada -> entrada.getValue().size() > 1).
+                collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
 
         return dnisRepetidos;
     }
 
+    /**
+     * Cuenta el numero de empleados que tienen dni repetido
+     * @return numero de empleados con dni repetido
+     */
     public int contarEmpleadosDnisRepetidos(){
 
+        // Obtengo los dnis repetidos con sus empleados asociados
         Map<String, List<Empleado>> dnisRepetidos = obtenerDnisRepetidosArchivo();
 
+        // Convierto todos las listas de empleados en una sola y cuento cuantos elementos tiene
         return (int) dnisRepetidos.values().stream().flatMap(Collection::stream).count();
     }
 
+    /**
+     * Metodo para asignar un dni aleatorio a los empleados con dni repetido
+     * @param listaRepetidos dnis que tienen un conjunto de empleados asociados
+     */
     public void repararDnisRepetidos(Map<String, List<Empleado>> listaRepetidos){
 
-        listadoArchivo.forEach(empleado -> {
-            if(listaRepetidos.containsKey(empleado.obtenerDni())){
-                empleado.asignarDniAleatorio();
-            }
-        });
+        //Para cada empleado con dni repetido se busca en listadoArchivo y se le asigna un dni aleatorio
 
-        System.out.println("¿ Quedan dnis repetidos ? : " + hayDnisRepetidosArchivo());
+        listaRepetidos.values().stream().flatMap(Collection::stream).
+                forEach(entrada -> listadoArchivo.get(listadoArchivo.indexOf(entrada)).asignarDniAleatorio());
+
+        //System.out.println("¿ Quedan dnis repetidos ? : " + hayDnisRepetidosArchivo());
 
     }
 
+    /**
+     * Metodo que comprueba si hay empleados con correo igual
+     * @return true si hay Correos repetidos y false en caso contrario
+     */
     public boolean hayCorreosRepetidosArchivo(){
-        boolean repetidos = false;
 
-        long aux = listadoArchivo.stream().map(empleado -> empleado.obtenerCorreo()).distinct().count();
+        long empleadosCorreoDistinto = listadoArchivo.stream().map(empleado -> empleado.obtenerCorreo()).distinct().count();
 
-        //System.out.println("Correos no repetidos : " + aux );
+        return (empleadosCorreoDistinto < obtenerNumeroEmpleadosArchivo());
 
-        if(aux < obtenerNumeroEmpleadosArchivo())
-            repetidos = true;
-
-        return repetidos;
     }
 
+    /**
+     * Obtiene los correos repetidos y sus empleados asociados
+     * @return map de correo y lista de empleados con dicho correo
+     */
     public Map<String, List<Empleado>> obtenerCorreosRepetidosArchivo(){
-        Map<String,List<Empleado>> correosRepetidos = new TreeMap<>();
 
-        Map<String, List<Empleado>> agrupamientoCorreo = listadoArchivo.stream().collect(Collectors.groupingBy(Empleado::obtenerCorreo));
+        //Agrupa los empleados por su correo asociado
+        Map<String, List<Empleado>> agrupamientoCorreo = listadoArchivo.stream().
+                collect(Collectors.groupingBy(Empleado::obtenerCorreo));
 
-        agrupamientoCorreo.forEach((correo, empleados) -> {
-            if(empleados.size() > 1) correosRepetidos.put(correo,empleados);
-        });
+        //Filtra el contenido de agrupamientoCorreo para quedarse solo con aquellos correos con mas de un empleado asociado
+        Map<String, List<Empleado>> correosRepetidos = agrupamientoCorreo.entrySet().stream().
+                filter(entrada -> entrada.getValue().size() > 1).
+                collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
 
         return correosRepetidos;
     }
 
+    /**
+     * Cuenta el numero de correos repetidos
+     * @return numero de correos repetidos
+     */
     public int contarCorreosRepetidos(){
 
+        // Obtiene los correos con mas de un empleado asociado
         Map<String, List<Empleado>> correosRepetidos = obtenerCorreosRepetidosArchivo();
 
+        // Obtiene una lista unica con todos los empleados con correo repetido y los cuenta
         return (int) correosRepetidos.values().stream().flatMap(Collection::stream).count();
     }
 
+    /**
+     * Metodo para asignar un correo aleatorio a los empleados con correo repetido
+     * @param listaRepeticiones correos que tienen un conjunto de empleados asociados
+     */
     public void repararCorreosRepetidos(Map<String, List<Empleado>> listaRepeticiones){
 
-        listadoArchivo.forEach(empleado -> {
-            if(listaRepeticiones.containsKey(empleado.obtenerCorreo())){
-                empleado.generarCorreoCompleto();
-            }
-        });
+        //Para cada empleado con correo repetido se busca en listadoArchivo y se le asigna un correo
 
-        System.out.println("¿ Quedan correos repetidos ? : " + hayCorreosRepetidosArchivo());
+        listaRepeticiones.values().stream().flatMap(Collection::stream).
+                forEach(entrada -> listadoArchivo.get(listadoArchivo.indexOf(entrada)).generarCorreoCompleto());
+
+
+       // System.out.println("¿ Quedan correos repetidos ? : " + hayCorreosRepetidosArchivo());
 
     }
 
+    /**
+     * Genera el listado con el contenido de listadoArchivo que anteriormente ya se ha sanitizado
+     */
     public void validarListaArchivo(){
-
-       // Map<String, List<Empleado>> dnisRepetidos = this.obtenerDnisRepetidosArchivo();
-       // Map<String, List<Empleado>> correosRepetidos = this.obtenerCorreosRepetidosArchivo();
-
-       // repararDnisRepetidos(dnisRepetidos);
-       // repararCorreosRepetidos(correosRepetidos);
 
         listado = listadoArchivo.stream().collect(Collectors.toMap(Empleado::obtenerDni, empleado -> empleado, (e1, e2) -> e1));
 
     }
 
+    /**
+     * Metodo que carga un archivo de asignacion de sectores y actualiza el listado asignando sector a los dnis indicados en el archivo de asignación
+     * @param path ruta del archivo de asignacion de sectores
+     * @return numero de errores en la asignación de sector
+     * @throws IOException
+     */
     public long cargarArchivoAsignacionSector(String path) throws IOException {
 
         List<String> lineas = Files.lines(Paths.get(path), StandardCharsets.ISO_8859_1).collect(Collectors.toList());
 
         String sector_s = lineas.get(0);
-        final Sector sector = procesarSector(sector_s);
+        Sector sector = procesarSector(sector_s);
 
         long errores = lineas.stream().skip(2).
                 map(linea -> procesarAsignacionSector(sector,linea)).
@@ -151,10 +192,14 @@ public class ListadoEmpleados {
 
         return errores;
 
-      //  listado.values().stream().forEach(e -> System.out.println(e.generarLineaDniSector()));
-
     }
 
+    /**
+     * Asigna un sector a un empleado por su dni
+     * @param sector sector al que se va a asignar al empleado
+     * @param linea linea que contiene el dni del empleado al que se le asignara el sector
+     * @return true si la asignacion se procesa adecuadamente y false si no se encuentra el empleado con el dni indicado
+     */
     public boolean procesarAsignacionSector(Sector sector, String linea){
 
         if(listado.containsKey(linea)){
@@ -165,6 +210,12 @@ public class ListadoEmpleados {
             return false;
     }
 
+    /**
+     * Asigna una ruta a un empleado por su dni
+     * @param ruta ruta a la que se va a asignar al empleado
+     * @param linea linea que contiene el dni del empleado al que se le asignara la ruta
+     * @return true si la asignacion se procesa adecuadamente y false si no se encuentra el empleado con el dni indicado
+     */
     public boolean procesarAsignacionRuta(Ruta ruta, String linea){
 
         if(listado.containsKey(linea)){
@@ -175,6 +226,12 @@ public class ListadoEmpleados {
             return false;
     }
 
+    /**
+     * Metodo que carga un archivo de asignacion de rutas y actualiza el listado asignando ruta a los dnis indicados en el archivo de asignación
+     * @param path ruta del archivo de asignacion de rutas
+     * @return numero de errores en la asignación de ruta
+     * @throws IOException
+     */
     public long cargarArchivoAsignacionRuta(String path) throws IOException {
 
         List<String> lineas = Files.lines(Paths.get(path), StandardCharsets.ISO_8859_1).collect(Collectors.toList());
@@ -189,47 +246,45 @@ public class ListadoEmpleados {
         return errores;
     }
 
+    /**
+     * Metodo auxiliar para obtener el enum de Sector dado un string
+     * @param cadenaSector cadena que contiene el sector que se desea
+     * @return objeto Sector que cohincide en nombre con cadenaSector
+     */
     private Sector procesarSector(String cadenaSector){
         Predicate<Sector> condicion = sector -> cadenaSector.equals(sector.name());
         return Arrays.stream(Sector.values()).filter(condicion).findFirst().get();
     }
 
+    /**
+     * Metodo auxiliar para obtener el enum de Ruta dado un string
+     * @param cadenaRuta cadena que contiene la ruta que se desea
+     * @return objeto Ruta que cohincide en nombre con cadenaRuta
+     */
     private Ruta procesarRuta(String cadenaRuta){
         Predicate<Ruta> condicion = ruta -> cadenaRuta.equals(ruta.name());
         return Arrays.stream(Ruta.values()).filter(condicion).findFirst().get();
     }
 
-
+    /**
+     * Busca empeados sin ruta asignada y que pertenecen a un sector concreto
+     * @param sector sector al que pertenecen los empleados sin ruta
+     * @return lista de empleados sin ruta asignada pertenecientes a un sector indicado
+     */
     public List <Empleado> buscarEmpleadosSinRuta(Sector sector) {
 
-        return listado.values().stream().filter(empleado -> empleado.obtenerSector() == sector && empleado.obtenerRuta() == Ruta.NORUTA).collect(Collectors.toList());
-
-    }
-
-    public List <Empleado> buscarEmpleadosConSectorSinRuta(){
-
-        return Arrays.stream(Sector.values()).
-                filter(sector -> sector != Sector.NOSECTOR).
-                map(this::buscarEmpleadosSinRuta).
-                flatMap(Collection::stream).
+        // filtra del listado los empleados pertenecientes a un sector y que ademas no tienen ruta asignada
+        return listado.values().stream().filter(empleado -> empleado.obtenerSector() == sector && empleado.obtenerRuta() == Ruta.NORUTA).
                 collect(Collectors.toList());
 
     }
 
-    public List<Empleado> buscarEmpleadosSinSector(Ruta ruta){
-        return listado.values().stream().filter(empleado -> empleado.obtenerSector() == Sector.NOSECTOR && empleado.obtenerRuta() == ruta).collect(Collectors.toList());
-    }
 
-    public List <Empleado> buscarEmpleadosSinSectorConRuta(){
-
-        return Arrays.stream(Ruta.values()).
-                filter(ruta -> ruta != Ruta.NORUTA).
-                map(this::buscarEmpleadosSinSector).
-                flatMap(Collection::stream).
-                collect(Collectors.toList());
-
-    }
-
+    /**
+     * Cuenta el numero de empleados pertenecientes a cada ruta dentro de un sector indicado
+     * @param sector sector al que pertenecen todos los empleados
+     * @return mapa de rutas con su numero de empleados asociado
+     */
     public Map<Ruta, Long> obtenerContadoresRuta(Sector sector) {
 
         Map<Ruta, Long> collect = listado.values().stream().filter(empleado -> empleado.obtenerSector() == sector).
@@ -241,6 +296,10 @@ public class ListadoEmpleados {
         return collect;
     }
 
+    /**
+     * Cuenta el numero de empelados pertenecientes a una ruta y a un sector concretos
+     * @return
+     */
     public Map<Sector, Map<Ruta, Long>> obtenerContadoresSectorRuta() {
 
         Map<Sector, Map<Ruta, Long>> collect = Arrays.stream(Sector.values()).
@@ -249,6 +308,10 @@ public class ListadoEmpleados {
         return collect;
     }
 
+    /**
+     * Obtiene la lista de empleados sin ruta ni sector asignados
+     * @return
+     */
     List <Empleado> buscarEmpleadosSinSectorSinRuta(){
         Predicate<Empleado> condicion = (empleado) -> (empleado.obtenerSector() == Sector.NOSECTOR) && (empleado.obtenerRuta() == Ruta.NORUTA) ;
 

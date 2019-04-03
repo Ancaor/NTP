@@ -77,11 +77,9 @@ public class Empleado {
         apellidos=infos.get(2);
         correo=infos.get(3);
 
+        //Se asignan valores por defecto a Sector y Ruta
         sector = Sector.NOSECTOR;
         ruta = Ruta.NORUTA;
-
-        //System.out.println(this.generarLineaSimple());
-
 
     }
 

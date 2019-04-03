@@ -13,7 +13,6 @@ public class Celda {
         this.columna = columna;
     }
 
-
     public int getFila() {
         return fila;
     }
@@ -22,6 +21,11 @@ public class Celda {
         return columna;
     }
 
+    /**
+     * Metodo que comprueba si dos celdas estan en conflicto
+     * @param otra la celda con la que se realizará la comprobación
+     * @return true si estan en conflicto, false en caso contrario
+     */
     public boolean celdasEnConflicto(Celda otra){
 
         int distancia_fila = abs(this.getFila() - otra.getFila() );

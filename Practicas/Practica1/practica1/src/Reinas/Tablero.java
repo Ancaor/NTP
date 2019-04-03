@@ -17,6 +17,11 @@ public class Tablero {
         contenido = new ArrayList<>();
     }
 
+    /**
+     * Metodo de copia del tablero
+     * @param other tablero del que vamos a copiar su contenido.
+     * @return
+     */
     public static Tablero copy( Tablero other ) {
         Tablero newTablero  = new Tablero(other.dimension);
         newTablero.contenido = (ArrayList<Celda>) other.contenido.clone();
@@ -24,11 +29,21 @@ public class Tablero {
         return newTablero;
     }
 
+    /**
+     * Coloca una reina en el tablero sin comprobar nada
+     * @param fila fila del tablero donde se colocara
+     * @param columna columna del tablero donde se colocara
+     */
     public void ponerReina(int fila, int columna){
         Celda celdaReina = new Celda(fila,columna);
         contenido.add(celdaReina);
     }
 
+    /**
+     * Busca conflictos entre una reina y el resto de reinas del tablero
+     * @param pos posicion de la reina que se va a colocar en el tablero
+     * @return true si la posicion es segura, false en caso contrario
+     */
     public boolean posicionSegura(Celda pos){
 
         long conflictos = contenido.stream().map(celda -> celda.celdasEnConflicto(pos)).filter(flag -> flag == true).count();
@@ -38,6 +53,10 @@ public class Tablero {
         else return false;
     }
 
+    /**
+     * Devuelve un string con el formato correcto del tablero de ajedrez
+     * @return
+     */
     public String toString(){
 
         String tablero = "";
@@ -61,13 +80,6 @@ public class Tablero {
         return tablero;
     }
 
-
-
-    public static void main( String[] args){
-        Tablero a = new Tablero(4);
-        a.ponerReina(1,1);
-        System.out.println(a.toString());
-    }
 
 
 

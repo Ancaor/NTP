@@ -10,14 +10,22 @@ public class Buscador {
 
     private int dimension;
 
+
+    /**
+     * Constructor de Buscador que indica la dimension del tablero
+     * @param dimension
+     */
     public Buscador(int dimension){
         this.dimension = dimension;
     }
 
 
+    /**
+     * Metodo recursivo que resuelve el problema de las 8 reinas
+     * @param fila fila por la que se empieza a calcular
+     * @return todos los tableros solucion
+     */
     public ArrayList<Tablero> ubicarReina(int fila){
-
-
 
         if(fila == -1){
             Tablero tablero = new Tablero(dimension);

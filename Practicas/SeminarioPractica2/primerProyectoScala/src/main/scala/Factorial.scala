@@ -32,4 +32,15 @@ object Factorial extends App{
   val factorial30 = factorial2(30)
   println(factorial30)
 
+
+  def factorialTRVD(x:BigInt,acum:BigInt=1):BigInt={
+    if(x == 0) acum
+    else factorialTRVD(x-1,acum*x)
+  }
+
+  val factorial10 = factorialTRVD(10)
+  println(factorial10)
+  val factorial10raro = factorialTRVD(acum = 12, x= 30) //funciona si el orden es incorrecto hay que escribir los nombres de los argumentos
+
+
 }

@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="27416222-40ef-4eaf-802c-11a84261222c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/listado/ListadoEmpleados.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/listado/ListadoEmpleados.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SeminarioPractica2/primerProyectoScala/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../SeminarioPractica2/primerProyectoScala/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="27416222-40ef-4eaf-802c-11a84261222c" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -330,7 +327,7 @@
       <workItem from="1553351793899" duration="4275000" />
       <workItem from="1553676415234" duration="3147000" />
       <workItem from="1554277807845" duration="5898000" />
-      <workItem from="1554363240984" duration="543000" />
+      <workItem from="1554363240984" duration="600000" />
     </task>
     <servers />
   </component>
@@ -355,7 +352,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46974000" />
+    <option name="totallyTimeSpent" value="47031000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="956" height="1056" extended-state="0" />

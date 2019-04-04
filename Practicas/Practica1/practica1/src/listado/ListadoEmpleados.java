@@ -279,6 +279,43 @@ public class ListadoEmpleados {
 
     }
 
+    /**
+     * Obtiene una lista de empleados sin sector y sin ruta asignada
+     * @return Lista de empleados
+     */
+    public List <Empleado> buscarEmpleadosConSectorSinRuta(){
+
+        return Arrays.stream(Sector.values()).
+                filter(sector -> sector != Sector.NOSECTOR).
+                map(this::buscarEmpleadosSinRuta).
+                flatMap(Collection::stream).
+                collect(Collectors.toList());
+
+    }
+
+    /**
+     * Obtiene una lista de empleados sin sector pertenecientes a una ruta
+     * @param ruta ruta a la que pertenecen los empleados
+     * @return lista de empleados
+     */
+    public List<Empleado> buscarEmpleadosSinSector(Ruta ruta){
+        return listado.values().stream().filter(empleado -> empleado.obtenerSector() == Sector.NOSECTOR && empleado.obtenerRuta() == ruta).collect(Collectors.toList());
+    }
+
+
+    /**
+     * Obtiene una lista de empleados sin sector con una ruta asignada
+     * @return lista de empleados
+     */
+    public List <Empleado> buscarEmpleadosSinSectorConRuta(){
+
+        return Arrays.stream(Ruta.values()).
+                filter(ruta -> ruta != Ruta.NORUTA).
+                map(this::buscarEmpleadosSinSector).
+                flatMap(Collection::stream).
+                collect(Collectors.toList());
+
+    }
 
     /**
      * Cuenta el numero de empleados pertenecientes a cada ruta dentro de un sector indicado

@@ -59,17 +59,18 @@ public class Tablero {
      */
     public String toString(){
 
-        String tablero = "";
+        char[] tableroChars = new char[dimension*dimension];//tablero.toCharArray();
         for(int i=0; i < dimension*dimension; i++){
-            tablero = tablero + "X";
+            tableroChars[i] = 'X';
         }
-        char[] tableroChars = tablero.toCharArray();
 
         contenido.forEach((celda) -> {
             int index = celda.getFila() * dimension + celda.getColumna();
             tableroChars[index] = 'R';
         });
-        tablero= "";
+
+        String tablero= "";
+
         for (int i=0; i < this.dimension; i ++){
             for (int j=0; j < this.dimension; j++){
                 tablero = tablero + tableroChars[i*this.dimension + j];

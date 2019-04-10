@@ -53,24 +53,29 @@ public class Buscador {
             return soluciones;
         }
 
-
-
     }
 
+    /**
+     * Metodo que desencadena la resolución del problema
+     * @return ArrayList con soluciones al problema
+     */
     public ArrayList<Tablero> resolver(){
         return ubicarReina(dimension-1);
     }
 
+
     public static void main( String[] args){
-        Buscador b = new Buscador(14);
+        int dimension = 8;
+        Buscador b = new Buscador(dimension);
 
         ArrayList<Tablero> resolver = b.resolver();
 
-        System.out.println(resolver.size());
+        System.out.println("El problema para dimension: "+ dimension +" tiene " + resolver.size() +" soluciones.");
 
+        System.out.println("Solucion 0:");
         System.out.println(resolver.get(0).toString());
+        System.out.println("Solucion 1:");
         System.out.println(resolver.get(1).toString());
-
 
     }
 

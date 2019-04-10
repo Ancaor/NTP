@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27416222-40ef-4eaf-802c-11a84261222c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Reinas/Buscador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reinas/Buscador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Reinas/Tablero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reinas/Tablero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,7 +13,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Reinas/Buscador.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="702">
@@ -60,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/listado/ListadoEmpleados.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1124">
-              <caret line="360" column="1" selection-start-line="360" selection-start-column="1" selection-end-line="360" selection-end-column="1" />
+            <state relative-caret-position="651">
+              <caret line="335" column="7" lean-forward="true" selection-start-line="335" selection-start-column="7" selection-end-line="335" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -138,10 +137,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="24" />
-    <option name="width" value="956" />
-    <option name="height" value="1056" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-7" />
+    <option name="width" value="1294" />
+    <option name="height" value="1407" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -199,7 +198,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554906184682" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554906933179" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -228,7 +227,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Buscador">
+  <component name="RunManager" selected="JUnit.ListadoTestP2">
     <configuration name="Buscador" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Reinas.Buscador" />
       <module name="practica1" />
@@ -300,9 +299,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Buscador" />
         <item itemvalue="JUnit.ListadoTestP2" />
         <item itemvalue="JUnit.ListadoTestP1" />
+        <item itemvalue="Application.Buscador" />
         <item itemvalue="Application.main" />
         <item itemvalue="Application.Tablero" />
       </list>
@@ -329,7 +328,7 @@
       <workItem from="1553676415234" duration="3147000" />
       <workItem from="1554277807845" duration="5898000" />
       <workItem from="1554363240984" duration="600000" />
-      <workItem from="1554894284992" duration="2109000" />
+      <workItem from="1554894284992" duration="3018000" />
     </task>
     <servers />
   </component>
@@ -352,15 +351,20 @@
     <history-entry file="ListadoTestP2 - 2019.04.03 at 11h 17m 06s.xml">
       <configuration name="ListadoTestP2" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ListadoTestP1 - 2019.04.10 at 16h 25m 28s.xml">
+      <configuration name="ListadoTestP1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ListadoTestP2 - 2019.04.10 at 16h 25m 34s.xml">
+      <configuration name="ListadoTestP2" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49140000" />
+    <option name="totallyTimeSpent" value="50049000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1294" height="1407" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="0" width="1294" height="1407" extended-state="1" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19286872" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20502432" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -369,7 +373,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24803768" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24803768" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3998441" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -486,13 +490,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/listado/ListadoEmpleados.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1124">
-          <caret line="360" column="1" selection-start-line="360" selection-start-column="1" selection-end-line="360" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Reinas/Tablero.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="746">
@@ -508,6 +505,13 @@
             <element signature="e#1631#1632#0" expanded="true" />
             <element signature="e#1678#1679#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/listado/ListadoEmpleados.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="335" column="7" lean-forward="true" selection-start-line="335" selection-start-column="7" selection-end-line="335" selection-end-column="7" />
         </state>
       </provider>
     </entry>

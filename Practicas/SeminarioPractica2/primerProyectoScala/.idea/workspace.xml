@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16b4ff3f-132d-40f3-92d2-e85ce3c5686b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/cadenas.sc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/expresionesSentencias.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MetodosOperadores.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/TiposFunciones.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/primerProyectoScala.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/primerProyectoScala.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,51 +25,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/EstiloFuncional.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="3" selection-start-line="19" selection-start-column="2" selection-end-line="24" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/conceptosBasicos.sc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="870">
-              <caret line="58" column="34" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/Tiposbasicos.sc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/expresionesSentencias.sc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="662">
-              <caret line="56" column="25" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/repetitivas.sc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/unificacion.sc">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="555">
@@ -80,8 +36,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/FuncionesAnidadas.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+            <state>
+              <caret column="37" lean-forward="true" selection-start-column="37" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -89,7 +45,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Factorial.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
+            <state relative-caret-position="630">
               <caret line="42" column="139" selection-start-line="42" selection-start-column="139" selection-end-line="42" selection-end-column="139" />
             </state>
           </provider>
@@ -99,16 +55,64 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/Fibonacci.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+              <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/listaArgumentos.sc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="52" lean-forward="true" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/MetodosGenericos.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="62" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/MetodosOperadores.sc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/TiposFunciones.sc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/Unificacion.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="339">
+              <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/listaArgumentos.sc">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/FuncionesOrdenSuperior.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+            <state relative-caret-position="135">
+              <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -154,14 +158,19 @@
         <option value="$PROJECT_DIR$/src/main/scala/Factorial.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Fibonacci.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/listaArgumentos.sc" />
+        <option value="$PROJECT_DIR$/src/main/scala/MetodosGenericos.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/MetodosOperadores.sc" />
+        <option value="$PROJECT_DIR$/src/main/scala/TiposFunciones.sc" />
+        <option value="$PROJECT_DIR$/src/main/scala/Unificacion.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/FuncionesOrdenSuperior.scala" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="4" />
+    <option name="x" value="91" />
     <option name="y" value="24" />
-    <option name="width" value="1272" />
-    <option name="height" value="700" />
+    <option name="width" value="1262" />
+    <option name="height" value="699" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -205,11 +214,11 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554365607246" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554885064118" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Practica1/practica1" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.intentionPowerPack" />
@@ -226,7 +235,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Fibonacci">
+  <component name="RunManager" selected="Application.ObjetoFuncion">
     <configuration name="Factorial" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Factorial" />
       <module name="primerProyectoScala" />
@@ -241,22 +250,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FuncionesAnidadas" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="FuncionesAnidadas" />
+    <configuration name="LiteralFuncion" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="LiteralFuncion" />
       <module name="primerProyectoScala" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MasListas" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="MasListas" />
+    <configuration name="MetodosGenericos" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="MetodosGenericos" />
       <module name="primerProyectoScala" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProcesamientoLineas" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="ProcesamientoLineas" />
+    <configuration name="ObjetoFuncion" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="ObjetoFuncion" />
       <module name="primerProyectoScala" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -264,11 +273,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ObjetoFuncion" />
+        <item itemvalue="Application.LiteralFuncion" />
+        <item itemvalue="Application.MetodosGenericos" />
         <item itemvalue="Application.Fibonacci" />
         <item itemvalue="Application.Factorial" />
-        <item itemvalue="Application.FuncionesAnidadas" />
-        <item itemvalue="Application.MasListas" />
-        <item itemvalue="Application.ProcesamientoLineas" />
       </list>
     </recent_temporary>
   </component>
@@ -324,6 +333,7 @@
       <workItem from="1552819184690" duration="61000" />
       <workItem from="1553071056444" duration="6375000" />
       <workItem from="1553758680115" duration="6541000" />
+      <workItem from="1554882312249" duration="2751000" />
     </task>
     <task id="LOCAL-00001" summary="Prueba">
       <created>1553761779341</created>
@@ -336,7 +346,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24535000" />
+    <option name="totallyTimeSpent" value="27286000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -350,7 +360,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17574786" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17788461" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -359,7 +369,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32901832" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32827735" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.399137" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -503,6 +513,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/otraCosa.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/EstiloFuncional.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="3" selection-start-line="19" selection-start-column="2" selection-end-line="24" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/conceptosBasicos.sc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="870">
@@ -517,16 +534,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/EstiloFuncional.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="3" selection-start-line="19" selection-start-column="2" selection-end-line="24" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/expresionesSentencias.sc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="662">
+        <state relative-caret-position="840">
           <caret line="56" column="25" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
         </state>
       </provider>
@@ -545,16 +555,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/FuncionesAnidadas.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Factorial.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
+        <state relative-caret-position="630">
           <caret line="42" column="139" selection-start-line="42" selection-start-column="139" selection-end-line="42" selection-end-column="139" />
         </state>
       </provider>
@@ -562,14 +565,59 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/Fibonacci.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/listaArgumentos.sc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+        <state relative-caret-position="210">
+          <caret line="14" column="52" lean-forward="true" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/MetodosGenericos.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="62" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/MetodosOperadores.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/TiposFunciones.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/FuncionesAnidadas.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="37" lean-forward="true" selection-start-column="37" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Unificacion.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/FuncionesOrdenSuperior.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

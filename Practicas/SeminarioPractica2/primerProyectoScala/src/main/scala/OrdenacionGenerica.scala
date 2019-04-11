@@ -33,6 +33,6 @@ object OrdenacionGenerica {
 
   OrdenacionGenerica.ordenadoC(array1)(_>_)
 
-  val res3: Array[A] => Boolean = OrdenacionGenerica.ordenadoC(_)((x:Int, y:Int) => x > y)
+  val res3: Array[Int] => Boolean = OrdenacionGenerica.ordenadoC(_)((x:Int, y:Int) => x > y)
 
 }

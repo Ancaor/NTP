@@ -2,183 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="086de62e-04fe-4607-b00b-35795d84ff37" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practica1/practica1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Practica1/practica1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Practica2-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Practica2-build.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Practica2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Practica2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$11696a0347b8da216db7$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$11696a0347b8da216db7.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$11696a0347b8da216db7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$42ff433533c2009cf2e4$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$42ff433533c2009cf2e4.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$42ff433533c2009cf2e4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$478deacffd949d61be9f$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$478deacffd949d61be9f.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$478deacffd949d61be9f.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$6495b81ba19795f8af94$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$6495b81ba19795f8af94.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$6495b81ba19795f8af94.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$833822ec7ba3e8727595$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$833822ec7ba3e8727595.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$833822ec7ba3e8727595.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$af2b2b7087e413b810a6$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$af2b2b7087e413b810a6.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$af2b2b7087e413b810a6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/practica2-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/practica2-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/practica2-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/practica2-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-practica2-build-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-practica2-build-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-practica2-build-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-practica2-build-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-practica2-build-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-practica2-build-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-practica2-build-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-practica2-build-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-practica2-build-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-practica2-build-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-practica2-build-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-practica2-build-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-practica2-build-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-practica2-build-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-practica2-build-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-practica2-build-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-practica2-build-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-practica2-build-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-practica2-build-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-practica2-build-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-practica2-build-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-practica2-build-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/TrianguloPascal.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Funciones.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/TrianguloCheck.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/TrianguloCheck.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/.history" beforeDir="false" afterPath="$PROJECT_DIR$/target/.history" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/TrianguloPascal$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/TrianguloPascal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/practica2$sources/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/practica2$sources/0.1/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/practica2$sources/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/practica2$sources/0.1/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/practica2_2.12/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/practica2_2.12/0.1/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/practica2_2.12/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/practica2_2.12/0.1/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-practica2$sources-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-practica2$sources-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-practica2$sources-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-practica2$sources-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-practica2$sources-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-practica2$sources-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-practica2$sources-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-practica2$sources-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-practica2$sources-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-practica2$sources-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-practica2$sources-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-practica2$sources-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-practica2$sources-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-practica2$sources-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-practica2$sources-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-practica2$sources-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-practica2$sources-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-practica2$sources-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-practica2$sources-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-practica2$sources-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-practica2$sources-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-practica2$sources-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-practica2_2.12-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-practica2_2.12-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-practica2_2.12-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-practica2_2.12-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-practica2_2.12-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-practica2_2.12-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-practica2_2.12-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-practica2_2.12-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-practica2_2.12-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-practica2_2.12-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-practica2_2.12-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-practica2_2.12-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-practica2_2.12-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-practica2_2.12-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-practica2_2.12-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-practica2_2.12-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-practica2_2.12-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-practica2_2.12-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-practica2_2.12-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-practica2_2.12-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-practica2_2.12-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-practica2_2.12-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/TrianguloCheck$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/test-classes/TrianguloCheck$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/.idea/modules/primerProyectoScala-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/.idea/modules/primerProyectoScala-build.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/.idea/modules/primerProyectoScala.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/.idea/modules/primerProyectoScala.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Funciones.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Funciones.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Funciones$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/Funciones$.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/config-classes/$1d77d95410a674ab4ff0$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/config-classes/$1d77d95410a674ab4ff0.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/config-classes/$1d77d95410a674ab4ff0.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/config-classes/$398e82c309ad8c6e0f00$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/config-classes/$398e82c309ad8c6e0f00.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/config-classes/$398e82c309ad8c6e0f00.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/config-classes/$69f5766e934ed811f6ef$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/config-classes/$69f5766e934ed811f6ef.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/config-classes/$69f5766e934ed811f6ef.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/config-classes/$7ad28acc83a633c0eeb4$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/config-classes/$7ad28acc83a633c0eeb4.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/config-classes/$7ad28acc83a633c0eeb4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/config-classes/$7b83d1a314efe6357f61$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/config-classes/$7b83d1a314efe6357f61.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/config-classes/$7b83d1a314efe6357f61.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/config-classes/$c06c8d6f104f7d841fa6$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/config-classes/$c06c8d6f104f7d841fa6.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/config-classes/$c06c8d6f104f7d841fa6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/scala-2.12/sbt-1.0/resolution-cache/default/primerproyectoscala-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/scala-2.12/sbt-1.0/resolution-cache/default/primerproyectoscala-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/scala-2.12/sbt-1.0/resolution-cache/default/primerproyectoscala-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/scala-2.12/sbt-1.0/resolution-cache/default/primerproyectoscala-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-primerproyectoscala-build-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-primerproyectoscala-build-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-primerproyectoscala-build-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-primerproyectoscala-build-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-primerproyectoscala-build-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-primerproyectoscala-build-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-primerproyectoscala-build-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-primerproyectoscala-build-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-primerproyectoscala-build-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-primerproyectoscala-build-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-primerproyectoscala-build-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-primerproyectoscala-build-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-primerproyectoscala-build-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-primerproyectoscala-build-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-primerproyectoscala-build-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-primerproyectoscala-build-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-primerproyectoscala-build-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-primerproyectoscala-build-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-primerproyectoscala-build-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-primerproyectoscala-build-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-primerproyectoscala-build-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-primerproyectoscala-build-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/streams/$global/update/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/streams/compile/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/streams/compile/exportedProducts/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/streams/compile/exportedProducts/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/streams/runtime/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/streams/runtime/exportedProducts/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/streams/runtime/exportedProducts/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/streams/runtime/fullClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/streams/runtime/fullClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/.history" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/.history" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/default/primerproyectoscala$sources/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/default/primerproyectoscala$sources/0.1/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/default/primerproyectoscala$sources/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/default/primerproyectoscala$sources/0.1/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/default/primerproyectoscala_2.12/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/default/primerproyectoscala_2.12/0.1/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/default/primerproyectoscala_2.12/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/default/primerproyectoscala_2.12/0.1/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/reports/default-primerproyectoscala$sources-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/reports/default-primerproyectoscala$sources-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/reports/default-primerproyectoscala$sources-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/reports/default-primerproyectoscala$sources-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/reports/default-primerproyectoscala$sources-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/reports/default-primerproyectoscala$sources-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/reports/default-primerproyectoscala$sources-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/reports/default-primerproyectoscala$sources-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/reports/default-primerproyectoscala$sources-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/reports/default-primerproyectoscala$sources-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/reports/default-primerproyectoscala$sources-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/reports/default-primerproyectoscala$sources-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/reports/default-primerproyectoscala$sources-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/reports/default-primerproyectoscala$sources-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/reports/default-primerproyectoscala$sources-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/reports/default-primerproyectoscala$sources-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/reports/default-primerproyectoscala$sources-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/reports/default-primerproyectoscala$sources-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/reports/default-primerproyectoscala$sources-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/reports/default-primerproyectoscala$sources-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/reports/default-primerproyectoscala$sources-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/reports/default-primerproyectoscala$sources-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/reports/default-primerproyectoscala_2.12-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/reports/default-primerproyectoscala_2.12-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/reports/default-primerproyectoscala_2.12-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/reports/default-primerproyectoscala_2.12-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/reports/default-primerproyectoscala_2.12-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/reports/default-primerproyectoscala_2.12-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/reports/default-primerproyectoscala_2.12-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/reports/default-primerproyectoscala_2.12-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/reports/default-primerproyectoscala_2.12-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/reports/default-primerproyectoscala_2.12-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/reports/default-primerproyectoscala_2.12-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/reports/default-primerproyectoscala_2.12-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/reports/default-primerproyectoscala_2.12-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/reports/default-primerproyectoscala_2.12-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/reports/default-primerproyectoscala_2.12-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/reports/default-primerproyectoscala_2.12-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/reports/default-primerproyectoscala_2.12-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/reports/default-primerproyectoscala_2.12-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/reports/default-primerproyectoscala_2.12-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/reports/default-primerproyectoscala_2.12-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/reports/default-primerproyectoscala_2.12-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/reports/default-primerproyectoscala_2.12-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/streams/$global/$global/dumpStructure/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/streams/$global/$global/dumpStructure/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/streams/$global/update/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/streams/runtime/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/streams/runtime/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/streams/runtime/managedClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/streams/test/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/streams/test/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/streams/test/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/streams/test/managedClasspath/$global/streams/export" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -200,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Funciones.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="53" column="53" selection-start-line="53" selection-start-column="53" selection-end-line="53" selection-end-column="53" />
+            <state relative-caret-position="520">
+              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
             </state>
           </provider>
         </entry>
@@ -214,15 +41,6 @@
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.sbt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -244,7 +62,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
-    <option name="width" value="1294" />
+    <option name="width" value="1176" />
     <option name="height" value="1407" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -302,7 +120,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556276896754" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556278782463" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -385,18 +203,18 @@
       <option name="presentableId" value="Default" />
       <updated>1556094847517</updated>
       <workItem from="1556094851343" duration="2812000" />
-      <workItem from="1556268096424" duration="8554000" />
+      <workItem from="1556268096424" duration="10587000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11366000" />
+    <option name="totallyTimeSpent" value="13399000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1294" height="1407" extended-state="0" />
+    <frame x="-7" y="0" width="1176" height="1407" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21474878" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2374552" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -405,7 +223,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3288854" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3288854" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -453,8 +271,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Funciones.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="53" column="53" selection-start-line="53" selection-start-column="53" selection-end-line="53" selection-end-column="53" />
+        <state relative-caret-position="520">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
         </state>
       </provider>
     </entry>

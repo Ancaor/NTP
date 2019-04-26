@@ -30,16 +30,31 @@ object Funciones {
   }
 
   def serie (funcion: (Int,Int)=> Int)(t0:Int , t1:Int, t:Int) : Int = {
+    @tailrec
+    def go(ta:Int,tm2:Int, tm1:Int): Int ={
+      if(ta == 0) tm2
+      else if(ta == 1) tm1
+      else go(ta-1,tm1, funcion(tm2,tm1))
 
-    def go(t0:Int , t1:Int, funcion: (Int,Int)=> Int , acumulador:Int, t:Int): Int = {
-      if(t == 0) t0
-      else if(t == 1) t1
-      else if(t == 2) funcion(t0,t1)
-      else funcion(go(t0,t1,funcion,0,t-2),go(t0,t1,funcion,0,t-1))
+    }
+    go(t,t0,t1)
+
+  }
+
+  def chequearBalance(cadena: List[Char]): Boolean = {
+
+    @annotation.tailrec
+    def go(cadena: List[Char], acum: Int = 0): Boolean = {
+
+      if(cadena.isEmpty) acum == 0
+      else if(acum < 0) false
+      else if(cadena.head == '(') go(cadena.tail,acum+1)
+      else if(cadena.head == ')') go(cadena.tail,acum-1)
+      else go(cadena.tail,acum)
+
     }
 
-    go(t0,t1,funcion,0,t)
-
+    go(cadena,0)
   }
 
 
@@ -71,7 +86,13 @@ object Funciones {
     println("Serie Pell-Lucas para t=6:")
     println(serie(PellLucas)(2,2,3))
     println("Serie Jacobsthal para t=6:")
-    println(serie(Jacobsthal)(0,1,4))
+    println(serie(Jacobsthal)(0,1,3))
+
+
+    /****************************************************/
+
+    val cadena = "())("
+    println(chequearBalance(cadena.toList))
   }
 
 }

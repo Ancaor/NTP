@@ -4,7 +4,7 @@
 		module="practica2_2.12"
 		revision="0.1"
 		status="integration"
-		publication="20190424110947"
+		publication="20190426113641"
 	>
 		<description>
 		Practica2
@@ -34,5 +34,6 @@
 		<dependency org="org.scala-lang" name="scala-library" rev="2.12.8" conf="scala-tool->default,optional(default);compile->default(compile)"/>
 		<dependency org="org.scalacheck" name="scalacheck_2.12" rev="1.13.4" conf="compile->default(compile)"/>
 		<dependency org="org.scalatest" name="scalatest_2.12" rev="3.0.5" conf="test->default(compile)"/>
+		<dependency org="com.storm-enroute" name="scalameter_2.12" rev="0.8.2" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

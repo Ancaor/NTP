@@ -2,7 +2,7 @@ import org.scalacheck.{Gen, Properties}
 import org.scalacheck.Prop.forAll
 
 object TrianguloCheck extends Properties("Triangulo Pascal"){
-  private val MAXIMO = 30
+  private val MAXIMO = 20
 
   val coordenadasExtremos = for{
     fila <- Gen.choose(0,MAXIMO)
@@ -11,7 +11,7 @@ object TrianguloCheck extends Properties("Triangulo Pascal"){
 
   property("Extremos valen 1")={
     forAll(coordenadasExtremos) { (i) => {
-      val resultado = TrianguloPascal.calcularValorTrianguloPascal(i._1,i._2)
+      val resultado = Funciones.calcularValorTrianguloPascal(i._1,i._2)
       println("Fila = " + i._1 + ", columna = " + i._2 + ", numero = " + resultado)
       resultado == 1
     }}
@@ -24,17 +24,17 @@ object TrianguloCheck extends Properties("Triangulo Pascal"){
     columna <- Gen.choose(1,fila-1)
   } yield(fila,columna)
 
-/**
+
   property("Valores interiores: ") = {
     forAll(coordenadasInteriores) { (i) => {
-      val resultado = TrianguloPascal.calcularValorTrianguloPascal(i._1,i._2)
-      val supIzquierda = TrianguloPascal.calcularValorTrianguloPascal(i._1-1,i._2-1)
-      val supDerecha = TrianguloPascal.calcularValorTrianguloPascal(i._1-1,i._2)
+      val resultado = Funciones.calcularValorTrianguloPascal(i._1,i._2)
+      val supIzquierda = Funciones.calcularValorTrianguloPascal(i._1-1,i._2-1)
+      val supDerecha = Funciones.calcularValorTrianguloPascal(i._1-1,i._2)
       println("Fila = " + i._1 + ", columna = " + i._2 + ", numero = " + resultado)
       resultado == (supDerecha + supIzquierda)
     }}
   }
-**/
+
 
 
 

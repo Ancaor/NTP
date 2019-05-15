@@ -60,7 +60,7 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: com.storm-enroute#scalameter_2.12;0.8.2 {compile=[default(compile)]}
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.storm-enroute#scalameter_2.12;0.8.2 {compile=[default(compile)]}
-[debug] 		tried C:\Users\Anton\.ivy2\local\com.storm-enroute\scalameter_2.12\0.8.2\ivys\ivy.xml
+[debug] 		tried /home/ancaor/.ivy2/local/com.storm-enroute/scalameter_2.12/0.8.2/ivys/ivy.xml
 [debug] 	local: no ivy file found for com.storm-enroute#scalameter_2.12;0.8.2
 [debug] 		tried https://repo1.maven.org/maven2/com/storm-enroute/scalameter_2.12/0.8.2/scalameter_2.12-0.8.2.pom
 [debug] 	public: found md file for com.storm-enroute#scalameter_2.12;0.8.2
@@ -69,8 +69,8 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/storm-enroute/scalameter_2.12/0.8.2/scalameter_2.12-0.8.2.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/storm-enroute/scalameter_2.12/0.8.2/scalameter_2.12-0.8.2.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/storm-enroute/scalameter_2.12/0.8.2/scalameter_2.12-0.8.2.pom
-[debug] 	[SUCCESSFUL ] com.storm-enroute#scalameter_2.12;0.8.2!scalameter_2.12.pom(pom.original) (90ms)
-[debug] 		tried C:\Users\Anton\.ivy2\local\com.storm-enroute\scalameter_2.12\0.8.2\jars\scalameter_2.12.jar
+[debug] 	[SUCCESSFUL ] com.storm-enroute#scalameter_2.12;0.8.2!scalameter_2.12.pom(pom.original) (263ms)
+[debug] 		tried /home/ancaor/.ivy2/local/com.storm-enroute/scalameter_2.12/0.8.2/jars/scalameter_2.12.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/storm-enroute/scalameter_2.12/0.8.2/scalameter_2.12-0.8.2.jar
 [debug] 	found com.storm-enroute#scalameter_2.12;0.8.2 in public
 [debug] == resolving dependencies default#practica2_2.12;0.1->com.storm-enroute#scalameter_2.12;0.8.2 [compile->runtime]
@@ -104,7 +104,7 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: com.storm-enroute#scalameter-core_2.12;0.8.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.storm-enroute#scalameter-core_2.12;0.8.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Anton\.ivy2\local\com.storm-enroute\scalameter-core_2.12\0.8.2\ivys\ivy.xml
+[debug] 		tried /home/ancaor/.ivy2/local/com.storm-enroute/scalameter-core_2.12/0.8.2/ivys/ivy.xml
 [debug] 	local: no ivy file found for com.storm-enroute#scalameter-core_2.12;0.8.2
 [debug] 		tried https://repo1.maven.org/maven2/com/storm-enroute/scalameter-core_2.12/0.8.2/scalameter-core_2.12-0.8.2.pom
 [debug] 	public: found md file for com.storm-enroute#scalameter-core_2.12;0.8.2
@@ -113,8 +113,8 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/storm-enroute/scalameter-core_2.12/0.8.2/scalameter-core_2.12-0.8.2.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/storm-enroute/scalameter-core_2.12/0.8.2/scalameter-core_2.12-0.8.2.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/storm-enroute/scalameter-core_2.12/0.8.2/scalameter-core_2.12-0.8.2.pom
-[debug] 	[SUCCESSFUL ] com.storm-enroute#scalameter-core_2.12;0.8.2!scalameter-core_2.12.pom(pom.original) (83ms)
-[debug] 		tried C:\Users\Anton\.ivy2\local\com.storm-enroute\scalameter-core_2.12\0.8.2\jars\scalameter-core_2.12.jar
+[debug] 	[SUCCESSFUL ] com.storm-enroute#scalameter-core_2.12;0.8.2!scalameter-core_2.12.pom(pom.original) (266ms)
+[debug] 		tried /home/ancaor/.ivy2/local/com.storm-enroute/scalameter-core_2.12/0.8.2/jars/scalameter-core_2.12.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/storm-enroute/scalameter-core_2.12/0.8.2/scalameter-core_2.12-0.8.2.jar
 [debug] 	found com.storm-enroute#scalameter-core_2.12;0.8.2 in public
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -159,7 +159,7 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: org.apache.commons#commons-math3;3.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] sbt-chain-delegate: Checking cache for: dependency: org.apache.commons#commons-math3;3.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Anton\.ivy2\local\org.apache.commons\commons-math3\3.2\ivys\ivy.xml
+[debug] 		tried /home/ancaor/.ivy2/local/org.apache.commons/commons-math3/3.2/ivys/ivy.xml
 [debug] 	local: no ivy file found for org.apache.commons#commons-math3;3.2
 [debug] 		tried https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2.pom
 [debug] 	public: found md file for org.apache.commons#commons-math3;3.2
@@ -168,10 +168,10 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2.pom
-[debug] 	[SUCCESSFUL ] org.apache.commons#commons-math3;3.2!commons-math3.pom(pom.original) (97ms)
+[debug] 	[SUCCESSFUL ] org.apache.commons#commons-math3;3.2!commons-math3.pom(pom.original) (189ms)
 [debug] sbt-chain: Checking cache for: dependency: org.apache.commons#commons-parent;28 {}
 [debug] sbt-chain-delegate: Checking cache for: dependency: org.apache.commons#commons-parent;28 {}
-[debug] 		tried C:\Users\Anton\.ivy2\local\org.apache.commons\commons-parent\28\ivys\ivy.xml
+[debug] 		tried /home/ancaor/.ivy2/local/org.apache.commons/commons-parent/28/ivys/ivy.xml
 [debug] 	local: no ivy file found for org.apache.commons#commons-parent;28
 [debug] 		tried https://repo1.maven.org/maven2/org/apache/commons/commons-parent/28/commons-parent-28.pom
 [debug] 	public: found md file for org.apache.commons#commons-parent;28
@@ -180,10 +180,10 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-parent/28/commons-parent-28.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-parent/28/commons-parent-28.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/commons/commons-parent/28/commons-parent-28.pom
-[debug] 	[SUCCESSFUL ] org.apache.commons#commons-parent;28!commons-parent.pom(pom.original) (100ms)
+[debug] 	[SUCCESSFUL ] org.apache.commons#commons-parent;28!commons-parent.pom(pom.original) (194ms)
 [debug] sbt-chain: Checking cache for: dependency: org.apache#apache;13 {}
 [debug] sbt-chain-delegate: Checking cache for: dependency: org.apache#apache;13 {}
-[debug] 		tried C:\Users\Anton\.ivy2\local\org.apache\apache\13\ivys\ivy.xml
+[debug] 		tried /home/ancaor/.ivy2/local/org.apache/apache/13/ivys/ivy.xml
 [debug] 	local: no ivy file found for org.apache#apache;13
 [debug] 		tried https://repo1.maven.org/maven2/org/apache/apache/13/apache-13.pom
 [debug] 	public: found md file for org.apache#apache;13
@@ -192,18 +192,18 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/apache/13/apache-13.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/apache/13/apache-13.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/apache/13/apache-13.pom
-[debug] 	[SUCCESSFUL ] org.apache#apache;13!apache.pom(pom.original) (84ms)
-[debug] 		tried C:\Users\Anton\.ivy2\local\org.apache\apache\13\jars\apache.jar
+[debug] 	[SUCCESSFUL ] org.apache#apache;13!apache.pom(pom.original) (153ms)
+[debug] 		tried /home/ancaor/.ivy2/local/org.apache/apache/13/jars/apache.jar
 [debug] 		tried https://repo1.maven.org/maven2/org/apache/apache/13/apache-13.jar
 [debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/apache/apache/13/apache-13.jar
-[debug] 		tried C:\Users\Anton\.sbt\preloaded\org.apache\apache\13\jars\apache.jar
-[debug] 		tried file:/C:/Users/Anton/.sbt/preloaded/org/apache/apache/13/apache-13.jar
-[debug] 		tried C:\Users\Anton\.ivy2\local\org.apache.commons\commons-parent\28\jars\commons-parent.jar
+[debug] 		tried /home/ancaor/.sbt/preloaded/org.apache/apache/13/jars/apache.jar
+[debug] 		tried file:////home/ancaor/.sbt/preloaded/org/apache/apache/13/apache-13.jar
+[debug] 		tried /home/ancaor/.ivy2/local/org.apache.commons/commons-parent/28/jars/commons-parent.jar
 [debug] 		tried https://repo1.maven.org/maven2/org/apache/commons/commons-parent/28/commons-parent-28.jar
 [debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/apache/commons/commons-parent/28/commons-parent-28.jar
-[debug] 		tried C:\Users\Anton\.sbt\preloaded\org.apache.commons\commons-parent\28\jars\commons-parent.jar
-[debug] 		tried file:/C:/Users/Anton/.sbt/preloaded/org/apache/commons/commons-parent/28/commons-parent-28.jar
-[debug] 		tried C:\Users\Anton\.ivy2\local\org.apache.commons\commons-math3\3.2\jars\commons-math3.jar
+[debug] 		tried /home/ancaor/.sbt/preloaded/org.apache.commons/commons-parent/28/jars/commons-parent.jar
+[debug] 		tried file:////home/ancaor/.sbt/preloaded/org/apache/commons/commons-parent/28/commons-parent-28.jar
+[debug] 		tried /home/ancaor/.ivy2/local/org.apache.commons/commons-math3/3.2/jars/commons-math3.jar
 [debug] 		tried https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2.jar
 [debug] 	found org.apache.commons#commons-math3;3.2 in public
 [debug] == resolving dependencies com.storm-enroute#scalameter-core_2.12;0.8.2->org.apache.commons#commons-math3;3.2 [compile->compile(*)]
@@ -234,7 +234,7 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: org.apache.commons#commons-lang3;3.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] sbt-chain-delegate: Checking cache for: dependency: org.apache.commons#commons-lang3;3.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Anton\.ivy2\local\org.apache.commons\commons-lang3\3.4\ivys\ivy.xml
+[debug] 		tried /home/ancaor/.ivy2/local/org.apache.commons/commons-lang3/3.4/ivys/ivy.xml
 [debug] 	local: no ivy file found for org.apache.commons#commons-lang3;3.4
 [debug] 		tried https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.pom
 [debug] 	public: found md file for org.apache.commons#commons-lang3;3.4
@@ -243,10 +243,10 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.pom
-[debug] 	[SUCCESSFUL ] org.apache.commons#commons-lang3;3.4!commons-lang3.pom(pom.original) (81ms)
+[debug] 	[SUCCESSFUL ] org.apache.commons#commons-lang3;3.4!commons-lang3.pom(pom.original) (156ms)
 [debug] sbt-chain: Checking cache for: dependency: org.apache.commons#commons-parent;37 {}
 [debug] sbt-chain-delegate: Checking cache for: dependency: org.apache.commons#commons-parent;37 {}
-[debug] 		tried C:\Users\Anton\.ivy2\local\org.apache.commons\commons-parent\37\ivys\ivy.xml
+[debug] 		tried /home/ancaor/.ivy2/local/org.apache.commons/commons-parent/37/ivys/ivy.xml
 [debug] 	local: no ivy file found for org.apache.commons#commons-parent;37
 [debug] 		tried https://repo1.maven.org/maven2/org/apache/commons/commons-parent/37/commons-parent-37.pom
 [debug] 	public: found md file for org.apache.commons#commons-parent;37
@@ -255,10 +255,10 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-parent/37/commons-parent-37.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-parent/37/commons-parent-37.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/commons/commons-parent/37/commons-parent-37.pom
-[debug] 	[SUCCESSFUL ] org.apache.commons#commons-parent;37!commons-parent.pom(pom.original) (99ms)
+[debug] 	[SUCCESSFUL ] org.apache.commons#commons-parent;37!commons-parent.pom(pom.original) (191ms)
 [debug] sbt-chain: Checking cache for: dependency: org.apache#apache;16 {}
 [debug] sbt-chain-delegate: Checking cache for: dependency: org.apache#apache;16 {}
-[debug] 		tried C:\Users\Anton\.ivy2\local\org.apache\apache\16\ivys\ivy.xml
+[debug] 		tried /home/ancaor/.ivy2/local/org.apache/apache/16/ivys/ivy.xml
 [debug] 	local: no ivy file found for org.apache#apache;16
 [debug] 		tried https://repo1.maven.org/maven2/org/apache/apache/16/apache-16.pom
 [debug] 	public: found md file for org.apache#apache;16
@@ -267,18 +267,18 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/apache/16/apache-16.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/apache/16/apache-16.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/apache/16/apache-16.pom
-[debug] 	[SUCCESSFUL ] org.apache#apache;16!apache.pom(pom.original) (86ms)
-[debug] 		tried C:\Users\Anton\.ivy2\local\org.apache\apache\16\jars\apache.jar
+[debug] 	[SUCCESSFUL ] org.apache#apache;16!apache.pom(pom.original) (153ms)
+[debug] 		tried /home/ancaor/.ivy2/local/org.apache/apache/16/jars/apache.jar
 [debug] 		tried https://repo1.maven.org/maven2/org/apache/apache/16/apache-16.jar
 [debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/apache/apache/16/apache-16.jar
-[debug] 		tried C:\Users\Anton\.sbt\preloaded\org.apache\apache\16\jars\apache.jar
-[debug] 		tried file:/C:/Users/Anton/.sbt/preloaded/org/apache/apache/16/apache-16.jar
-[debug] 		tried C:\Users\Anton\.ivy2\local\org.apache.commons\commons-parent\37\jars\commons-parent.jar
+[debug] 		tried /home/ancaor/.sbt/preloaded/org.apache/apache/16/jars/apache.jar
+[debug] 		tried file:////home/ancaor/.sbt/preloaded/org/apache/apache/16/apache-16.jar
+[debug] 		tried /home/ancaor/.ivy2/local/org.apache.commons/commons-parent/37/jars/commons-parent.jar
 [debug] 		tried https://repo1.maven.org/maven2/org/apache/commons/commons-parent/37/commons-parent-37.jar
 [debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/apache/commons/commons-parent/37/commons-parent-37.jar
-[debug] 		tried C:\Users\Anton\.sbt\preloaded\org.apache.commons\commons-parent\37\jars\commons-parent.jar
-[debug] 		tried file:/C:/Users/Anton/.sbt/preloaded/org/apache/commons/commons-parent/37/commons-parent-37.jar
-[debug] 		tried C:\Users\Anton\.ivy2\local\org.apache.commons\commons-lang3\3.4\jars\commons-lang3.jar
+[debug] 		tried /home/ancaor/.sbt/preloaded/org.apache.commons/commons-parent/37/jars/commons-parent.jar
+[debug] 		tried file:////home/ancaor/.sbt/preloaded/org/apache/commons/commons-parent/37/commons-parent-37.jar
+[debug] 		tried /home/ancaor/.ivy2/local/org.apache.commons/commons-lang3/3.4/jars/commons-lang3.jar
 [debug] 		tried https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar
 [debug] 	found org.apache.commons#commons-lang3;3.4 in public
 [debug] == resolving dependencies com.storm-enroute#scalameter-core_2.12;0.8.2->org.apache.commons#commons-lang3;3.4 [compile->compile(*)]
@@ -349,7 +349,7 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.12;1.0.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] sbt-chain-delegate: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.12;1.0.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Anton\.ivy2\local\org.scala-lang.modules\scala-xml_2.12\1.0.5\ivys\ivy.xml
+[debug] 		tried /home/ancaor/.ivy2/local/org.scala-lang.modules/scala-xml_2.12/1.0.5/ivys/ivy.xml
 [debug] 	local: no ivy file found for org.scala-lang.modules#scala-xml_2.12;1.0.5
 [debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.5/scala-xml_2.12-1.0.5.pom
 [debug] 	public: found md file for org.scala-lang.modules#scala-xml_2.12;1.0.5
@@ -358,8 +358,8 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.5/scala-xml_2.12-1.0.5.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.5/scala-xml_2.12-1.0.5.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.5/scala-xml_2.12-1.0.5.pom
-[debug] 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.12;1.0.5!scala-xml_2.12.pom(pom.original) (77ms)
-[debug] 		tried C:\Users\Anton\.ivy2\local\org.scala-lang.modules\scala-xml_2.12\1.0.5\bundles\scala-xml_2.12.jar
+[debug] 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.12;1.0.5!scala-xml_2.12.pom(pom.original) (152ms)
+[debug] 		tried /home/ancaor/.ivy2/local/org.scala-lang.modules/scala-xml_2.12/1.0.5/bundles/scala-xml_2.12.jar
 [debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.5/scala-xml_2.12-1.0.5.jar
 [debug] 	found org.scala-lang.modules#scala-xml_2.12;1.0.5 in public
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.0 {test=[runtime(*), master(compile)]} => dependency: org.scala-lang#scala-compiler;2.12.8 {test=[runtime(*), master(compile)]}
@@ -451,7 +451,7 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: org.ow2.asm#asm;5.0.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] sbt-chain-delegate: Checking cache for: dependency: org.ow2.asm#asm;5.0.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Anton\.ivy2\local\org.ow2.asm\asm\5.0.4\ivys\ivy.xml
+[debug] 		tried /home/ancaor/.ivy2/local/org.ow2.asm/asm/5.0.4/ivys/ivy.xml
 [debug] 	local: no ivy file found for org.ow2.asm#asm;5.0.4
 [debug] 		tried https://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.4/asm-5.0.4.pom
 [debug] 	public: found md file for org.ow2.asm#asm;5.0.4
@@ -460,10 +460,10 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.4/asm-5.0.4.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.4/asm-5.0.4.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.4/asm-5.0.4.pom
-[debug] 	[SUCCESSFUL ] org.ow2.asm#asm;5.0.4!asm.pom(pom.original) (82ms)
+[debug] 	[SUCCESSFUL ] org.ow2.asm#asm;5.0.4!asm.pom(pom.original) (152ms)
 [debug] sbt-chain: Checking cache for: dependency: org.ow2.asm#asm-parent;5.0.4 {}
 [debug] sbt-chain-delegate: Checking cache for: dependency: org.ow2.asm#asm-parent;5.0.4 {}
-[debug] 		tried C:\Users\Anton\.ivy2\local\org.ow2.asm\asm-parent\5.0.4\ivys\ivy.xml
+[debug] 		tried /home/ancaor/.ivy2/local/org.ow2.asm/asm-parent/5.0.4/ivys/ivy.xml
 [debug] 	local: no ivy file found for org.ow2.asm#asm-parent;5.0.4
 [debug] 		tried https://repo1.maven.org/maven2/org/ow2/asm/asm-parent/5.0.4/asm-parent-5.0.4.pom
 [debug] 	public: found md file for org.ow2.asm#asm-parent;5.0.4
@@ -472,10 +472,10 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-parent/5.0.4/asm-parent-5.0.4.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-parent/5.0.4/asm-parent-5.0.4.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/ow2/asm/asm-parent/5.0.4/asm-parent-5.0.4.pom
-[debug] 	[SUCCESSFUL ] org.ow2.asm#asm-parent;5.0.4!asm-parent.pom(pom.original) (81ms)
+[debug] 	[SUCCESSFUL ] org.ow2.asm#asm-parent;5.0.4!asm-parent.pom(pom.original) (152ms)
 [debug] sbt-chain: Checking cache for: dependency: org.ow2#ow2;1.3 {}
 [debug] sbt-chain-delegate: Checking cache for: dependency: org.ow2#ow2;1.3 {}
-[debug] 		tried C:\Users\Anton\.ivy2\local\org.ow2\ow2\1.3\ivys\ivy.xml
+[debug] 		tried /home/ancaor/.ivy2/local/org.ow2/ow2/1.3/ivys/ivy.xml
 [debug] 	local: no ivy file found for org.ow2#ow2;1.3
 [debug] 		tried https://repo1.maven.org/maven2/org/ow2/ow2/1.3/ow2-1.3.pom
 [debug] 	public: found md file for org.ow2#ow2;1.3
@@ -484,18 +484,18 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/ow2/ow2/1.3/ow2-1.3.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/ow2/ow2/1.3/ow2-1.3.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/ow2/ow2/1.3/ow2-1.3.pom
-[debug] 	[SUCCESSFUL ] org.ow2#ow2;1.3!ow2.pom(pom.original) (82ms)
-[debug] 		tried C:\Users\Anton\.ivy2\local\org.ow2\ow2\1.3\jars\ow2.jar
+[debug] 	[SUCCESSFUL ] org.ow2#ow2;1.3!ow2.pom(pom.original) (150ms)
+[debug] 		tried /home/ancaor/.ivy2/local/org.ow2/ow2/1.3/jars/ow2.jar
 [debug] 		tried https://repo1.maven.org/maven2/org/ow2/ow2/1.3/ow2-1.3.jar
 [debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/ow2/ow2/1.3/ow2-1.3.jar
-[debug] 		tried C:\Users\Anton\.sbt\preloaded\org.ow2\ow2\1.3\jars\ow2.jar
-[debug] 		tried file:/C:/Users/Anton/.sbt/preloaded/org/ow2/ow2/1.3/ow2-1.3.jar
-[debug] 		tried C:\Users\Anton\.ivy2\local\org.ow2.asm\asm-parent\5.0.4\jars\asm-parent.jar
+[debug] 		tried /home/ancaor/.sbt/preloaded/org.ow2/ow2/1.3/jars/ow2.jar
+[debug] 		tried file:////home/ancaor/.sbt/preloaded/org/ow2/ow2/1.3/ow2-1.3.jar
+[debug] 		tried /home/ancaor/.ivy2/local/org.ow2.asm/asm-parent/5.0.4/jars/asm-parent.jar
 [debug] 		tried https://repo1.maven.org/maven2/org/ow2/asm/asm-parent/5.0.4/asm-parent-5.0.4.jar
 [debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/ow2/asm/asm-parent/5.0.4/asm-parent-5.0.4.jar
-[debug] 		tried C:\Users\Anton\.sbt\preloaded\org.ow2.asm\asm-parent\5.0.4\jars\asm-parent.jar
-[debug] 		tried file:/C:/Users/Anton/.sbt/preloaded/org/ow2/asm/asm-parent/5.0.4/asm-parent-5.0.4.jar
-[debug] 		tried C:\Users\Anton\.ivy2\local\org.ow2.asm\asm\5.0.4\jars\asm.jar
+[debug] 		tried /home/ancaor/.sbt/preloaded/org.ow2.asm/asm-parent/5.0.4/jars/asm-parent.jar
+[debug] 		tried file:////home/ancaor/.sbt/preloaded/org/ow2/asm/asm-parent/5.0.4/asm-parent-5.0.4.jar
+[debug] 		tried /home/ancaor/.ivy2/local/org.ow2.asm/asm/5.0.4/jars/asm.jar
 [debug] 		tried https://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar
 [debug] 	found org.ow2.asm#asm;5.0.4 in public
 [debug] == resolving dependencies com.storm-enroute#scalameter-core_2.12;0.8.2->org.ow2.asm#asm;5.0.4 [compile->compile(*)]
@@ -534,7 +534,7 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: org.scala-tools.testing#test-interface;0.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] sbt-chain-delegate: Checking cache for: dependency: org.scala-tools.testing#test-interface;0.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Anton\.ivy2\local\org.scala-tools.testing\test-interface\0.5\ivys\ivy.xml
+[debug] 		tried /home/ancaor/.ivy2/local/org.scala-tools.testing/test-interface/0.5/ivys/ivy.xml
 [debug] 	local: no ivy file found for org.scala-tools.testing#test-interface;0.5
 [debug] 		tried https://repo1.maven.org/maven2/org/scala-tools/testing/test-interface/0.5/test-interface-0.5.pom
 [debug] 	public: found md file for org.scala-tools.testing#test-interface;0.5
@@ -543,8 +543,8 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-tools/testing/test-interface/0.5/test-interface-0.5.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-tools/testing/test-interface/0.5/test-interface-0.5.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-tools/testing/test-interface/0.5/test-interface-0.5.pom
-[debug] 	[SUCCESSFUL ] org.scala-tools.testing#test-interface;0.5!test-interface.pom(pom.original) (91ms)
-[debug] 		tried C:\Users\Anton\.ivy2\local\org.scala-tools.testing\test-interface\0.5\jars\test-interface.jar
+[debug] 	[SUCCESSFUL ] org.scala-tools.testing#test-interface;0.5!test-interface.pom(pom.original) (247ms)
+[debug] 		tried /home/ancaor/.ivy2/local/org.scala-tools.testing/test-interface/0.5/jars/test-interface.jar
 [debug] 		tried https://repo1.maven.org/maven2/org/scala-tools/testing/test-interface/0.5/test-interface-0.5.jar
 [debug] 	found org.scala-tools.testing#test-interface;0.5 in public
 [debug] == resolving dependencies com.storm-enroute#scalameter_2.12;0.8.2->org.scala-tools.testing#test-interface;0.5 [compile->compile(*)]
@@ -571,7 +571,7 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: com.fasterxml.jackson.module#jackson-module-scala_2.12;2.8.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.fasterxml.jackson.module#jackson-module-scala_2.12;2.8.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Anton\.ivy2\local\com.fasterxml.jackson.module\jackson-module-scala_2.12\2.8.4\ivys\ivy.xml
+[debug] 		tried /home/ancaor/.ivy2/local/com.fasterxml.jackson.module/jackson-module-scala_2.12/2.8.4/ivys/ivy.xml
 [debug] 	local: no ivy file found for com.fasterxml.jackson.module#jackson-module-scala_2.12;2.8.4
 [debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.8.4/jackson-module-scala_2.12-2.8.4.pom
 [debug] 	public: found md file for com.fasterxml.jackson.module#jackson-module-scala_2.12;2.8.4
@@ -580,8 +580,8 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.8.4/jackson-module-scala_2.12-2.8.4.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.8.4/jackson-module-scala_2.12-2.8.4.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.8.4/jackson-module-scala_2.12-2.8.4.pom
-[debug] 	[SUCCESSFUL ] com.fasterxml.jackson.module#jackson-module-scala_2.12;2.8.4!jackson-module-scala_2.12.pom(pom.original) (81ms)
-[debug] 		tried C:\Users\Anton\.ivy2\local\com.fasterxml.jackson.module\jackson-module-scala_2.12\2.8.4\bundles\jackson-module-scala_2.12.jar
+[debug] 	[SUCCESSFUL ] com.fasterxml.jackson.module#jackson-module-scala_2.12;2.8.4!jackson-module-scala_2.12.pom(pom.original) (248ms)
+[debug] 		tried /home/ancaor/.ivy2/local/com.fasterxml.jackson.module/jackson-module-scala_2.12/2.8.4/bundles/jackson-module-scala_2.12.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.8.4/jackson-module-scala_2.12-2.8.4.jar
 [debug] 	found com.fasterxml.jackson.module#jackson-module-scala_2.12;2.8.4 in public
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -638,7 +638,7 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: com.fasterxml.jackson.core#jackson-core;2.8.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.fasterxml.jackson.core#jackson-core;2.8.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Anton\.ivy2\local\com.fasterxml.jackson.core\jackson-core\2.8.4\ivys\ivy.xml
+[debug] 		tried /home/ancaor/.ivy2/local/com.fasterxml.jackson.core/jackson-core/2.8.4/ivys/ivy.xml
 [debug] 	local: no ivy file found for com.fasterxml.jackson.core#jackson-core;2.8.4
 [debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.4/jackson-core-2.8.4.pom
 [debug] 	public: found md file for com.fasterxml.jackson.core#jackson-core;2.8.4
@@ -647,10 +647,10 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.4/jackson-core-2.8.4.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.4/jackson-core-2.8.4.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.4/jackson-core-2.8.4.pom
-[debug] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-core;2.8.4!jackson-core.pom(pom.original) (81ms)
+[debug] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-core;2.8.4!jackson-core.pom(pom.original) (154ms)
 [debug] sbt-chain: Checking cache for: dependency: com.fasterxml.jackson#jackson-parent;2.8 {}
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.fasterxml.jackson#jackson-parent;2.8 {}
-[debug] 		tried C:\Users\Anton\.ivy2\local\com.fasterxml.jackson\jackson-parent\2.8\ivys\ivy.xml
+[debug] 		tried /home/ancaor/.ivy2/local/com.fasterxml.jackson/jackson-parent/2.8/ivys/ivy.xml
 [debug] 	local: no ivy file found for com.fasterxml.jackson#jackson-parent;2.8
 [debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/jackson-parent/2.8/jackson-parent-2.8.pom
 [debug] 	public: found md file for com.fasterxml.jackson#jackson-parent;2.8
@@ -659,10 +659,10 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/jackson-parent/2.8/jackson-parent-2.8.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/jackson-parent/2.8/jackson-parent-2.8.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/jackson-parent/2.8/jackson-parent-2.8.pom
-[debug] 	[SUCCESSFUL ] com.fasterxml.jackson#jackson-parent;2.8!jackson-parent.pom(pom.original) (82ms)
+[debug] 	[SUCCESSFUL ] com.fasterxml.jackson#jackson-parent;2.8!jackson-parent.pom(pom.original) (151ms)
 [debug] sbt-chain: Checking cache for: dependency: com.fasterxml#oss-parent;27 {}
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.fasterxml#oss-parent;27 {}
-[debug] 		tried C:\Users\Anton\.ivy2\local\com.fasterxml\oss-parent\27\ivys\ivy.xml
+[debug] 		tried /home/ancaor/.ivy2/local/com.fasterxml/oss-parent/27/ivys/ivy.xml
 [debug] 	local: no ivy file found for com.fasterxml#oss-parent;27
 [debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/oss-parent/27/oss-parent-27.pom
 [debug] 	public: found md file for com.fasterxml#oss-parent;27
@@ -671,18 +671,18 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/oss-parent/27/oss-parent-27.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/oss-parent/27/oss-parent-27.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/oss-parent/27/oss-parent-27.pom
-[debug] 	[SUCCESSFUL ] com.fasterxml#oss-parent;27!oss-parent.pom(pom.original) (80ms)
-[debug] 		tried C:\Users\Anton\.ivy2\local\com.fasterxml\oss-parent\27\jars\oss-parent.jar
+[debug] 	[SUCCESSFUL ] com.fasterxml#oss-parent;27!oss-parent.pom(pom.original) (152ms)
+[debug] 		tried /home/ancaor/.ivy2/local/com.fasterxml/oss-parent/27/jars/oss-parent.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/oss-parent/27/oss-parent-27.jar
 [debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/fasterxml/oss-parent/27/oss-parent-27.jar
-[debug] 		tried C:\Users\Anton\.sbt\preloaded\com.fasterxml\oss-parent\27\jars\oss-parent.jar
-[debug] 		tried file:/C:/Users/Anton/.sbt/preloaded/com/fasterxml/oss-parent/27/oss-parent-27.jar
-[debug] 		tried C:\Users\Anton\.ivy2\local\com.fasterxml.jackson\jackson-parent\2.8\jars\jackson-parent.jar
+[debug] 		tried /home/ancaor/.sbt/preloaded/com.fasterxml/oss-parent/27/jars/oss-parent.jar
+[debug] 		tried file:////home/ancaor/.sbt/preloaded/com/fasterxml/oss-parent/27/oss-parent-27.jar
+[debug] 		tried /home/ancaor/.ivy2/local/com.fasterxml.jackson/jackson-parent/2.8/jars/jackson-parent.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/jackson-parent/2.8/jackson-parent-2.8.jar
 [debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/fasterxml/jackson/jackson-parent/2.8/jackson-parent-2.8.jar
-[debug] 		tried C:\Users\Anton\.sbt\preloaded\com.fasterxml.jackson\jackson-parent\2.8\jars\jackson-parent.jar
-[debug] 		tried file:/C:/Users/Anton/.sbt/preloaded/com/fasterxml/jackson/jackson-parent/2.8/jackson-parent-2.8.jar
-[debug] 		tried C:\Users\Anton\.ivy2\local\com.fasterxml.jackson.core\jackson-core\2.8.4\bundles\jackson-core.jar
+[debug] 		tried /home/ancaor/.sbt/preloaded/com.fasterxml.jackson/jackson-parent/2.8/jars/jackson-parent.jar
+[debug] 		tried file:////home/ancaor/.sbt/preloaded/com/fasterxml/jackson/jackson-parent/2.8/jackson-parent-2.8.jar
+[debug] 		tried /home/ancaor/.ivy2/local/com.fasterxml.jackson.core/jackson-core/2.8.4/bundles/jackson-core.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.4/jackson-core-2.8.4.jar
 [debug] 	found com.fasterxml.jackson.core#jackson-core;2.8.4 in public
 [debug] == resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.12;2.8.4->com.fasterxml.jackson.core#jackson-core;2.8.4 [compile->compile(*)]
@@ -711,7 +711,7 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: com.fasterxml.jackson.core#jackson-annotations;2.8.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.fasterxml.jackson.core#jackson-annotations;2.8.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Anton\.ivy2\local\com.fasterxml.jackson.core\jackson-annotations\2.8.4\ivys\ivy.xml
+[debug] 		tried /home/ancaor/.ivy2/local/com.fasterxml.jackson.core/jackson-annotations/2.8.4/ivys/ivy.xml
 [debug] 	local: no ivy file found for com.fasterxml.jackson.core#jackson-annotations;2.8.4
 [debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4.pom
 [debug] 	public: found md file for com.fasterxml.jackson.core#jackson-annotations;2.8.4
@@ -720,10 +720,10 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4.pom
-[debug] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-annotations;2.8.4!jackson-annotations.pom(pom.original) (80ms)
+[debug] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-annotations;2.8.4!jackson-annotations.pom(pom.original) (151ms)
 [debug] sbt-chain: Checking cache for: dependency: com.fasterxml.jackson#jackson-parent;2.8 {}
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson#jackson-parent;2.8
-[debug] 		tried C:\Users\Anton\.ivy2\local\com.fasterxml.jackson.core\jackson-annotations\2.8.4\bundles\jackson-annotations.jar
+[debug] 		tried /home/ancaor/.ivy2/local/com.fasterxml.jackson.core/jackson-annotations/2.8.4/bundles/jackson-annotations.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4.jar
 [debug] 	found com.fasterxml.jackson.core#jackson-annotations;2.8.4 in public
 [debug] == resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.12;2.8.4->com.fasterxml.jackson.core#jackson-annotations;2.8.4 [compile->compile(*)]
@@ -752,7 +752,7 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: com.fasterxml.jackson.core#jackson-databind;2.8.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.fasterxml.jackson.core#jackson-databind;2.8.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Anton\.ivy2\local\com.fasterxml.jackson.core\jackson-databind\2.8.4\ivys\ivy.xml
+[debug] 		tried /home/ancaor/.ivy2/local/com.fasterxml.jackson.core/jackson-databind/2.8.4/ivys/ivy.xml
 [debug] 	local: no ivy file found for com.fasterxml.jackson.core#jackson-databind;2.8.4
 [debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.4/jackson-databind-2.8.4.pom
 [debug] 	public: found md file for com.fasterxml.jackson.core#jackson-databind;2.8.4
@@ -761,10 +761,10 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.4/jackson-databind-2.8.4.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.4/jackson-databind-2.8.4.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.4/jackson-databind-2.8.4.pom
-[debug] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-databind;2.8.4!jackson-databind.pom(pom.original) (80ms)
+[debug] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-databind;2.8.4!jackson-databind.pom(pom.original) (151ms)
 [debug] sbt-chain: Checking cache for: dependency: com.fasterxml.jackson#jackson-parent;2.8 {}
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson#jackson-parent;2.8
-[debug] 		tried C:\Users\Anton\.ivy2\local\com.fasterxml.jackson.core\jackson-databind\2.8.4\bundles\jackson-databind.jar
+[debug] 		tried /home/ancaor/.ivy2/local/com.fasterxml.jackson.core/jackson-databind/2.8.4/bundles/jackson-databind.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.4/jackson-databind-2.8.4.jar
 [debug] 	found com.fasterxml.jackson.core#jackson-databind;2.8.4 in public
 [debug] == resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.12;2.8.4->com.fasterxml.jackson.core#jackson-databind;2.8.4 [compile->compile(*)]
@@ -799,7 +799,7 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: com.fasterxml.jackson.module#jackson-module-paranamer;2.8.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.fasterxml.jackson.module#jackson-module-paranamer;2.8.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Anton\.ivy2\local\com.fasterxml.jackson.module\jackson-module-paranamer\2.8.4\ivys\ivy.xml
+[debug] 		tried /home/ancaor/.ivy2/local/com.fasterxml.jackson.module/jackson-module-paranamer/2.8.4/ivys/ivy.xml
 [debug] 	local: no ivy file found for com.fasterxml.jackson.module#jackson-module-paranamer;2.8.4
 [debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.8.4/jackson-module-paranamer-2.8.4.pom
 [debug] 	public: found md file for com.fasterxml.jackson.module#jackson-module-paranamer;2.8.4
@@ -808,10 +808,10 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.8.4/jackson-module-paranamer-2.8.4.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.8.4/jackson-module-paranamer-2.8.4.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.8.4/jackson-module-paranamer-2.8.4.pom
-[debug] 	[SUCCESSFUL ] com.fasterxml.jackson.module#jackson-module-paranamer;2.8.4!jackson-module-paranamer.pom(pom.original) (86ms)
+[debug] 	[SUCCESSFUL ] com.fasterxml.jackson.module#jackson-module-paranamer;2.8.4!jackson-module-paranamer.pom(pom.original) (253ms)
 [debug] sbt-chain: Checking cache for: dependency: com.fasterxml.jackson.module#jackson-modules-base;2.8.4 {}
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.fasterxml.jackson.module#jackson-modules-base;2.8.4 {}
-[debug] 		tried C:\Users\Anton\.ivy2\local\com.fasterxml.jackson.module\jackson-modules-base\2.8.4\ivys\ivy.xml
+[debug] 		tried /home/ancaor/.ivy2/local/com.fasterxml.jackson.module/jackson-modules-base/2.8.4/ivys/ivy.xml
 [debug] 	local: no ivy file found for com.fasterxml.jackson.module#jackson-modules-base;2.8.4
 [debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-modules-base/2.8.4/jackson-modules-base-2.8.4.pom
 [debug] 	public: found md file for com.fasterxml.jackson.module#jackson-modules-base;2.8.4
@@ -820,15 +820,15 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-modules-base/2.8.4/jackson-modules-base-2.8.4.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-modules-base/2.8.4/jackson-modules-base-2.8.4.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-modules-base/2.8.4/jackson-modules-base-2.8.4.pom
-[debug] 	[SUCCESSFUL ] com.fasterxml.jackson.module#jackson-modules-base;2.8.4!jackson-modules-base.pom(pom.original) (80ms)
+[debug] 	[SUCCESSFUL ] com.fasterxml.jackson.module#jackson-modules-base;2.8.4!jackson-modules-base.pom(pom.original) (249ms)
 [debug] sbt-chain: Checking cache for: dependency: com.fasterxml.jackson#jackson-parent;2.8 {}
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson#jackson-parent;2.8
-[debug] 		tried C:\Users\Anton\.ivy2\local\com.fasterxml.jackson.module\jackson-modules-base\2.8.4\jars\jackson-modules-base.jar
+[debug] 		tried /home/ancaor/.ivy2/local/com.fasterxml.jackson.module/jackson-modules-base/2.8.4/jars/jackson-modules-base.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-modules-base/2.8.4/jackson-modules-base-2.8.4.jar
 [debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-modules-base/2.8.4/jackson-modules-base-2.8.4.jar
-[debug] 		tried C:\Users\Anton\.sbt\preloaded\com.fasterxml.jackson.module\jackson-modules-base\2.8.4\jars\jackson-modules-base.jar
-[debug] 		tried file:/C:/Users/Anton/.sbt/preloaded/com/fasterxml/jackson/module/jackson-modules-base/2.8.4/jackson-modules-base-2.8.4.jar
-[debug] 		tried C:\Users\Anton\.ivy2\local\com.fasterxml.jackson.module\jackson-module-paranamer\2.8.4\bundles\jackson-module-paranamer.jar
+[debug] 		tried /home/ancaor/.sbt/preloaded/com.fasterxml.jackson.module/jackson-modules-base/2.8.4/jars/jackson-modules-base.jar
+[debug] 		tried file:////home/ancaor/.sbt/preloaded/com/fasterxml/jackson/module/jackson-modules-base/2.8.4/jackson-modules-base-2.8.4.jar
+[debug] 		tried /home/ancaor/.ivy2/local/com.fasterxml.jackson.module/jackson-module-paranamer/2.8.4/bundles/jackson-module-paranamer.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.8.4/jackson-module-paranamer-2.8.4.jar
 [debug] 	found com.fasterxml.jackson.module#jackson-module-paranamer;2.8.4 in public
 [debug] == resolving dependencies com.fasterxml.jackson.module#jackson-module-scala_2.12;2.8.4->com.fasterxml.jackson.module#jackson-module-paranamer;2.8.4 [compile->compile(*)]
@@ -859,7 +859,7 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: com.thoughtworks.paranamer#paranamer;2.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.thoughtworks.paranamer#paranamer;2.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Anton\.ivy2\local\com.thoughtworks.paranamer\paranamer\2.8\ivys\ivy.xml
+[debug] 		tried /home/ancaor/.ivy2/local/com.thoughtworks.paranamer/paranamer/2.8/ivys/ivy.xml
 [debug] 	local: no ivy file found for com.thoughtworks.paranamer#paranamer;2.8
 [debug] 		tried https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.pom
 [debug] 	public: found md file for com.thoughtworks.paranamer#paranamer;2.8
@@ -868,10 +868,10 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.pom
-[debug] 	[SUCCESSFUL ] com.thoughtworks.paranamer#paranamer;2.8!paranamer.pom(pom.original) (86ms)
+[debug] 	[SUCCESSFUL ] com.thoughtworks.paranamer#paranamer;2.8!paranamer.pom(pom.original) (160ms)
 [debug] sbt-chain: Checking cache for: dependency: com.thoughtworks.paranamer#paranamer-parent;2.8 {}
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.thoughtworks.paranamer#paranamer-parent;2.8 {}
-[debug] 		tried C:\Users\Anton\.ivy2\local\com.thoughtworks.paranamer\paranamer-parent\2.8\ivys\ivy.xml
+[debug] 		tried /home/ancaor/.ivy2/local/com.thoughtworks.paranamer/paranamer-parent/2.8/ivys/ivy.xml
 [debug] 	local: no ivy file found for com.thoughtworks.paranamer#paranamer-parent;2.8
 [debug] 		tried https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer-parent/2.8/paranamer-parent-2.8.pom
 [debug] 	public: found md file for com.thoughtworks.paranamer#paranamer-parent;2.8
@@ -880,15 +880,15 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer-parent/2.8/paranamer-parent-2.8.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer-parent/2.8/paranamer-parent-2.8.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer-parent/2.8/paranamer-parent-2.8.pom
-[debug] 	[SUCCESSFUL ] com.thoughtworks.paranamer#paranamer-parent;2.8!paranamer-parent.pom(pom.original) (80ms)
+[debug] 	[SUCCESSFUL ] com.thoughtworks.paranamer#paranamer-parent;2.8!paranamer-parent.pom(pom.original) (154ms)
 [debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;9 {}
 [debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;9
-[debug] 		tried C:\Users\Anton\.ivy2\local\com.thoughtworks.paranamer\paranamer-parent\2.8\jars\paranamer-parent.jar
+[debug] 		tried /home/ancaor/.ivy2/local/com.thoughtworks.paranamer/paranamer-parent/2.8/jars/paranamer-parent.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer-parent/2.8/paranamer-parent-2.8.jar
 [debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer-parent/2.8/paranamer-parent-2.8.jar
-[debug] 		tried C:\Users\Anton\.sbt\preloaded\com.thoughtworks.paranamer\paranamer-parent\2.8\jars\paranamer-parent.jar
-[debug] 		tried file:/C:/Users/Anton/.sbt/preloaded/com/thoughtworks/paranamer/paranamer-parent/2.8/paranamer-parent-2.8.jar
-[debug] 		tried C:\Users\Anton\.ivy2\local\com.thoughtworks.paranamer\paranamer\2.8\bundles\paranamer.jar
+[debug] 		tried /home/ancaor/.sbt/preloaded/com.thoughtworks.paranamer/paranamer-parent/2.8/jars/paranamer-parent.jar
+[debug] 		tried file:////home/ancaor/.sbt/preloaded/com/thoughtworks/paranamer/paranamer-parent/2.8/paranamer-parent-2.8.jar
+[debug] 		tried /home/ancaor/.ivy2/local/com.thoughtworks.paranamer/paranamer/2.8/bundles/paranamer.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.jar
 [debug] 	found com.thoughtworks.paranamer#paranamer;2.8 in public
 [debug] == resolving dependencies com.fasterxml.jackson.module#jackson-module-paranamer;2.8.4->com.thoughtworks.paranamer#paranamer;2.8 [compile->compile(*)]
@@ -932,7 +932,7 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: org.mongodb#casbah_2.12.0-RC1;3.1.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] sbt-chain-delegate: Checking cache for: dependency: org.mongodb#casbah_2.12.0-RC1;3.1.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Anton\.ivy2\local\org.mongodb\casbah_2.12.0-RC1\3.1.1\ivys\ivy.xml
+[debug] 		tried /home/ancaor/.ivy2/local/org.mongodb/casbah_2.12.0-RC1/3.1.1/ivys/ivy.xml
 [debug] 	local: no ivy file found for org.mongodb#casbah_2.12.0-RC1;3.1.1
 [debug] 		tried https://repo1.maven.org/maven2/org/mongodb/casbah_2.12.0-RC1/3.1.1/casbah_2.12.0-RC1-3.1.1.pom
 [debug] 	public: found md file for org.mongodb#casbah_2.12.0-RC1;3.1.1
@@ -941,12 +941,12 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah_2.12.0-RC1/3.1.1/casbah_2.12.0-RC1-3.1.1.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah_2.12.0-RC1/3.1.1/casbah_2.12.0-RC1-3.1.1.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/mongodb/casbah_2.12.0-RC1/3.1.1/casbah_2.12.0-RC1-3.1.1.pom
-[debug] 	[SUCCESSFUL ] org.mongodb#casbah_2.12.0-RC1;3.1.1!casbah_2.12.0-RC1.pom(pom.original) (178ms)
-[debug] 		tried C:\Users\Anton\.ivy2\local\org.mongodb\casbah_2.12.0-RC1\3.1.1\jars\casbah_2.12.0-RC1.jar
+[debug] 	[SUCCESSFUL ] org.mongodb#casbah_2.12.0-RC1;3.1.1!casbah_2.12.0-RC1.pom(pom.original) (250ms)
+[debug] 		tried /home/ancaor/.ivy2/local/org.mongodb/casbah_2.12.0-RC1/3.1.1/jars/casbah_2.12.0-RC1.jar
 [debug] 		tried https://repo1.maven.org/maven2/org/mongodb/casbah_2.12.0-RC1/3.1.1/casbah_2.12.0-RC1-3.1.1.jar
 [debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/mongodb/casbah_2.12.0-RC1/3.1.1/casbah_2.12.0-RC1-3.1.1.jar
-[debug] 		tried C:\Users\Anton\.sbt\preloaded\org.mongodb\casbah_2.12.0-RC1\3.1.1\jars\casbah_2.12.0-RC1.jar
-[debug] 		tried file:/C:/Users/Anton/.sbt/preloaded/org/mongodb/casbah_2.12.0-RC1/3.1.1/casbah_2.12.0-RC1-3.1.1.jar
+[debug] 		tried /home/ancaor/.sbt/preloaded/org.mongodb/casbah_2.12.0-RC1/3.1.1/jars/casbah_2.12.0-RC1.jar
+[debug] 		tried file:////home/ancaor/.sbt/preloaded/org/mongodb/casbah_2.12.0-RC1/3.1.1/casbah_2.12.0-RC1-3.1.1.jar
 [debug] 	found org.mongodb#casbah_2.12.0-RC1;3.1.1 in public
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0-RC1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies com.storm-enroute#scalameter_2.12;0.8.2->org.mongodb#casbah_2.12.0-RC1;3.1.1 [compile->compile(*)]
@@ -978,7 +978,7 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: org.mongodb#casbah-commons_2.12.0-RC1;3.1.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] sbt-chain-delegate: Checking cache for: dependency: org.mongodb#casbah-commons_2.12.0-RC1;3.1.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Anton\.ivy2\local\org.mongodb\casbah-commons_2.12.0-RC1\3.1.1\ivys\ivy.xml
+[debug] 		tried /home/ancaor/.ivy2/local/org.mongodb/casbah-commons_2.12.0-RC1/3.1.1/ivys/ivy.xml
 [debug] 	local: no ivy file found for org.mongodb#casbah-commons_2.12.0-RC1;3.1.1
 [debug] 		tried https://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.12.0-RC1/3.1.1/casbah-commons_2.12.0-RC1-3.1.1.pom
 [debug] 	public: found md file for org.mongodb#casbah-commons_2.12.0-RC1;3.1.1
@@ -987,8 +987,8 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.12.0-RC1/3.1.1/casbah-commons_2.12.0-RC1-3.1.1.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.12.0-RC1/3.1.1/casbah-commons_2.12.0-RC1-3.1.1.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.12.0-RC1/3.1.1/casbah-commons_2.12.0-RC1-3.1.1.pom
-[debug] 	[SUCCESSFUL ] org.mongodb#casbah-commons_2.12.0-RC1;3.1.1!casbah-commons_2.12.0-RC1.pom(pom.original) (82ms)
-[debug] 		tried C:\Users\Anton\.ivy2\local\org.mongodb\casbah-commons_2.12.0-RC1\3.1.1\jars\casbah-commons_2.12.0-RC1.jar
+[debug] 	[SUCCESSFUL ] org.mongodb#casbah-commons_2.12.0-RC1;3.1.1!casbah-commons_2.12.0-RC1.pom(pom.original) (250ms)
+[debug] 		tried /home/ancaor/.ivy2/local/org.mongodb/casbah-commons_2.12.0-RC1/3.1.1/jars/casbah-commons_2.12.0-RC1.jar
 [debug] 		tried https://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.12.0-RC1/3.1.1/casbah-commons_2.12.0-RC1-3.1.1.jar
 [debug] 	found org.mongodb#casbah-commons_2.12.0-RC1;3.1.1 in public
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0-RC1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -1024,7 +1024,7 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: com.github.nscala-time#nscala-time_2.12.0-RC1;2.14.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] sbt-chain-delegate: Checking cache for: dependency: com.github.nscala-time#nscala-time_2.12.0-RC1;2.14.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Anton\.ivy2\local\com.github.nscala-time\nscala-time_2.12.0-RC1\2.14.0\ivys\ivy.xml
+[debug] 		tried /home/ancaor/.ivy2/local/com.github.nscala-time/nscala-time_2.12.0-RC1/2.14.0/ivys/ivy.xml
 [debug] 	local: no ivy file found for com.github.nscala-time#nscala-time_2.12.0-RC1;2.14.0
 [debug] 		tried https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.12.0-RC1/2.14.0/nscala-time_2.12.0-RC1-2.14.0.pom
 [debug] 	public: found md file for com.github.nscala-time#nscala-time_2.12.0-RC1;2.14.0
@@ -1033,8 +1033,8 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.12.0-RC1/2.14.0/nscala-time_2.12.0-RC1-2.14.0.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.12.0-RC1/2.14.0/nscala-time_2.12.0-RC1-2.14.0.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.12.0-RC1/2.14.0/nscala-time_2.12.0-RC1-2.14.0.pom
-[debug] 	[SUCCESSFUL ] com.github.nscala-time#nscala-time_2.12.0-RC1;2.14.0!nscala-time_2.12.0-RC1.pom(pom.original) (176ms)
-[debug] 		tried C:\Users\Anton\.ivy2\local\com.github.nscala-time\nscala-time_2.12.0-RC1\2.14.0\jars\nscala-time_2.12.0-RC1.jar
+[debug] 	[SUCCESSFUL ] com.github.nscala-time#nscala-time_2.12.0-RC1;2.14.0!nscala-time_2.12.0-RC1.pom(pom.original) (250ms)
+[debug] 		tried /home/ancaor/.ivy2/local/com.github.nscala-time/nscala-time_2.12.0-RC1/2.14.0/jars/nscala-time_2.12.0-RC1.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.12.0-RC1/2.14.0/nscala-time_2.12.0-RC1-2.14.0.jar
 [debug] 	found com.github.nscala-time#nscala-time_2.12.0-RC1;2.14.0 in public
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0-RC1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -1074,7 +1074,7 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: joda-time#joda-time;2.9.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] sbt-chain-delegate: Checking cache for: dependency: joda-time#joda-time;2.9.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Anton\.ivy2\local\joda-time\joda-time\2.9.4\ivys\ivy.xml
+[debug] 		tried /home/ancaor/.ivy2/local/joda-time/joda-time/2.9.4/ivys/ivy.xml
 [debug] 	local: no ivy file found for joda-time#joda-time;2.9.4
 [debug] 		tried https://repo1.maven.org/maven2/joda-time/joda-time/2.9.4/joda-time-2.9.4.pom
 [debug] 	public: found md file for joda-time#joda-time;2.9.4
@@ -1083,8 +1083,8 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/joda-time/joda-time/2.9.4/joda-time-2.9.4.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/joda-time/joda-time/2.9.4/joda-time-2.9.4.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/joda-time/joda-time/2.9.4/joda-time-2.9.4.pom
-[debug] 	[SUCCESSFUL ] joda-time#joda-time;2.9.4!joda-time.pom(pom.original) (83ms)
-[debug] 		tried C:\Users\Anton\.ivy2\local\joda-time\joda-time\2.9.4\jars\joda-time.jar
+[debug] 	[SUCCESSFUL ] joda-time#joda-time;2.9.4!joda-time.pom(pom.original) (255ms)
+[debug] 		tried /home/ancaor/.ivy2/local/joda-time/joda-time/2.9.4/jars/joda-time.jar
 [debug] 		tried https://repo1.maven.org/maven2/joda-time/joda-time/2.9.4/joda-time-2.9.4.jar
 [debug] 	found joda-time#joda-time;2.9.4 in public
 [debug] == resolving dependencies com.github.nscala-time#nscala-time_2.12.0-RC1;2.14.0->joda-time#joda-time;2.9.4 [compile->compile(*)]
@@ -1116,7 +1116,7 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: org.joda#joda-convert;1.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] sbt-chain-delegate: Checking cache for: dependency: org.joda#joda-convert;1.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Anton\.ivy2\local\org.joda\joda-convert\1.2\ivys\ivy.xml
+[debug] 		tried /home/ancaor/.ivy2/local/org.joda/joda-convert/1.2/ivys/ivy.xml
 [debug] 	local: no ivy file found for org.joda#joda-convert;1.2
 [debug] 		tried https://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.pom
 [debug] 	public: found md file for org.joda#joda-convert;1.2
@@ -1125,8 +1125,8 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.pom
-[debug] 	[SUCCESSFUL ] org.joda#joda-convert;1.2!joda-convert.pom(pom.original) (79ms)
-[debug] 		tried C:\Users\Anton\.ivy2\local\org.joda\joda-convert\1.2\jars\joda-convert.jar
+[debug] 	[SUCCESSFUL ] org.joda#joda-convert;1.2!joda-convert.pom(pom.original) (301ms)
+[debug] 		tried /home/ancaor/.ivy2/local/org.joda/joda-convert/1.2/jars/joda-convert.jar
 [debug] 		tried https://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.jar
 [debug] 	found org.joda#joda-convert;1.2 in public
 [debug] == resolving dependencies com.github.nscala-time#nscala-time_2.12.0-RC1;2.14.0->org.joda#joda-convert;1.2 [compile->compile(*)]
@@ -1154,7 +1154,7 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: org.mongodb#mongo-java-driver;3.2.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] sbt-chain-delegate: Checking cache for: dependency: org.mongodb#mongo-java-driver;3.2.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Anton\.ivy2\local\org.mongodb\mongo-java-driver\3.2.2\ivys\ivy.xml
+[debug] 		tried /home/ancaor/.ivy2/local/org.mongodb/mongo-java-driver/3.2.2/ivys/ivy.xml
 [debug] 	local: no ivy file found for org.mongodb#mongo-java-driver;3.2.2
 [debug] 		tried https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/3.2.2/mongo-java-driver-3.2.2.pom
 [debug] 	public: found md file for org.mongodb#mongo-java-driver;3.2.2
@@ -1163,8 +1163,8 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/3.2.2/mongo-java-driver-3.2.2.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/3.2.2/mongo-java-driver-3.2.2.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/3.2.2/mongo-java-driver-3.2.2.pom
-[debug] 	[SUCCESSFUL ] org.mongodb#mongo-java-driver;3.2.2!mongo-java-driver.pom(pom.original) (80ms)
-[debug] 		tried C:\Users\Anton\.ivy2\local\org.mongodb\mongo-java-driver\3.2.2\jars\mongo-java-driver.jar
+[debug] 	[SUCCESSFUL ] org.mongodb#mongo-java-driver;3.2.2!mongo-java-driver.pom(pom.original) (251ms)
+[debug] 		tried /home/ancaor/.ivy2/local/org.mongodb/mongo-java-driver/3.2.2/jars/mongo-java-driver.jar
 [debug] 		tried https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/3.2.2/mongo-java-driver-3.2.2.jar
 [debug] 	found org.mongodb#mongo-java-driver;3.2.2 in public
 [debug] == resolving dependencies org.mongodb#casbah-commons_2.12.0-RC1;3.1.1->org.mongodb#mongo-java-driver;3.2.2 [compile->compile(*)]
@@ -1192,7 +1192,7 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: org.slf4j#slf4j-api;1.6.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] sbt-chain-delegate: Checking cache for: dependency: org.slf4j#slf4j-api;1.6.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Anton\.ivy2\local\org.slf4j\slf4j-api\1.6.0\ivys\ivy.xml
+[debug] 		tried /home/ancaor/.ivy2/local/org.slf4j/slf4j-api/1.6.0/ivys/ivy.xml
 [debug] 	local: no ivy file found for org.slf4j#slf4j-api;1.6.0
 [debug] 		tried https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.pom
 [debug] 	public: found md file for org.slf4j#slf4j-api;1.6.0
@@ -1201,10 +1201,10 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.pom
-[debug] 	[SUCCESSFUL ] org.slf4j#slf4j-api;1.6.0!slf4j-api.pom(pom.original) (79ms)
+[debug] 	[SUCCESSFUL ] org.slf4j#slf4j-api;1.6.0!slf4j-api.pom(pom.original) (154ms)
 [debug] sbt-chain: Checking cache for: dependency: org.slf4j#slf4j-parent;1.6.0 {}
 [debug] sbt-chain-delegate: Checking cache for: dependency: org.slf4j#slf4j-parent;1.6.0 {}
-[debug] 		tried C:\Users\Anton\.ivy2\local\org.slf4j\slf4j-parent\1.6.0\ivys\ivy.xml
+[debug] 		tried /home/ancaor/.ivy2/local/org.slf4j/slf4j-parent/1.6.0/ivys/ivy.xml
 [debug] 	local: no ivy file found for org.slf4j#slf4j-parent;1.6.0
 [debug] 		tried https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.6.0/slf4j-parent-1.6.0.pom
 [debug] 	public: found md file for org.slf4j#slf4j-parent;1.6.0
@@ -1213,13 +1213,13 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.6.0/slf4j-parent-1.6.0.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.6.0/slf4j-parent-1.6.0.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.6.0/slf4j-parent-1.6.0.pom
-[debug] 	[SUCCESSFUL ] org.slf4j#slf4j-parent;1.6.0!slf4j-parent.pom(pom.original) (80ms)
-[debug] 		tried C:\Users\Anton\.ivy2\local\org.slf4j\slf4j-parent\1.6.0\jars\slf4j-parent.jar
+[debug] 	[SUCCESSFUL ] org.slf4j#slf4j-parent;1.6.0!slf4j-parent.pom(pom.original) (152ms)
+[debug] 		tried /home/ancaor/.ivy2/local/org.slf4j/slf4j-parent/1.6.0/jars/slf4j-parent.jar
 [debug] 		tried https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.6.0/slf4j-parent-1.6.0.jar
 [debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.6.0/slf4j-parent-1.6.0.jar
-[debug] 		tried C:\Users\Anton\.sbt\preloaded\org.slf4j\slf4j-parent\1.6.0\jars\slf4j-parent.jar
-[debug] 		tried file:/C:/Users/Anton/.sbt/preloaded/org/slf4j/slf4j-parent/1.6.0/slf4j-parent-1.6.0.jar
-[debug] 		tried C:\Users\Anton\.ivy2\local\org.slf4j\slf4j-api\1.6.0\jars\slf4j-api.jar
+[debug] 		tried /home/ancaor/.sbt/preloaded/org.slf4j/slf4j-parent/1.6.0/jars/slf4j-parent.jar
+[debug] 		tried file:////home/ancaor/.sbt/preloaded/org/slf4j/slf4j-parent/1.6.0/slf4j-parent-1.6.0.jar
+[debug] 		tried /home/ancaor/.ivy2/local/org.slf4j/slf4j-api/1.6.0/jars/slf4j-api.jar
 [debug] 		tried https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.jar
 [debug] 	found org.slf4j#slf4j-api;1.6.0 in public
 [debug] == resolving dependencies org.mongodb#casbah-commons_2.12.0-RC1;3.1.1->org.slf4j#slf4j-api;1.6.0 [compile->compile(*)]
@@ -1243,7 +1243,7 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: org.mongodb#casbah-core_2.12.0-RC1;3.1.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] sbt-chain-delegate: Checking cache for: dependency: org.mongodb#casbah-core_2.12.0-RC1;3.1.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Anton\.ivy2\local\org.mongodb\casbah-core_2.12.0-RC1\3.1.1\ivys\ivy.xml
+[debug] 		tried /home/ancaor/.ivy2/local/org.mongodb/casbah-core_2.12.0-RC1/3.1.1/ivys/ivy.xml
 [debug] 	local: no ivy file found for org.mongodb#casbah-core_2.12.0-RC1;3.1.1
 [debug] 		tried https://repo1.maven.org/maven2/org/mongodb/casbah-core_2.12.0-RC1/3.1.1/casbah-core_2.12.0-RC1-3.1.1.pom
 [debug] 	public: found md file for org.mongodb#casbah-core_2.12.0-RC1;3.1.1
@@ -1252,8 +1252,8 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-core_2.12.0-RC1/3.1.1/casbah-core_2.12.0-RC1-3.1.1.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-core_2.12.0-RC1/3.1.1/casbah-core_2.12.0-RC1-3.1.1.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/mongodb/casbah-core_2.12.0-RC1/3.1.1/casbah-core_2.12.0-RC1-3.1.1.pom
-[debug] 	[SUCCESSFUL ] org.mongodb#casbah-core_2.12.0-RC1;3.1.1!casbah-core_2.12.0-RC1.pom(pom.original) (172ms)
-[debug] 		tried C:\Users\Anton\.ivy2\local\org.mongodb\casbah-core_2.12.0-RC1\3.1.1\jars\casbah-core_2.12.0-RC1.jar
+[debug] 	[SUCCESSFUL ] org.mongodb#casbah-core_2.12.0-RC1;3.1.1!casbah-core_2.12.0-RC1.pom(pom.original) (251ms)
+[debug] 		tried /home/ancaor/.ivy2/local/org.mongodb/casbah-core_2.12.0-RC1/3.1.1/jars/casbah-core_2.12.0-RC1.jar
 [debug] 		tried https://repo1.maven.org/maven2/org/mongodb/casbah-core_2.12.0-RC1/3.1.1/casbah-core_2.12.0-RC1-3.1.1.jar
 [debug] 	found org.mongodb#casbah-core_2.12.0-RC1;3.1.1 in public
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0-RC1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -1295,7 +1295,7 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: org.mongodb#casbah-query_2.12.0-RC1;3.1.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] sbt-chain-delegate: Checking cache for: dependency: org.mongodb#casbah-query_2.12.0-RC1;3.1.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Anton\.ivy2\local\org.mongodb\casbah-query_2.12.0-RC1\3.1.1\ivys\ivy.xml
+[debug] 		tried /home/ancaor/.ivy2/local/org.mongodb/casbah-query_2.12.0-RC1/3.1.1/ivys/ivy.xml
 [debug] 	local: no ivy file found for org.mongodb#casbah-query_2.12.0-RC1;3.1.1
 [debug] 		tried https://repo1.maven.org/maven2/org/mongodb/casbah-query_2.12.0-RC1/3.1.1/casbah-query_2.12.0-RC1-3.1.1.pom
 [debug] 	public: found md file for org.mongodb#casbah-query_2.12.0-RC1;3.1.1
@@ -1304,8 +1304,8 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-query_2.12.0-RC1/3.1.1/casbah-query_2.12.0-RC1-3.1.1.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-query_2.12.0-RC1/3.1.1/casbah-query_2.12.0-RC1-3.1.1.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/mongodb/casbah-query_2.12.0-RC1/3.1.1/casbah-query_2.12.0-RC1-3.1.1.pom
-[debug] 	[SUCCESSFUL ] org.mongodb#casbah-query_2.12.0-RC1;3.1.1!casbah-query_2.12.0-RC1.pom(pom.original) (82ms)
-[debug] 		tried C:\Users\Anton\.ivy2\local\org.mongodb\casbah-query_2.12.0-RC1\3.1.1\jars\casbah-query_2.12.0-RC1.jar
+[debug] 	[SUCCESSFUL ] org.mongodb#casbah-query_2.12.0-RC1;3.1.1!casbah-query_2.12.0-RC1.pom(pom.original) (249ms)
+[debug] 		tried /home/ancaor/.ivy2/local/org.mongodb/casbah-query_2.12.0-RC1/3.1.1/jars/casbah-query_2.12.0-RC1.jar
 [debug] 		tried https://repo1.maven.org/maven2/org/mongodb/casbah-query_2.12.0-RC1/3.1.1/casbah-query_2.12.0-RC1-3.1.1.jar
 [debug] 	found org.mongodb#casbah-query_2.12.0-RC1;3.1.1 in public
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0-RC1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -1345,7 +1345,7 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: org.mongodb#casbah-gridfs_2.12.0-RC1;3.1.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] sbt-chain-delegate: Checking cache for: dependency: org.mongodb#casbah-gridfs_2.12.0-RC1;3.1.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Anton\.ivy2\local\org.mongodb\casbah-gridfs_2.12.0-RC1\3.1.1\ivys\ivy.xml
+[debug] 		tried /home/ancaor/.ivy2/local/org.mongodb/casbah-gridfs_2.12.0-RC1/3.1.1/ivys/ivy.xml
 [debug] 	local: no ivy file found for org.mongodb#casbah-gridfs_2.12.0-RC1;3.1.1
 [debug] 		tried https://repo1.maven.org/maven2/org/mongodb/casbah-gridfs_2.12.0-RC1/3.1.1/casbah-gridfs_2.12.0-RC1-3.1.1.pom
 [debug] 	public: found md file for org.mongodb#casbah-gridfs_2.12.0-RC1;3.1.1
@@ -1354,8 +1354,8 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-gridfs_2.12.0-RC1/3.1.1/casbah-gridfs_2.12.0-RC1-3.1.1.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-gridfs_2.12.0-RC1/3.1.1/casbah-gridfs_2.12.0-RC1-3.1.1.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/mongodb/casbah-gridfs_2.12.0-RC1/3.1.1/casbah-gridfs_2.12.0-RC1-3.1.1.pom
-[debug] 	[SUCCESSFUL ] org.mongodb#casbah-gridfs_2.12.0-RC1;3.1.1!casbah-gridfs_2.12.0-RC1.pom(pom.original) (81ms)
-[debug] 		tried C:\Users\Anton\.ivy2\local\org.mongodb\casbah-gridfs_2.12.0-RC1\3.1.1\jars\casbah-gridfs_2.12.0-RC1.jar
+[debug] 	[SUCCESSFUL ] org.mongodb#casbah-gridfs_2.12.0-RC1;3.1.1!casbah-gridfs_2.12.0-RC1.pom(pom.original) (249ms)
+[debug] 		tried /home/ancaor/.ivy2/local/org.mongodb/casbah-gridfs_2.12.0-RC1/3.1.1/jars/casbah-gridfs_2.12.0-RC1.jar
 [debug] 		tried https://repo1.maven.org/maven2/org/mongodb/casbah-gridfs_2.12.0-RC1/3.1.1/casbah-gridfs_2.12.0-RC1-3.1.1.jar
 [debug] 	found org.mongodb#casbah-gridfs_2.12.0-RC1;3.1.1 in public
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0-RC1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -1434,7 +1434,7 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: commons-io#commons-io;2.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] sbt-chain-delegate: Checking cache for: dependency: commons-io#commons-io;2.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Anton\.ivy2\local\commons-io\commons-io\2.4\ivys\ivy.xml
+[debug] 		tried /home/ancaor/.ivy2/local/commons-io/commons-io/2.4/ivys/ivy.xml
 [debug] 	local: no ivy file found for commons-io#commons-io;2.4
 [debug] 		tried https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.pom
 [debug] 	public: found md file for commons-io#commons-io;2.4
@@ -1443,10 +1443,10 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.pom
-[debug] 	[SUCCESSFUL ] commons-io#commons-io;2.4!commons-io.pom(pom.original) (83ms)
+[debug] 	[SUCCESSFUL ] commons-io#commons-io;2.4!commons-io.pom(pom.original) (155ms)
 [debug] sbt-chain: Checking cache for: dependency: org.apache.commons#commons-parent;25 {}
 [debug] sbt-chain-delegate: Checking cache for: dependency: org.apache.commons#commons-parent;25 {}
-[debug] 		tried C:\Users\Anton\.ivy2\local\org.apache.commons\commons-parent\25\ivys\ivy.xml
+[debug] 		tried /home/ancaor/.ivy2/local/org.apache.commons/commons-parent/25/ivys/ivy.xml
 [debug] 	local: no ivy file found for org.apache.commons#commons-parent;25
 [debug] 		tried https://repo1.maven.org/maven2/org/apache/commons/commons-parent/25/commons-parent-25.pom
 [debug] 	public: found md file for org.apache.commons#commons-parent;25
@@ -1455,10 +1455,10 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-parent/25/commons-parent-25.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-parent/25/commons-parent-25.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/commons/commons-parent/25/commons-parent-25.pom
-[debug] 	[SUCCESSFUL ] org.apache.commons#commons-parent;25!commons-parent.pom(pom.original) (83ms)
+[debug] 	[SUCCESSFUL ] org.apache.commons#commons-parent;25!commons-parent.pom(pom.original) (156ms)
 [debug] sbt-chain: Checking cache for: dependency: org.apache#apache;9 {}
 [debug] sbt-chain-delegate: Checking cache for: dependency: org.apache#apache;9 {}
-[debug] 		tried C:\Users\Anton\.ivy2\local\org.apache\apache\9\ivys\ivy.xml
+[debug] 		tried /home/ancaor/.ivy2/local/org.apache/apache/9/ivys/ivy.xml
 [debug] 	local: no ivy file found for org.apache#apache;9
 [debug] 		tried https://repo1.maven.org/maven2/org/apache/apache/9/apache-9.pom
 [debug] 	public: found md file for org.apache#apache;9
@@ -1467,18 +1467,18 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/apache/9/apache-9.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/apache/9/apache-9.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/apache/9/apache-9.pom
-[debug] 	[SUCCESSFUL ] org.apache#apache;9!apache.pom(pom.original) (85ms)
-[debug] 		tried C:\Users\Anton\.ivy2\local\org.apache\apache\9\jars\apache.jar
+[debug] 	[SUCCESSFUL ] org.apache#apache;9!apache.pom(pom.original) (154ms)
+[debug] 		tried /home/ancaor/.ivy2/local/org.apache/apache/9/jars/apache.jar
 [debug] 		tried https://repo1.maven.org/maven2/org/apache/apache/9/apache-9.jar
 [debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/apache/apache/9/apache-9.jar
-[debug] 		tried C:\Users\Anton\.sbt\preloaded\org.apache\apache\9\jars\apache.jar
-[debug] 		tried file:/C:/Users/Anton/.sbt/preloaded/org/apache/apache/9/apache-9.jar
-[debug] 		tried C:\Users\Anton\.ivy2\local\org.apache.commons\commons-parent\25\jars\commons-parent.jar
+[debug] 		tried /home/ancaor/.sbt/preloaded/org.apache/apache/9/jars/apache.jar
+[debug] 		tried file:////home/ancaor/.sbt/preloaded/org/apache/apache/9/apache-9.jar
+[debug] 		tried /home/ancaor/.ivy2/local/org.apache.commons/commons-parent/25/jars/commons-parent.jar
 [debug] 		tried https://repo1.maven.org/maven2/org/apache/commons/commons-parent/25/commons-parent-25.jar
 [debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/apache/commons/commons-parent/25/commons-parent-25.jar
-[debug] 		tried C:\Users\Anton\.sbt\preloaded\org.apache.commons\commons-parent\25\jars\commons-parent.jar
-[debug] 		tried file:/C:/Users/Anton/.sbt/preloaded/org/apache/commons/commons-parent/25/commons-parent-25.jar
-[debug] 		tried C:\Users\Anton\.ivy2\local\commons-io\commons-io\2.4\jars\commons-io.jar
+[debug] 		tried /home/ancaor/.sbt/preloaded/org.apache.commons/commons-parent/25/jars/commons-parent.jar
+[debug] 		tried file:////home/ancaor/.sbt/preloaded/org/apache/commons/commons-parent/25/commons-parent-25.jar
+[debug] 		tried /home/ancaor/.ivy2/local/commons-io/commons-io/2.4/jars/commons-io.jar
 [debug] 		tried https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.jar
 [debug] 	found commons-io#commons-io;2.4 in public
 [debug] == resolving dependencies com.storm-enroute#scalameter_2.12;0.8.2->commons-io#commons-io;2.4 [compile->compile(*)]
@@ -1499,7 +1499,7 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.8 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.8 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] sbt-chain: Checking cache for: dependency: io.spray#spray-json_2.12;1.3.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] sbt-chain-delegate: Checking cache for: dependency: io.spray#spray-json_2.12;1.3.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] 		tried C:\Users\Anton\.ivy2\local\io.spray\spray-json_2.12\1.3.2\ivys\ivy.xml
+[debug] 		tried /home/ancaor/.ivy2/local/io.spray/spray-json_2.12/1.3.2/ivys/ivy.xml
 [debug] 	local: no ivy file found for io.spray#spray-json_2.12;1.3.2
 [debug] 		tried https://repo1.maven.org/maven2/io/spray/spray-json_2.12/1.3.2/spray-json_2.12-1.3.2.pom
 [debug] 	public: found md file for io.spray#spray-json_2.12;1.3.2
@@ -1508,8 +1508,8 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/io/spray/spray-json_2.12/1.3.2/spray-json_2.12-1.3.2.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/io/spray/spray-json_2.12/1.3.2/spray-json_2.12-1.3.2.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/io/spray/spray-json_2.12/1.3.2/spray-json_2.12-1.3.2.pom
-[debug] 	[SUCCESSFUL ] io.spray#spray-json_2.12;1.3.2!spray-json_2.12.pom(pom.original) (84ms)
-[debug] 		tried C:\Users\Anton\.ivy2\local\io.spray\spray-json_2.12\1.3.2\bundles\spray-json_2.12.jar
+[debug] 	[SUCCESSFUL ] io.spray#spray-json_2.12;1.3.2!spray-json_2.12.pom(pom.original) (248ms)
+[debug] 		tried /home/ancaor/.ivy2/local/io.spray/spray-json_2.12/1.3.2/bundles/spray-json_2.12.jar
 [debug] 		tried https://repo1.maven.org/maven2/io/spray/spray-json_2.12/1.3.2/spray-json_2.12-1.3.2.jar
 [debug] 	found io.spray#spray-json_2.12;1.3.2 in public
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.8 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -7448,274 +7448,178 @@
 [debug] ignoring unhandled DependencyDescriptorMediator: class sbt.internal.librarymanagement.IvyScalaUtil$OverrideScalaMediator
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.8!scala-library.jar
+[debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scalacheck#scalacheck_2.12;1.13.4!scalacheck_2.12.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/storm-enroute/scalameter_2.12/0.8.2/scalameter_2.12-0.8.2.jar
-[debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/storm-enroute/scalameter-core_2.12/0.8.2/scalameter-core_2.12-0.8.2.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.8!scala-library.jar
 [debug] 		tried https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/storm-enroute/scalameter-core_2.12/0.8.2/scalameter-core_2.12-0.8.2.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-tools/testing/test-interface/0.5/test-interface-0.5.jar
 [info] downloading https://repo1.maven.org/maven2/com/storm-enroute/scalameter_2.12/0.8.2/scalameter_2.12-0.8.2.jar ...
-[info] downloading https://repo1.maven.org/maven2/com/storm-enroute/scalameter-core_2.12/0.8.2/scalameter-core_2.12-0.8.2.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/storm-enroute/scalameter_2.12/0.8.2/scalameter_2.12-0.8.2.jar
+[info] downloading https://repo1.maven.org/maven2/com/storm-enroute/scalameter-core_2.12/0.8.2/scalameter-core_2.12-0.8.2.jar ...
 [info] downloading https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/storm-enroute/scalameter-core_2.12/0.8.2/scalameter-core_2.12-0.8.2.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2.jar
-[debug] no default ivy user dir defined: set to C:\Users\Anton\.ivy2
-[debug] no default ivy user dir defined: set to C:\Users\Anton\.ivy2
-[debug] no default ivy user dir defined: set to C:\Users\Anton\.ivy2
-[debug] no default ivy user dir defined: set to C:\Users\Anton\.ivy2
-[debug] no default ivy user dir defined: set to C:\Users\Anton\.ivy2
-[debug] no default ivy user dir defined: set to C:\Users\Anton\.ivy2
-[debug] including url: jar:file:/C:/Users/Anton/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/C:/Users/Anton/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/C:/Users/Anton/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/C:/Users/Anton/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/C:/Users/Anton/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] including url: jar:file:/C:/Users/Anton/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
-[debug] no default cache defined: set to C:\Users\Anton\.ivy2\cache
-[debug] no default cache defined: set to C:\Users\Anton\.ivy2\cache
-[debug] including url: jar:file:/C:/Users/Anton/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/C:/Users/Anton/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default cache defined: set to C:\Users\Anton\.ivy2\cache
-[debug] no default cache defined: set to C:\Users\Anton\.ivy2\cache
-[debug] no default cache defined: set to C:\Users\Anton\.ivy2\cache
-[debug] including url: jar:file:/C:/Users/Anton/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] no default cache defined: set to C:\Users\Anton\.ivy2\cache
-[debug] including url: jar:file:/C:/Users/Anton/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/C:/Users/Anton/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/C:/Users/Anton/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
-[debug] including url: jar:file:/C:/Users/Anton/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/C:/Users/Anton/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/C:/Users/Anton/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/C:/Users/Anton/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/C:/Users/Anton/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/C:/Users/Anton/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
-[debug] including url: jar:file:/C:/Users/Anton/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/C:/Users/Anton/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/C:/Users/Anton/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/C:/Users/Anton/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/C:/Users/Anton/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/C:/Users/Anton/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
-[debug] including url: jar:file:/C:/Users/Anton/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/C:/Users/Anton/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (28ms)
-[debug] 	default cache: C:\Users\Anton\.ivy2\cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] including url: jar:file:/C:/Users/Anton/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] settings loaded (27ms)
-[debug] 	default cache: C:\Users\Anton\.ivy2\cache
-[debug] 	default resolver: default
-[debug] including url: jar:file:/C:/Users/Anton/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/C:/Users/Anton/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] including url: jar:file:/C:/Users/Anton/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-tools/testing/test-interface/0.5/test-interface-0.5.jar
 [info] downloading https://repo1.maven.org/maven2/org/scala-tools/testing/test-interface/0.5/test-interface-0.5.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-tools/testing/test-interface/0.5/test-interface-0.5.jar
-[debug] settings loaded (32ms)
-[debug] 	default cache: C:\Users\Anton\.ivy2\cache
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] settings loaded (32ms)
-[debug] 	default cache: C:\Users\Anton\.ivy2\cache
-[debug] 	default resolver: default
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] settings loaded (31ms)
-[debug] settings loaded (31ms)
-[debug] 	default cache: C:\Users\Anton\.ivy2\cache
-[debug] 	default cache: C:\Users\Anton\.ivy2\cache
-[debug] 	default resolver: default
-[debug] 	default resolver: default
-[debug] 	-- 5 resolvers:
-[debug] 	-- 5 resolvers:
-[debug] 	shared [file]
-[debug] 	shared [file]
-[debug] 	default [chain] [local, main]
-[debug] 	default [chain] [local, main]
-[debug] 	public [ibiblio]
-[debug] 	public [ibiblio]
-[debug] 	main [chain] [shared, public]
-[debug] 	main [chain] [shared, public]
-[debug] 	local [file]
-[debug] 	local [file]
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.8!scala-reflect.jar
 [debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.5/scala-xml_2.12-1.0.5.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.8!scala-reflect.jar
 [info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.5/scala-xml_2.12-1.0.5.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.5/scala-xml_2.12-1.0.5.jar
-[debug] 		tried C:\Users\Anton\.ivy2\local\org.scala-lang.modules\scala-parser-combinators_2.12\1.0.4\bundles\scala-parser-combinators_2.12.jar
+[debug] 		tried /home/ancaor/.ivy2/local/org.scala-lang.modules/scala-parser-combinators_2.12/1.0.4/bundles/scala-parser-combinators_2.12.jar
 [debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-tools/testing/test-interface/0.5/test-interface-0.5.jar.sha1
 [info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-tools/testing/test-interface/0.5/test-interface-0.5.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-tools/testing/test-interface/0.5/test-interface-0.5.jar
-[info] 	[SUCCESSFUL ] org.scala-tools.testing#test-interface;0.5!test-interface.jar (211ms)
+[info] 	[SUCCESSFUL ] org.scala-tools.testing#test-interface;0.5!test-interface.jar (254ms)
 [debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.8.4/jackson-module-scala_2.12-2.8.4.jar
 [info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.8.4/jackson-module-scala_2.12-2.8.4.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.8.4/jackson-module-scala_2.12-2.8.4.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/storm-enroute/scalameter-core_2.12/0.8.2/scalameter-core_2.12-0.8.2.jar.sha1
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/storm-enroute/scalameter-core_2.12/0.8.2/scalameter-core_2.12-0.8.2.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/storm-enroute/scalameter-core_2.12/0.8.2/scalameter-core_2.12-0.8.2.jar.sha1
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.8.4/jackson-module-scala_2.12-2.8.4.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4.jar
-[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4!scala-parser-combinators_2.12.jar(bundle) (446ms)
+[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4!scala-parser-combinators_2.12.jar(bundle) (556ms)
 [debug] 		tried https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.jar
 [info] downloading https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.jar
-[info] 	[SUCCESSFUL ] com.storm-enroute#scalameter-core_2.12;0.8.2!scalameter-core_2.12.jar (495ms)
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/storm-enroute/scalameter-core_2.12/0.8.2/scalameter-core_2.12-0.8.2.jar
+[info] 	[SUCCESSFUL ] com.storm-enroute#scalameter-core_2.12;0.8.2!scalameter-core_2.12.jar (577ms)
 [debug] 		tried https://repo1.maven.org/maven2/io/spray/spray-json_2.12/1.3.2/spray-json_2.12-1.3.2.jar
 [info] downloading https://repo1.maven.org/maven2/io/spray/spray-json_2.12/1.3.2/spray-json_2.12-1.3.2.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/io/spray/spray-json_2.12/1.3.2/spray-json_2.12-1.3.2.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2.jar
-[info] 	[SUCCESSFUL ] commons-io#commons-io;2.4!commons-io.jar (124ms)
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.8.4/jackson-module-scala_2.12-2.8.4.jar
+[info] 	[SUCCESSFUL ] com.fasterxml.jackson.module#jackson-module-scala_2.12;2.8.4!jackson-module-scala_2.12.jar(bundle) (338ms)
 [debug] 		tried https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar
 [info] downloading https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar
-[info] 	[SUCCESSFUL ] org.apache.commons#commons-math3;3.2!commons-math3.jar (608ms)
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.5/scala-xml_2.12-1.0.5.jar.sha1
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/storm-enroute/scalameter_2.12/0.8.2/scalameter_2.12-0.8.2.jar.sha1
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.5/scala-xml_2.12-1.0.5.jar
+[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.12;1.0.5!scala-xml_2.12.jar(bundle) (735ms)
 [debug] 		tried https://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar
 [info] downloading https://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar
-[info] 	[SUCCESSFUL ] org.ow2.asm#asm;5.0.4!asm.jar (284ms)
+[debug] 	public: downloading https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.jar.sha1
+[debug] 	public: downloading https://repo1.maven.org/maven2/io/spray/spray-json_2.12/1.3.2/spray-json_2.12-1.3.2.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/storm-enroute/scalameter_2.12/0.8.2/scalameter_2.12-0.8.2.jar
+[info] 	[SUCCESSFUL ] com.storm-enroute#scalameter_2.12;0.8.2!scalameter_2.12.jar (774ms)
 [debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.4/jackson-core-2.8.4.jar
 [info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.4/jackson-core-2.8.4.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.4/jackson-core-2.8.4.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.8.4/jackson-module-scala_2.12-2.8.4.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.8.4/jackson-module-scala_2.12-2.8.4.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/storm-enroute/scalameter_2.12/0.8.2/scalameter_2.12-0.8.2.jar.sha1
-[info] 	[SUCCESSFUL ] com.fasterxml.jackson.module#jackson-module-scala_2.12;2.8.4!jackson-module-scala_2.12.jar(bundle) (751ms)
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar
+[info] 	[SUCCESSFUL ] org.apache.commons#commons-lang3;3.4!commons-lang3.jar (204ms)
 [debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4.jar
 [info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/spray/spray-json_2.12/1.3.2/spray-json_2.12-1.3.2.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/storm-enroute/scalameter_2.12/0.8.2/scalameter_2.12-0.8.2.jar
-[info] 	[SUCCESSFUL ] com.storm-enroute#scalameter_2.12;0.8.2!scalameter_2.12.jar (1046ms)
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.jar
+[info] 	[SUCCESSFUL ] commons-io#commons-io;2.4!commons-io.jar (279ms)
 [debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.4/jackson-databind-2.8.4.jar
 [info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.4/jackson-databind-2.8.4.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.4/jackson-databind-2.8.4.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/io/spray/spray-json_2.12/1.3.2/spray-json_2.12-1.3.2.jar
-[info] 	[SUCCESSFUL ] io.spray#spray-json_2.12;1.3.2!spray-json_2.12.jar(bundle) (610ms)
+[info] 	[SUCCESSFUL ] io.spray#spray-json_2.12;1.3.2!spray-json_2.12.jar(bundle) (266ms)
 [debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.8.4/jackson-module-paranamer-2.8.4.jar
 [info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.8.4/jackson-module-paranamer-2.8.4.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.8.4/jackson-module-paranamer-2.8.4.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4.jar
-[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-annotations;2.8.4!jackson-annotations.jar(bundle) (129ms)
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar
+[info] 	[SUCCESSFUL ] org.ow2.asm#asm;5.0.4!asm.jar (157ms)
 [debug] 		tried https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.jar
 [info] downloading https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.5/scala-xml_2.12-1.0.5.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.4/jackson-databind-2.8.4.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.5/scala-xml_2.12-1.0.5.jar
-[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.12;1.0.5!scala-xml_2.12.jar(bundle) (1195ms)
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2.jar.sha1
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.4/jackson-core-2.8.4.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4.jar
+[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-annotations;2.8.4!jackson-annotations.jar(bundle) (160ms)
 [debug] 		tried https://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.12.0-RC1/3.1.1/casbah-commons_2.12.0-RC1-3.1.1.jar
 [info] downloading https://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.12.0-RC1/3.1.1/casbah-commons_2.12.0-RC1-3.1.1.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.12.0-RC1/3.1.1/casbah-commons_2.12.0-RC1-3.1.1.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.4/jackson-databind-2.8.4.jar
-[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-databind;2.8.4!jackson-databind.jar(bundle) (203ms)
-[debug] 		tried https://repo1.maven.org/maven2/org/mongodb/casbah-core_2.12.0-RC1/3.1.1/casbah-core_2.12.0-RC1-3.1.1.jar
-[info] downloading https://repo1.maven.org/maven2/org/mongodb/casbah-core_2.12.0-RC1/3.1.1/casbah-core_2.12.0-RC1-3.1.1.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-core_2.12.0-RC1/3.1.1/casbah-core_2.12.0-RC1-3.1.1.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar.sha1
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.8.4/jackson-module-paranamer-2.8.4.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.4/jackson-core-2.8.4.jar.sha1
-[info] 	[SUCCESSFUL ] org.apache.commons#commons-lang3;3.4!commons-lang3.jar (703ms)
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.4/jackson-core-2.8.4.jar
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2.jar
+[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-core;2.8.4!jackson-core.jar(bundle) (237ms)
+[info] 	[SUCCESSFUL ] org.apache.commons#commons-math3;3.2!commons-math3.jar (1012ms)
+[debug] 		tried https://repo1.maven.org/maven2/org/mongodb/casbah-core_2.12.0-RC1/3.1.1/casbah-core_2.12.0-RC1-3.1.1.jar
 [debug] 		tried https://repo1.maven.org/maven2/org/mongodb/casbah-query_2.12.0-RC1/3.1.1/casbah-query_2.12.0-RC1-3.1.1.jar
+[info] downloading https://repo1.maven.org/maven2/org/mongodb/casbah-core_2.12.0-RC1/3.1.1/casbah-core_2.12.0-RC1-3.1.1.jar ...
 [info] downloading https://repo1.maven.org/maven2/org/mongodb/casbah-query_2.12.0-RC1/3.1.1/casbah-query_2.12.0-RC1-3.1.1.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-core_2.12.0-RC1/3.1.1/casbah-core_2.12.0-RC1-3.1.1.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-query_2.12.0-RC1/3.1.1/casbah-query_2.12.0-RC1-3.1.1.jar
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.jar
-[info] 	[SUCCESSFUL ] com.thoughtworks.paranamer#paranamer;2.8!paranamer.jar(bundle) (188ms)
+[info] 	[SUCCESSFUL ] com.thoughtworks.paranamer#paranamer;2.8!paranamer.jar(bundle) (153ms)
 [debug] 		tried https://repo1.maven.org/maven2/org/mongodb/casbah-gridfs_2.12.0-RC1/3.1.1/casbah-gridfs_2.12.0-RC1-3.1.1.jar
 [info] downloading https://repo1.maven.org/maven2/org/mongodb/casbah-gridfs_2.12.0-RC1/3.1.1/casbah-gridfs_2.12.0-RC1-3.1.1.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-gridfs_2.12.0-RC1/3.1.1/casbah-gridfs_2.12.0-RC1-3.1.1.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.8.4/jackson-module-paranamer-2.8.4.jar.sha1
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.12.0-RC1/3.1.1/casbah-commons_2.12.0-RC1-3.1.1.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.8.4/jackson-module-paranamer-2.8.4.jar
-[info] 	[SUCCESSFUL ] com.fasterxml.jackson.module#jackson-module-paranamer;2.8.4!jackson-module-paranamer.jar(bundle) (236ms)
+[info] 	[SUCCESSFUL ] com.fasterxml.jackson.module#jackson-module-paranamer;2.8.4!jackson-module-paranamer.jar(bundle) (356ms)
 [debug] 		tried https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.12.0-RC1/2.14.0/nscala-time_2.12.0-RC1-2.14.0.jar
 [info] downloading https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.12.0-RC1/2.14.0/nscala-time_2.12.0-RC1-2.14.0.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.12.0-RC1/2.14.0/nscala-time_2.12.0-RC1-2.14.0.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.4/jackson-core-2.8.4.jar
-[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-core;2.8.4!jackson-core.jar(bundle) (463ms)
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.12.0-RC1/3.1.1/casbah-commons_2.12.0-RC1-3.1.1.jar
+[info] 	[SUCCESSFUL ] org.mongodb#casbah-commons_2.12.0-RC1;3.1.1!casbah-commons_2.12.0-RC1.jar (251ms)
 [debug] 		tried https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/3.2.2/mongo-java-driver-3.2.2.jar
 [info] downloading https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/3.2.2/mongo-java-driver-3.2.2.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/3.2.2/mongo-java-driver-3.2.2.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.12.0-RC1/3.1.1/casbah-commons_2.12.0-RC1-3.1.1.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.12.0-RC1/3.1.1/casbah-commons_2.12.0-RC1-3.1.1.jar
-[info] 	[SUCCESSFUL ] org.mongodb#casbah-commons_2.12.0-RC1;3.1.1!casbah-commons_2.12.0-RC1.jar (201ms)
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-gridfs_2.12.0-RC1/3.1.1/casbah-gridfs_2.12.0-RC1-3.1.1.jar.sha1
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-query_2.12.0-RC1/3.1.1/casbah-query_2.12.0-RC1-3.1.1.jar.sha1
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-core_2.12.0-RC1/3.1.1/casbah-core_2.12.0-RC1-3.1.1.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/mongodb/casbah-gridfs_2.12.0-RC1/3.1.1/casbah-gridfs_2.12.0-RC1-3.1.1.jar
+[info] 	[SUCCESSFUL ] org.mongodb#casbah-gridfs_2.12.0-RC1;3.1.1!casbah-gridfs_2.12.0-RC1.jar (268ms)
 [debug] 		tried https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.jar
 [info] downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-query_2.12.0-RC1/3.1.1/casbah-query_2.12.0-RC1-3.1.1.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-gridfs_2.12.0-RC1/3.1.1/casbah-gridfs_2.12.0-RC1-3.1.1.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-core_2.12.0-RC1/3.1.1/casbah-core_2.12.0-RC1-3.1.1.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/3.2.2/mongo-java-driver-3.2.2.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/mongodb/casbah-query_2.12.0-RC1/3.1.1/casbah-query_2.12.0-RC1-3.1.1.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/mongodb/casbah-gridfs_2.12.0-RC1/3.1.1/casbah-gridfs_2.12.0-RC1-3.1.1.jar
-[info] 	[SUCCESSFUL ] org.mongodb#casbah-query_2.12.0-RC1;3.1.1!casbah-query_2.12.0-RC1.jar (277ms)
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/mongodb/casbah-core_2.12.0-RC1/3.1.1/casbah-core_2.12.0-RC1-3.1.1.jar
+[info] 	[SUCCESSFUL ] org.mongodb#casbah-core_2.12.0-RC1;3.1.1!casbah-core_2.12.0-RC1.jar (347ms)
 [debug] 		tried https://repo1.maven.org/maven2/joda-time/joda-time/2.9.4/joda-time-2.9.4.jar
 [info] downloading https://repo1.maven.org/maven2/joda-time/joda-time/2.9.4/joda-time-2.9.4.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/joda-time/joda-time/2.9.4/joda-time-2.9.4.jar
-[info] 	[SUCCESSFUL ] org.mongodb#casbah-gridfs_2.12.0-RC1;3.1.1!casbah-gridfs_2.12.0-RC1.jar (272ms)
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/mongodb/casbah-query_2.12.0-RC1/3.1.1/casbah-query_2.12.0-RC1-3.1.1.jar
+[info] 	[SUCCESSFUL ] org.mongodb#casbah-query_2.12.0-RC1;3.1.1!casbah-query_2.12.0-RC1.jar (349ms)
 [debug] 		tried https://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.jar
 [info] downloading https://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.jar
-[info] 	[SUCCESSFUL ] org.slf4j#slf4j-api;1.6.0!slf4j-api.jar (177ms)
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.12.0-RC1/2.14.0/nscala-time_2.12.0-RC1-2.14.0.jar.sha1
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.4/jackson-databind-2.8.4.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.12.0-RC1/2.14.0/nscala-time_2.12.0-RC1-2.14.0.jar
+[info] 	[SUCCESSFUL ] com.github.nscala-time#nscala-time_2.12.0-RC1;2.14.0!nscala-time_2.12.0-RC1.jar (268ms)
 [debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.12;3.0.5!scalatest_2.12.jar(bundle)
 [debug] 	[NOT REQUIRED] org.scalactic#scalactic_2.12;3.0.5!scalactic_2.12.jar(bundle)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(bundle)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.8!scala-compiler.jar
 [debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/3.2.2/mongo-java-driver-3.2.2.jar
-[info] 	[SUCCESSFUL ] org.mongodb#mongo-java-driver;3.2.2!mongo-java-driver.jar (256ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.12.0-RC1/2.14.0/nscala-time_2.12.0-RC1-2.14.0.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/mongodb/casbah-core_2.12.0-RC1/3.1.1/casbah-core_2.12.0-RC1-3.1.1.jar
-[info] 	[SUCCESSFUL ] org.mongodb#casbah-core_2.12.0-RC1;3.1.1!casbah-core_2.12.0-RC1.jar (439ms)
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.12.0-RC1/2.14.0/nscala-time_2.12.0-RC1-2.14.0.jar
-[info] 	[SUCCESSFUL ] com.github.nscala-time#nscala-time_2.12.0-RC1;2.14.0!nscala-time_2.12.0-RC1.jar (364ms)
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.4/jackson-databind-2.8.4.jar
+[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-databind;2.8.4!jackson-databind.jar(bundle) (688ms)
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.jar.sha1
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/3.2.2/mongo-java-driver-3.2.2.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.jar
+[info] 	[SUCCESSFUL ] org.slf4j#slf4j-api;1.6.0!slf4j-api.jar (259ms)
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.jar
-[info] 	[SUCCESSFUL ] org.joda#joda-convert;1.2!joda-convert.jar (193ms)
+[info] 	[SUCCESSFUL ] org.joda#joda-convert;1.2!joda-convert.jar (253ms)
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/3.2.2/mongo-java-driver-3.2.2.jar
+[info] 	[SUCCESSFUL ] org.mongodb#mongo-java-driver;3.2.2!mongo-java-driver.jar (438ms)
 [debug] 	public: downloading https://repo1.maven.org/maven2/joda-time/joda-time/2.9.4/joda-time-2.9.4.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/joda-time/joda-time/2.9.4/joda-time-2.9.4.jar
-[info] 	[SUCCESSFUL ] joda-time#joda-time;2.9.4!joda-time.jar (559ms)
-[debug] :: resolution report :: resolve 7306ms :: artifacts dl 2151ms
-[debug] 	report for default#practica2_2.12;0.1 compile produced in C:\Users\Anton\Documents\Github\NTP\Practicas\Practica2\target\scala-2.12\resolution-cache\reports\default-practica2_2.12-compile.xml
-[debug] 	report for default#practica2_2.12;0.1 runtime produced in C:\Users\Anton\Documents\Github\NTP\Practicas\Practica2\target\scala-2.12\resolution-cache\reports\default-practica2_2.12-runtime.xml
-[debug] 	report for default#practica2_2.12;0.1 test produced in C:\Users\Anton\Documents\Github\NTP\Practicas\Practica2\target\scala-2.12\resolution-cache\reports\default-practica2_2.12-test.xml
-[debug] 	report for default#practica2_2.12;0.1 provided produced in C:\Users\Anton\Documents\Github\NTP\Practicas\Practica2\target\scala-2.12\resolution-cache\reports\default-practica2_2.12-provided.xml
-[debug] 	report for default#practica2_2.12;0.1 optional produced in C:\Users\Anton\Documents\Github\NTP\Practicas\Practica2\target\scala-2.12\resolution-cache\reports\default-practica2_2.12-optional.xml
-[debug] 	report for default#practica2_2.12;0.1 compile-internal produced in C:\Users\Anton\Documents\Github\NTP\Practicas\Practica2\target\scala-2.12\resolution-cache\reports\default-practica2_2.12-compile-internal.xml
-[debug] 	report for default#practica2_2.12;0.1 runtime-internal produced in C:\Users\Anton\Documents\Github\NTP\Practicas\Practica2\target\scala-2.12\resolution-cache\reports\default-practica2_2.12-runtime-internal.xml
-[debug] 	report for default#practica2_2.12;0.1 test-internal produced in C:\Users\Anton\Documents\Github\NTP\Practicas\Practica2\target\scala-2.12\resolution-cache\reports\default-practica2_2.12-test-internal.xml
-[debug] 	report for default#practica2_2.12;0.1 plugin produced in C:\Users\Anton\Documents\Github\NTP\Practicas\Practica2\target\scala-2.12\resolution-cache\reports\default-practica2_2.12-plugin.xml
-[debug] 	report for default#practica2_2.12;0.1 pom produced in C:\Users\Anton\Documents\Github\NTP\Practicas\Practica2\target\scala-2.12\resolution-cache\reports\default-practica2_2.12-pom.xml
-[debug] 	report for default#practica2_2.12;0.1 scala-tool produced in C:\Users\Anton\Documents\Github\NTP\Practicas\Practica2\target\scala-2.12\resolution-cache\reports\default-practica2_2.12-scala-tool.xml
-[debug] 	resolve done (7306ms resolve - 2151ms download)
+[info] 	[SUCCESSFUL ] joda-time#joda-time;2.9.4!joda-time.jar (425ms)
+[debug] :: resolution report :: resolve 16587ms :: artifacts dl 1788ms
+[debug] 	report for default#practica2_2.12;0.1 compile produced in /home/ancaor/GitHub/NTP/Practicas/Practica2/target/scala-2.12/resolution-cache/reports/default-practica2_2.12-compile.xml
+[debug] 	report for default#practica2_2.12;0.1 runtime produced in /home/ancaor/GitHub/NTP/Practicas/Practica2/target/scala-2.12/resolution-cache/reports/default-practica2_2.12-runtime.xml
+[debug] 	report for default#practica2_2.12;0.1 test produced in /home/ancaor/GitHub/NTP/Practicas/Practica2/target/scala-2.12/resolution-cache/reports/default-practica2_2.12-test.xml
+[debug] 	report for default#practica2_2.12;0.1 provided produced in /home/ancaor/GitHub/NTP/Practicas/Practica2/target/scala-2.12/resolution-cache/reports/default-practica2_2.12-provided.xml
+[debug] 	report for default#practica2_2.12;0.1 optional produced in /home/ancaor/GitHub/NTP/Practicas/Practica2/target/scala-2.12/resolution-cache/reports/default-practica2_2.12-optional.xml
+[debug] 	report for default#practica2_2.12;0.1 compile-internal produced in /home/ancaor/GitHub/NTP/Practicas/Practica2/target/scala-2.12/resolution-cache/reports/default-practica2_2.12-compile-internal.xml
+[debug] 	report for default#practica2_2.12;0.1 runtime-internal produced in /home/ancaor/GitHub/NTP/Practicas/Practica2/target/scala-2.12/resolution-cache/reports/default-practica2_2.12-runtime-internal.xml
+[debug] 	report for default#practica2_2.12;0.1 test-internal produced in /home/ancaor/GitHub/NTP/Practicas/Practica2/target/scala-2.12/resolution-cache/reports/default-practica2_2.12-test-internal.xml
+[debug] 	report for default#practica2_2.12;0.1 plugin produced in /home/ancaor/GitHub/NTP/Practicas/Practica2/target/scala-2.12/resolution-cache/reports/default-practica2_2.12-plugin.xml
+[debug] 	report for default#practica2_2.12;0.1 pom produced in /home/ancaor/GitHub/NTP/Practicas/Practica2/target/scala-2.12/resolution-cache/reports/default-practica2_2.12-pom.xml
+[debug] 	report for default#practica2_2.12;0.1 scala-tool produced in /home/ancaor/GitHub/NTP/Practicas/Practica2/target/scala-2.12/resolution-cache/reports/default-practica2_2.12-scala-tool.xml
+[debug] 	resolve done (16587ms resolve - 1788ms download)
 [info] Done updating.
 [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.

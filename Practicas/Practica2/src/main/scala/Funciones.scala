@@ -41,6 +41,8 @@ object Funciones {
 
   }
 
+  // Ejercicio 3. Balance de parentesis
+
   def chequearBalance(cadena: List[Char]): Boolean = {
 
     @annotation.tailrec
@@ -55,6 +57,18 @@ object Funciones {
     }
 
     go(cadena,0)
+  }
+
+  // Ejercicio 4. Contador de posibles cambios de moneda // exige monedas orden descendente ejem[5,2,1]
+
+  def listarCambiosPosibles(cantidad:Int,monedas:List[Int]) : List[List[Int]] = {
+
+    def loop(cantidad: Int, monedas: List[Int]): Int = {
+      if (cantidad < 0 || monedas.isEmpty ) 0
+      else if (cantidad == 0 ) 1
+      else loop(cantidad, monedas.tail) + loop(cantidad - monedas.head, monedas)
+    }
+    loop(cantidad, monedas)
   }
 
 
@@ -78,21 +92,37 @@ object Funciones {
     //*****************************************
 
     println("Serie Fibonacci para t=8: ")
-    println(serie(FibonacciLucas)(0,1,8))
+    println(serie(FibonacciLucas)(0,1,5))
     println("Serie Lucas para t=6:")
     println(serie(FibonacciLucas)(2,1,6))
     println("Serie Pell para t=6:")
-    println(serie(PellLucas)(2,6,2))
+    println(serie(PellLucas)(2,6,6))
     println("Serie Pell-Lucas para t=6:")
-    println(serie(PellLucas)(2,2,3))
+    println(serie(PellLucas)(2,2,6))
     println("Serie Jacobsthal para t=6:")
-    println(serie(Jacobsthal)(0,1,3))
+    println(serie(Jacobsthal)(0,1,6))
 
 
     /****************************************************/
 
-    val cadena = "())("
+    val cadena ="Te lo dije (eso esta (todavia) hecho))"
     println(chequearBalance(cadena.toList))
+
+
+    /****************************************************/
+
+    //Cambio monedas
+
+    println("Ejercicio Monedas")
+
+    val aux = List(2)
+    println(aux.tail)
+
+    val monedas = List(1,2,5)
+    val cantidad = 5
+
+    listarCambiosPosibles(cantidad,monedas)
+
   }
 
 }

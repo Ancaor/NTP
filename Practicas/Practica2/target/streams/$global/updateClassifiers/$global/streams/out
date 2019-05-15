@@ -154,17 +154,6 @@
 [debug] == resolving dependencies default#practica2$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.8.4 [compile->compile]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.8.4 [compile->compile(*)]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.8.4 [compile->master]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [compile->compile]
-[debug] sbt-chain: Checking cache for: dependency: org.scala-tools.testing#test-interface;0.5 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
-[debug] sbt-chain: module revision found in cache: org.scala-tools.testing#test-interface;0.5
-[debug] 	found org.scala-tools.testing#test-interface;0.5 in sbt-chain
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [compile->runtime(*)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [compile->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [compile->master(compile)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [compile->runtime]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [compile->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [compile->compile(*)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [compile->master]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.ow2.asm#asm;5.0.4 [compile->compile]
 [debug] sbt-chain: Checking cache for: dependency: org.ow2.asm#asm;5.0.4 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: org.ow2.asm#asm;5.0.4
@@ -187,17 +176,6 @@
 [debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah-commons_2.12.0-RC1;3.1.1 [compile->compile]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah-commons_2.12.0-RC1;3.1.1 [compile->compile(*)]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah-commons_2.12.0-RC1;3.1.1 [compile->master]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [compile->compile]
-[debug] sbt-chain: Checking cache for: dependency: org.mongodb#casbah_2.12.0-RC1;3.1.1 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
-[debug] sbt-chain: module revision found in cache: org.mongodb#casbah_2.12.0-RC1;3.1.1
-[debug] 	found org.mongodb#casbah_2.12.0-RC1;3.1.1 in sbt-chain
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [compile->runtime(*)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [compile->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [compile->master(compile)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [compile->runtime]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [compile->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [compile->compile(*)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [compile->master]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.github.nscala-time#nscala-time_2.12.0-RC1;2.14.0 [compile->compile]
 [debug] sbt-chain: Checking cache for: dependency: com.github.nscala-time#nscala-time_2.12.0-RC1;2.14.0 {compile=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime=[compile, runtime(*), master(compile), runtime, compile(*), master], test=[compile, runtime(*), master(compile), runtime, compile(*), master], compile-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], runtime-internal=[compile, runtime(*), master(compile), runtime, compile(*), master], test-internal=[compile, runtime(*), master(compile), runtime, compile(*), master]}
 [debug] sbt-chain: module revision found in cache: com.github.nscala-time#nscala-time_2.12.0-RC1;2.14.0
@@ -469,14 +447,6 @@
 [debug] == resolving dependencies default#practica2$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.8.4 [compile->compile]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.8.4 [compile->compile(*)]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.8.4 [compile->master]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [compile->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [compile->runtime(*)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [compile->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [compile->master(compile)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [compile->runtime]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [compile->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [compile->compile(*)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [compile->master]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.ow2.asm#asm;5.0.4 [compile->compile]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.ow2.asm#asm;5.0.4 [compile->runtime(*)]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.ow2.asm#asm;5.0.4 [compile->compile]
@@ -493,14 +463,6 @@
 [debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah-commons_2.12.0-RC1;3.1.1 [compile->compile]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah-commons_2.12.0-RC1;3.1.1 [compile->compile(*)]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah-commons_2.12.0-RC1;3.1.1 [compile->master]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [compile->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [compile->runtime(*)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [compile->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [compile->master(compile)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [compile->runtime]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [compile->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [compile->compile(*)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [compile->master]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.github.nscala-time#nscala-time_2.12.0-RC1;2.14.0 [compile->compile]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.github.nscala-time#nscala-time_2.12.0-RC1;2.14.0 [compile->runtime(*)]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.github.nscala-time#nscala-time_2.12.0-RC1;2.14.0 [compile->compile]
@@ -726,14 +688,6 @@
 [debug] == resolving dependencies default#practica2$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.8.4 [runtime->compile]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.8.4 [runtime->compile(*)]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.8.4 [runtime->master]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [runtime->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [runtime->runtime(*)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [runtime->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [runtime->master(compile)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [runtime->runtime]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [runtime->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [runtime->compile(*)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [runtime->master]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.ow2.asm#asm;5.0.4 [runtime->compile]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.ow2.asm#asm;5.0.4 [runtime->runtime(*)]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.ow2.asm#asm;5.0.4 [runtime->compile]
@@ -750,14 +704,6 @@
 [debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah-commons_2.12.0-RC1;3.1.1 [runtime->compile]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah-commons_2.12.0-RC1;3.1.1 [runtime->compile(*)]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah-commons_2.12.0-RC1;3.1.1 [runtime->master]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [runtime->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [runtime->runtime(*)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [runtime->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [runtime->master(compile)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [runtime->runtime]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [runtime->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [runtime->compile(*)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [runtime->master]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.github.nscala-time#nscala-time_2.12.0-RC1;2.14.0 [runtime->compile]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.github.nscala-time#nscala-time_2.12.0-RC1;2.14.0 [runtime->runtime(*)]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.github.nscala-time#nscala-time_2.12.0-RC1;2.14.0 [runtime->compile]
@@ -987,14 +933,6 @@
 [debug] == resolving dependencies default#practica2$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.8.4 [compile->compile]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.8.4 [compile->compile(*)]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.8.4 [compile->master]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [compile->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [compile->runtime(*)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [compile->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [compile->master(compile)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [compile->runtime]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [compile->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [compile->compile(*)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [compile->master]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.ow2.asm#asm;5.0.4 [compile->compile]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.ow2.asm#asm;5.0.4 [compile->runtime(*)]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.ow2.asm#asm;5.0.4 [compile->compile]
@@ -1011,14 +949,6 @@
 [debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah-commons_2.12.0-RC1;3.1.1 [compile->compile]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah-commons_2.12.0-RC1;3.1.1 [compile->compile(*)]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah-commons_2.12.0-RC1;3.1.1 [compile->master]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [compile->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [compile->runtime(*)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [compile->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [compile->master(compile)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [compile->runtime]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [compile->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [compile->compile(*)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [compile->master]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.github.nscala-time#nscala-time_2.12.0-RC1;2.14.0 [compile->compile]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.github.nscala-time#nscala-time_2.12.0-RC1;2.14.0 [compile->runtime(*)]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.github.nscala-time#nscala-time_2.12.0-RC1;2.14.0 [compile->compile]
@@ -1242,14 +1172,6 @@
 [debug] == resolving dependencies default#practica2$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.8.4 [runtime->compile]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.8.4 [runtime->compile(*)]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.8.4 [runtime->master]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [runtime->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [runtime->runtime(*)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [runtime->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [runtime->master(compile)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [runtime->runtime]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [runtime->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [runtime->compile(*)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [runtime->master]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.ow2.asm#asm;5.0.4 [runtime->compile]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.ow2.asm#asm;5.0.4 [runtime->runtime(*)]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.ow2.asm#asm;5.0.4 [runtime->compile]
@@ -1266,14 +1188,6 @@
 [debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah-commons_2.12.0-RC1;3.1.1 [runtime->compile]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah-commons_2.12.0-RC1;3.1.1 [runtime->compile(*)]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah-commons_2.12.0-RC1;3.1.1 [runtime->master]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [runtime->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [runtime->runtime(*)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [runtime->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [runtime->master(compile)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [runtime->runtime]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [runtime->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [runtime->compile(*)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [runtime->master]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.github.nscala-time#nscala-time_2.12.0-RC1;2.14.0 [runtime->compile]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.github.nscala-time#nscala-time_2.12.0-RC1;2.14.0 [runtime->runtime(*)]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.github.nscala-time#nscala-time_2.12.0-RC1;2.14.0 [runtime->compile]
@@ -1523,14 +1437,6 @@
 [debug] == resolving dependencies default#practica2$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.8.4 [test->compile]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.8.4 [test->compile(*)]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.8.4 [test->master]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [test->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [test->runtime(*)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [test->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [test->master(compile)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [test->runtime]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [test->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [test->compile(*)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [test->master]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.ow2.asm#asm;5.0.4 [test->compile]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.ow2.asm#asm;5.0.4 [test->runtime(*)]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.ow2.asm#asm;5.0.4 [test->compile]
@@ -1558,14 +1464,6 @@
 [debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah-commons_2.12.0-RC1;3.1.1 [test->compile]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah-commons_2.12.0-RC1;3.1.1 [test->compile(*)]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah-commons_2.12.0-RC1;3.1.1 [test->master]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [test->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [test->runtime(*)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [test->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [test->master(compile)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [test->runtime]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [test->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [test->compile(*)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [test->master]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.github.nscala-time#nscala-time_2.12.0-RC1;2.14.0 [test->compile]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.github.nscala-time#nscala-time_2.12.0-RC1;2.14.0 [test->runtime(*)]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.github.nscala-time#nscala-time_2.12.0-RC1;2.14.0 [test->compile]
@@ -1790,14 +1688,6 @@
 [debug] == resolving dependencies default#practica2$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.8.4 [compile->compile]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.8.4 [compile->compile(*)]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.8.4 [compile->master]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [compile->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [compile->runtime(*)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [compile->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [compile->master(compile)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [compile->runtime]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [compile->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [compile->compile(*)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [compile->master]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.ow2.asm#asm;5.0.4 [compile->compile]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.ow2.asm#asm;5.0.4 [compile->runtime(*)]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.ow2.asm#asm;5.0.4 [compile->compile]
@@ -1814,14 +1704,6 @@
 [debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah-commons_2.12.0-RC1;3.1.1 [compile->compile]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah-commons_2.12.0-RC1;3.1.1 [compile->compile(*)]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah-commons_2.12.0-RC1;3.1.1 [compile->master]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [compile->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [compile->runtime(*)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [compile->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [compile->master(compile)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [compile->runtime]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [compile->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [compile->compile(*)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [compile->master]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.github.nscala-time#nscala-time_2.12.0-RC1;2.14.0 [compile->compile]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.github.nscala-time#nscala-time_2.12.0-RC1;2.14.0 [compile->runtime(*)]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.github.nscala-time#nscala-time_2.12.0-RC1;2.14.0 [compile->compile]
@@ -2049,14 +1931,6 @@
 [debug] == resolving dependencies default#practica2$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.8.4 [compile-internal->compile]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.8.4 [compile-internal->compile(*)]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.8.4 [compile-internal->master]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [compile-internal->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [compile-internal->runtime(*)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [compile-internal->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [compile-internal->master(compile)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [compile-internal->runtime]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [compile-internal->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [compile-internal->compile(*)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [compile-internal->master]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.ow2.asm#asm;5.0.4 [compile-internal->compile]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.ow2.asm#asm;5.0.4 [compile-internal->runtime(*)]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.ow2.asm#asm;5.0.4 [compile-internal->compile]
@@ -2073,14 +1947,6 @@
 [debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah-commons_2.12.0-RC1;3.1.1 [compile-internal->compile]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah-commons_2.12.0-RC1;3.1.1 [compile-internal->compile(*)]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah-commons_2.12.0-RC1;3.1.1 [compile-internal->master]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [compile-internal->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [compile-internal->runtime(*)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [compile-internal->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [compile-internal->master(compile)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [compile-internal->runtime]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [compile-internal->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [compile-internal->compile(*)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [compile-internal->master]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.github.nscala-time#nscala-time_2.12.0-RC1;2.14.0 [compile-internal->compile]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.github.nscala-time#nscala-time_2.12.0-RC1;2.14.0 [compile-internal->runtime(*)]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.github.nscala-time#nscala-time_2.12.0-RC1;2.14.0 [compile-internal->compile]
@@ -2310,14 +2176,6 @@
 [debug] == resolving dependencies default#practica2$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.8.4 [compile->compile]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.8.4 [compile->compile(*)]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.8.4 [compile->master]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [compile->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [compile->runtime(*)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [compile->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [compile->master(compile)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [compile->runtime]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [compile->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [compile->compile(*)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [compile->master]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.ow2.asm#asm;5.0.4 [compile->compile]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.ow2.asm#asm;5.0.4 [compile->runtime(*)]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.ow2.asm#asm;5.0.4 [compile->compile]
@@ -2334,14 +2192,6 @@
 [debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah-commons_2.12.0-RC1;3.1.1 [compile->compile]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah-commons_2.12.0-RC1;3.1.1 [compile->compile(*)]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah-commons_2.12.0-RC1;3.1.1 [compile->master]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [compile->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [compile->runtime(*)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [compile->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [compile->master(compile)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [compile->runtime]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [compile->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [compile->compile(*)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [compile->master]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.github.nscala-time#nscala-time_2.12.0-RC1;2.14.0 [compile->compile]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.github.nscala-time#nscala-time_2.12.0-RC1;2.14.0 [compile->runtime(*)]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.github.nscala-time#nscala-time_2.12.0-RC1;2.14.0 [compile->compile]
@@ -2567,14 +2417,6 @@
 [debug] == resolving dependencies default#practica2$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.8.4 [runtime->compile]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.8.4 [runtime->compile(*)]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.8.4 [runtime->master]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [runtime->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [runtime->runtime(*)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [runtime->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [runtime->master(compile)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [runtime->runtime]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [runtime->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [runtime->compile(*)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [runtime->master]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.ow2.asm#asm;5.0.4 [runtime->compile]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.ow2.asm#asm;5.0.4 [runtime->runtime(*)]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.ow2.asm#asm;5.0.4 [runtime->compile]
@@ -2591,14 +2433,6 @@
 [debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah-commons_2.12.0-RC1;3.1.1 [runtime->compile]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah-commons_2.12.0-RC1;3.1.1 [runtime->compile(*)]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah-commons_2.12.0-RC1;3.1.1 [runtime->master]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [runtime->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [runtime->runtime(*)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [runtime->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [runtime->master(compile)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [runtime->runtime]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [runtime->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [runtime->compile(*)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [runtime->master]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.github.nscala-time#nscala-time_2.12.0-RC1;2.14.0 [runtime->compile]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.github.nscala-time#nscala-time_2.12.0-RC1;2.14.0 [runtime->runtime(*)]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.github.nscala-time#nscala-time_2.12.0-RC1;2.14.0 [runtime->compile]
@@ -2825,14 +2659,6 @@
 [debug] == resolving dependencies default#practica2$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.8.4 [runtime-internal->compile]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.8.4 [runtime-internal->compile(*)]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.8.4 [runtime-internal->master]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [runtime-internal->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [runtime-internal->runtime(*)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [runtime-internal->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [runtime-internal->master(compile)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [runtime-internal->runtime]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [runtime-internal->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [runtime-internal->compile(*)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [runtime-internal->master]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.ow2.asm#asm;5.0.4 [runtime-internal->compile]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.ow2.asm#asm;5.0.4 [runtime-internal->runtime(*)]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.ow2.asm#asm;5.0.4 [runtime-internal->compile]
@@ -2849,14 +2675,6 @@
 [debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah-commons_2.12.0-RC1;3.1.1 [runtime-internal->compile]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah-commons_2.12.0-RC1;3.1.1 [runtime-internal->compile(*)]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah-commons_2.12.0-RC1;3.1.1 [runtime-internal->master]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [runtime-internal->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [runtime-internal->runtime(*)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [runtime-internal->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [runtime-internal->master(compile)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [runtime-internal->runtime]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [runtime-internal->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [runtime-internal->compile(*)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [runtime-internal->master]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.github.nscala-time#nscala-time_2.12.0-RC1;2.14.0 [runtime-internal->compile]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.github.nscala-time#nscala-time_2.12.0-RC1;2.14.0 [runtime-internal->runtime(*)]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.github.nscala-time#nscala-time_2.12.0-RC1;2.14.0 [runtime-internal->compile]
@@ -3087,14 +2905,6 @@
 [debug] == resolving dependencies default#practica2$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.8.4 [compile->compile]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.8.4 [compile->compile(*)]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.8.4 [compile->master]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [compile->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [compile->runtime(*)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [compile->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [compile->master(compile)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [compile->runtime]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [compile->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [compile->compile(*)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [compile->master]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.ow2.asm#asm;5.0.4 [compile->compile]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.ow2.asm#asm;5.0.4 [compile->runtime(*)]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.ow2.asm#asm;5.0.4 [compile->compile]
@@ -3111,14 +2921,6 @@
 [debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah-commons_2.12.0-RC1;3.1.1 [compile->compile]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah-commons_2.12.0-RC1;3.1.1 [compile->compile(*)]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah-commons_2.12.0-RC1;3.1.1 [compile->master]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [compile->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [compile->runtime(*)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [compile->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [compile->master(compile)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [compile->runtime]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [compile->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [compile->compile(*)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [compile->master]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.github.nscala-time#nscala-time_2.12.0-RC1;2.14.0 [compile->compile]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.github.nscala-time#nscala-time_2.12.0-RC1;2.14.0 [compile->runtime(*)]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.github.nscala-time#nscala-time_2.12.0-RC1;2.14.0 [compile->compile]
@@ -3350,14 +3152,6 @@
 [debug] == resolving dependencies default#practica2$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.8.4 [runtime->compile]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.8.4 [runtime->compile(*)]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.8.4 [runtime->master]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [runtime->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [runtime->runtime(*)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [runtime->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [runtime->master(compile)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [runtime->runtime]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [runtime->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [runtime->compile(*)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [runtime->master]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.ow2.asm#asm;5.0.4 [runtime->compile]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.ow2.asm#asm;5.0.4 [runtime->runtime(*)]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.ow2.asm#asm;5.0.4 [runtime->compile]
@@ -3374,14 +3168,6 @@
 [debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah-commons_2.12.0-RC1;3.1.1 [runtime->compile]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah-commons_2.12.0-RC1;3.1.1 [runtime->compile(*)]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah-commons_2.12.0-RC1;3.1.1 [runtime->master]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [runtime->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [runtime->runtime(*)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [runtime->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [runtime->master(compile)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [runtime->runtime]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [runtime->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [runtime->compile(*)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [runtime->master]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.github.nscala-time#nscala-time_2.12.0-RC1;2.14.0 [runtime->compile]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.github.nscala-time#nscala-time_2.12.0-RC1;2.14.0 [runtime->runtime(*)]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.github.nscala-time#nscala-time_2.12.0-RC1;2.14.0 [runtime->compile]
@@ -3633,14 +3419,6 @@
 [debug] == resolving dependencies default#practica2$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.8.4 [test->compile]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.8.4 [test->compile(*)]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.8.4 [test->master]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [test->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [test->runtime(*)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [test->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [test->master(compile)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [test->runtime]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [test->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [test->compile(*)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [test->master]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.ow2.asm#asm;5.0.4 [test->compile]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.ow2.asm#asm;5.0.4 [test->runtime(*)]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.ow2.asm#asm;5.0.4 [test->compile]
@@ -3665,14 +3443,6 @@
 [debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah-commons_2.12.0-RC1;3.1.1 [test->compile]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah-commons_2.12.0-RC1;3.1.1 [test->compile(*)]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah-commons_2.12.0-RC1;3.1.1 [test->master]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [test->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [test->runtime(*)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [test->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [test->master(compile)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [test->runtime]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [test->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [test->compile(*)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [test->master]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.github.nscala-time#nscala-time_2.12.0-RC1;2.14.0 [test->compile]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.github.nscala-time#nscala-time_2.12.0-RC1;2.14.0 [test->runtime(*)]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.github.nscala-time#nscala-time_2.12.0-RC1;2.14.0 [test->compile]
@@ -3912,14 +3682,6 @@
 [debug] == resolving dependencies default#practica2$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.8.4 [test-internal->compile]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.8.4 [test-internal->compile(*)]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.fasterxml.jackson.core#jackson-databind;2.8.4 [test-internal->master]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [test-internal->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [test-internal->runtime(*)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [test-internal->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [test-internal->master(compile)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [test-internal->runtime]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [test-internal->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [test-internal->compile(*)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.scala-tools.testing#test-interface;0.5 [test-internal->master]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.ow2.asm#asm;5.0.4 [test-internal->compile]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.ow2.asm#asm;5.0.4 [test-internal->runtime(*)]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.ow2.asm#asm;5.0.4 [test-internal->compile]
@@ -3944,14 +3706,6 @@
 [debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah-commons_2.12.0-RC1;3.1.1 [test-internal->compile]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah-commons_2.12.0-RC1;3.1.1 [test-internal->compile(*)]
 [debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah-commons_2.12.0-RC1;3.1.1 [test-internal->master]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [test-internal->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [test-internal->runtime(*)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [test-internal->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [test-internal->master(compile)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [test-internal->runtime]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [test-internal->compile]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [test-internal->compile(*)]
-[debug] == resolving dependencies default#practica2$sources;0.1->org.mongodb#casbah_2.12.0-RC1;3.1.1 [test-internal->master]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.github.nscala-time#nscala-time_2.12.0-RC1;2.14.0 [test-internal->compile]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.github.nscala-time#nscala-time_2.12.0-RC1;2.14.0 [test-internal->runtime(*)]
 [debug] == resolving dependencies default#practica2$sources;0.1->com.github.nscala-time#nscala-time_2.12.0-RC1;2.14.0 [test-internal->compile]
@@ -4113,246 +3867,147 @@
 [debug] == resolving dependencies default#practica2$sources;0.1->jline#jline;2.14.6 [scala-tool->master(compile)]
 [debug] == resolving dependencies default#practica2$sources;0.1->jline#jline;2.14.6 [scala-tool->compile(*)]
 [debug] == resolving dependencies default#practica2$sources;0.1->jline#jline;2.14.6 [scala-tool->master]
-[error] a required artifact is not listed by module descriptor: *#*!*.*
-[error] a required artifact is not listed by module descriptor: *#*!*.*
-[error] a required artifact is not listed by module descriptor: *#*!*.*
-[error] a required artifact is not listed by module descriptor: *#*!*.*
-[error] a required artifact is not listed by module descriptor: *#*!*.*
-[error] a required artifact is not listed by module descriptor: *#*!*.*
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 		tried /home/ancaor/.ivy2/local/org.mongodb/mongo-java-driver/3.2.2/srcs/mongo-java-driver-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/3.2.2/mongo-java-driver-3.2.2-sources.jar
-[debug] 		tried /home/ancaor/.ivy2/local/com.fasterxml.jackson.module/jackson-module-paranamer/2.8.4/srcs/jackson-module-paranamer-sources.jar
-[debug] 		tried /home/ancaor/.ivy2/local/com.thoughtworks.paranamer/paranamer/2.8/srcs/paranamer-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.8.4/jackson-module-paranamer-2.8.4-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8-sources.jar
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.8!scala-library.jar(src)
+[debug] 	[NOT REQUIRED] org.mongodb#mongo-java-driver;3.2.2!mongo-java-driver.jar(src)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.module#jackson-module-paranamer;2.8.4!jackson-module-paranamer.jar(src)
+[debug] 	[NOT REQUIRED] org.mongodb#casbah-gridfs_2.12.0-RC1;3.1.1!casbah-gridfs_2.12.0-RC1.jar(src)
+[debug] 	[NOT REQUIRED] com.thoughtworks.paranamer#paranamer;2.8!paranamer.jar(src)
 [debug] 	[NOT REQUIRED] org.scalacheck#scalacheck_2.12;1.13.4!scalacheck_2.12.jar(src)
-[debug] 		tried /home/ancaor/.ivy2/local/org.mongodb/casbah-gridfs_2.12.0-RC1/3.1.1/srcs/casbah-gridfs_2.12.0-RC1-sources.jar
-[debug] 		tried /home/ancaor/.ivy2/local/org.apache.commons/commons-math3/3.2/srcs/commons-math3-sources.jar
-[debug] 		tried /home/ancaor/.ivy2/local/org.apache.commons/commons-lang3/3.4/srcs/commons-lang3-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/mongodb/casbah-gridfs_2.12.0-RC1/3.1.1/casbah-gridfs_2.12.0-RC1-3.1.1-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8-sources.jar.sha1
-[info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.8.4/jackson-module-paranamer-2.8.4-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.8.4/jackson-module-paranamer-2.8.4-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8-sources.jar
-[info] 	[SUCCESSFUL ] com.thoughtworks.paranamer#paranamer;2.8!paranamer.jar(src) (191ms)
-[debug] 		tried /home/ancaor/.ivy2/local/com.storm-enroute/scalameter_2.12/0.8.2/srcs/scalameter_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/storm-enroute/scalameter_2.12/0.8.2/scalameter_2.12-0.8.2-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4-sources.jar
-[info] 	[SUCCESSFUL ] org.apache.commons#commons-lang3;3.4!commons-lang3.jar(src) (248ms)
-[debug] 		tried /home/ancaor/.ivy2/local/com.fasterxml.jackson.core/jackson-annotations/2.8.4/srcs/jackson-annotations-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/mongodb/casbah-gridfs_2.12.0-RC1/3.1.1/casbah-gridfs_2.12.0-RC1-3.1.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-gridfs_2.12.0-RC1/3.1.1/casbah-gridfs_2.12.0-RC1-3.1.1-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.8.4/jackson-module-paranamer-2.8.4-sources.jar.sha1
-[info] downloading https://repo1.maven.org/maven2/com/storm-enroute/scalameter_2.12/0.8.2/scalameter_2.12-0.8.2-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/storm-enroute/scalameter_2.12/0.8.2/scalameter_2.12-0.8.2-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.8.4/jackson-module-paranamer-2.8.4-sources.jar
-[info] 	[SUCCESSFUL ] com.fasterxml.jackson.module#jackson-module-paranamer;2.8.4!jackson-module-paranamer.jar(src) (386ms)
-[debug] 		tried /home/ancaor/.ivy2/local/io.spray/spray-json_2.12/1.3.2/srcs/spray-json_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/io/spray/spray-json_2.12/1.3.2/spray-json_2.12-1.3.2-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4-sources.jar
-[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-annotations;2.8.4!jackson-annotations.jar(src) (212ms)
-[debug] 		tried /home/ancaor/.ivy2/local/com.fasterxml.jackson.core/jackson-databind/2.8.4/srcs/jackson-databind-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.4/jackson-databind-2.8.4-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-gridfs_2.12.0-RC1/3.1.1/casbah-gridfs_2.12.0-RC1-3.1.1-sources.jar.sha1
-[info] downloading https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/3.2.2/mongo-java-driver-3.2.2-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/3.2.2/mongo-java-driver-3.2.2-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.4/jackson-databind-2.8.4-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.4/jackson-databind-2.8.4-sources.jar
-[info] downloading https://repo1.maven.org/maven2/io/spray/spray-json_2.12/1.3.2/spray-json_2.12-1.3.2-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/spray/spray-json_2.12/1.3.2/spray-json_2.12-1.3.2-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/mongodb/casbah-gridfs_2.12.0-RC1/3.1.1/casbah-gridfs_2.12.0-RC1-3.1.1-sources.jar
-[info] 	[SUCCESSFUL ] org.mongodb#casbah-gridfs_2.12.0-RC1;3.1.1!casbah-gridfs_2.12.0-RC1.jar(src) (554ms)
-[debug] 		tried /home/ancaor/.ivy2/local/org.scala-tools.testing/test-interface/0.5/srcs/test-interface-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-tools/testing/test-interface/0.5/test-interface-0.5-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/storm-enroute/scalameter_2.12/0.8.2/scalameter_2.12-0.8.2-sources.jar.sha1
-[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/scala-tools/testing/test-interface/0.5/test-interface-0.5-sources.jar
-[debug] 		tried /home/ancaor/.sbt/preloaded/org.scala-tools.testing/test-interface/0.5/srcs/test-interface-sources.jar
-[debug] 		tried file:////home/ancaor/.sbt/preloaded/org/scala-tools/testing/test-interface/0.5/test-interface-0.5-sources.jar
-[warn] 	Detected merged artifact: [FAILED     ] org.scala-tools.testing#test-interface;0.5!test-interface.jar(src):  (0ms).
-[warn] ==== local: tried
-[warn]   /home/ancaor/.ivy2/local/org.scala-tools.testing/test-interface/0.5/srcs/test-interface-sources.jar
-[warn] ==== public: tried
-[warn]   https://repo1.maven.org/maven2/org/scala-tools/testing/test-interface/0.5/test-interface-0.5-sources.jar
-[warn] ==== local-preloaded-ivy: tried
-[warn]   /home/ancaor/.sbt/preloaded/org.scala-tools.testing/test-interface/0.5/srcs/test-interface-sources.jar
-[warn] ==== local-preloaded: tried
-[warn]   file:////home/ancaor/.sbt/preloaded/org/scala-tools/testing/test-interface/0.5/test-interface-0.5-sources.jar
-[debug] 		tried /home/ancaor/.ivy2/local/org.ow2.asm/asm/5.0.4/srcs/asm-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.4/asm-5.0.4-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.4/asm-5.0.4-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.4/asm-5.0.4-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/storm-enroute/scalameter_2.12/0.8.2/scalameter_2.12-0.8.2-sources.jar
-[info] 	[SUCCESSFUL ] com.storm-enroute#scalameter_2.12;0.8.2!scalameter_2.12.jar(src) (486ms)
-[debug] 		tried /home/ancaor/.ivy2/local/org.mongodb/casbah-commons_2.12.0-RC1/3.1.1/srcs/casbah-commons_2.12.0-RC1-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.12.0-RC1/3.1.1/casbah-commons_2.12.0-RC1-3.1.1-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/spray/spray-json_2.12/1.3.2/spray-json_2.12-1.3.2-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.4/jackson-databind-2.8.4-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2-sources.jar
-[info] 	[SUCCESSFUL ] org.apache.commons#commons-math3;3.2!commons-math3.jar(src) (771ms)
-[error] a required artifact is not listed by module descriptor: *#*!*.*
-[error] a required artifact is not listed by module descriptor: *#*!*.*
-[error] a required artifact is not listed by module descriptor: *#*!*.*
-[error] a required artifact is not listed by module descriptor: *#*!*.*
-[error] a required artifact is not listed by module descriptor: *#*!*.*
-[error] a required artifact is not listed by module descriptor: *#*!*.*
-[debug] 		tried /home/ancaor/.ivy2/local/org.mongodb/casbah_2.12.0-RC1/3.1.1/srcs/casbah_2.12.0-RC1-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/mongodb/casbah_2.12.0-RC1/3.1.1/casbah_2.12.0-RC1-3.1.1-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/3.2.2/mongo-java-driver-3.2.2-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/io/spray/spray-json_2.12/1.3.2/spray-json_2.12-1.3.2-sources.jar
-[info] 	[SUCCESSFUL ] io.spray#spray-json_2.12;1.3.2!spray-json_2.12.jar(src) (427ms)
-[debug] 		tried /home/ancaor/.ivy2/local/com.github.nscala-time/nscala-time_2.12.0-RC1/2.14.0/srcs/nscala-time_2.12.0-RC1-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.12.0-RC1/2.14.0/nscala-time_2.12.0-RC1-2.14.0-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.12.0-RC1/3.1.1/casbah-commons_2.12.0-RC1-3.1.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.12.0-RC1/3.1.1/casbah-commons_2.12.0-RC1-3.1.1-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.4/jackson-databind-2.8.4-sources.jar
-[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-databind;2.8.4!jackson-databind.jar(src) (357ms)
-[debug] 		tried /home/ancaor/.ivy2/local/joda-time/joda-time/2.9.4/srcs/joda-time-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/joda-time/joda-time/2.9.4/joda-time-2.9.4-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/mongodb/mongo-java-driver/3.2.2/mongo-java-driver-3.2.2-sources.jar
-[info] 	[SUCCESSFUL ] org.mongodb#mongo-java-driver;3.2.2!mongo-java-driver.jar(src) (908ms)
-[debug] 		tried /home/ancaor/.ivy2/local/org.joda/joda-convert/1.2/srcs/joda-convert-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2-sources.jar
-[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/mongodb/casbah_2.12.0-RC1/3.1.1/casbah_2.12.0-RC1-3.1.1-sources.jar
-[debug] 		tried /home/ancaor/.sbt/preloaded/org.mongodb/casbah_2.12.0-RC1/3.1.1/srcs/casbah_2.12.0-RC1-sources.jar
-[debug] 		tried file:////home/ancaor/.sbt/preloaded/org/mongodb/casbah_2.12.0-RC1/3.1.1/casbah_2.12.0-RC1-3.1.1-sources.jar
-[warn] 	Detected merged artifact: [FAILED     ] org.mongodb#casbah_2.12.0-RC1;3.1.1!casbah_2.12.0-RC1.jar(src):  (0ms).
-[warn] ==== local: tried
-[warn] ==== public: tried
-[warn] ==== local-preloaded-ivy: tried
-[warn]   /home/ancaor/.sbt/preloaded/org.mongodb/casbah_2.12.0-RC1/3.1.1/srcs/casbah_2.12.0-RC1-sources.jar
-[warn] ==== local-preloaded: tried
-[warn]   file:////home/ancaor/.sbt/preloaded/org/mongodb/casbah_2.12.0-RC1/3.1.1/casbah_2.12.0-RC1-3.1.1-sources.jar
-[debug] 		tried /home/ancaor/.ivy2/local/org.slf4j/slf4j-api/1.6.0/srcs/slf4j-api-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.12.0-RC1/2.14.0/nscala-time_2.12.0-RC1-2.14.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.12.0-RC1/2.14.0/nscala-time_2.12.0-RC1-2.14.0-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.12.0-RC1/3.1.1/casbah-commons_2.12.0-RC1-3.1.1-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.4/asm-5.0.4-sources.jar.sha1
-[info] downloading https://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/mongodb/casbah-commons_2.12.0-RC1/3.1.1/casbah-commons_2.12.0-RC1-3.1.1-sources.jar
-[info] 	[SUCCESSFUL ] org.mongodb#casbah-commons_2.12.0-RC1;3.1.1!casbah-commons_2.12.0-RC1.jar(src) (400ms)
-[debug] 		tried /home/ancaor/.ivy2/local/com.storm-enroute/scalameter-core_2.12/0.8.2/srcs/scalameter-core_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/storm-enroute/scalameter-core_2.12/0.8.2/scalameter-core_2.12-0.8.2-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.4/asm-5.0.4-sources.jar
-[info] 	[SUCCESSFUL ] org.ow2.asm#asm;5.0.4!asm.jar(src) (486ms)
-[debug] 		tried /home/ancaor/.ivy2/local/commons-io/commons-io/2.4/srcs/commons-io-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.12.0-RC1/2.14.0/nscala-time_2.12.0-RC1-2.14.0-sources.jar.sha1
-[info] downloading https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4-sources.jar
-[info] downloading https://repo1.maven.org/maven2/joda-time/joda-time/2.9.4/joda-time-2.9.4-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/joda-time/joda-time/2.9.4/joda-time-2.9.4-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/github/nscala-time/nscala-time_2.12.0-RC1/2.14.0/nscala-time_2.12.0-RC1-2.14.0-sources.jar
-[info] 	[SUCCESSFUL ] com.github.nscala-time#nscala-time_2.12.0-RC1;2.14.0!nscala-time_2.12.0-RC1.jar(src) (388ms)
-[debug] 		tried /home/ancaor/.ivy2/local/org.scala-lang.modules/scala-parser-combinators_2.12/1.0.4/srcs/scala-parser-combinators_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/storm-enroute/scalameter-core_2.12/0.8.2/scalameter-core_2.12-0.8.2-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/storm-enroute/scalameter-core_2.12/0.8.2/scalameter-core_2.12-0.8.2-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0-sources.jar.sha1
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2-sources.jar
-[info] 	[SUCCESSFUL ] org.joda#joda-convert;1.2!joda-convert.jar(src) (388ms)
-[debug] 		tried /home/ancaor/.ivy2/local/org.mongodb/casbah-query_2.12.0-RC1/3.1.1/srcs/casbah-query_2.12.0-RC1-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/mongodb/casbah-query_2.12.0-RC1/3.1.1/casbah-query_2.12.0-RC1-3.1.1-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0-sources.jar
-[info] 	[SUCCESSFUL ] org.slf4j#slf4j-api;1.6.0!slf4j-api.jar(src) (392ms)
+[debug] no default ivy user dir defined: set to C:\Users\Anton\.ivy2
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.8!scala-library.jar(src)
+[debug] no default ivy user dir defined: set to C:\Users\Anton\.ivy2
+[debug] no default ivy user dir defined: set to C:\Users\Anton\.ivy2
+[debug] no default ivy user dir defined: set to C:\Users\Anton\.ivy2
+[debug] no default ivy user dir defined: set to C:\Users\Anton\.ivy2
+[debug] no default ivy user dir defined: set to C:\Users\Anton\.ivy2
+[debug] including url: jar:file:/C:/Users/Anton/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/C:/Users/Anton/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/C:/Users/Anton/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/C:/Users/Anton/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/C:/Users/Anton/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] including url: jar:file:/C:/Users/Anton/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-public.xml
+[debug] no default cache defined: set to C:\Users\Anton\.ivy2\cache
+[debug] including url: jar:file:/C:/Users/Anton/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] no default cache defined: set to C:\Users\Anton\.ivy2\cache
+[debug] including url: jar:file:/C:/Users/Anton/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] no default cache defined: set to C:\Users\Anton\.ivy2\cache
+[debug] no default cache defined: set to C:\Users\Anton\.ivy2\cache
+[debug] no default cache defined: set to C:\Users\Anton\.ivy2\cache
+[debug] no default cache defined: set to C:\Users\Anton\.ivy2\cache
+[debug] including url: jar:file:/C:/Users/Anton/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/C:/Users/Anton/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/C:/Users/Anton/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/C:/Users/Anton/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml
+[debug] including url: jar:file:/C:/Users/Anton/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/C:/Users/Anton/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/C:/Users/Anton/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/C:/Users/Anton/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/C:/Users/Anton/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/C:/Users/Anton/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-local.xml
+[debug] including url: jar:file:/C:/Users/Anton/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/C:/Users/Anton/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/C:/Users/Anton/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/C:/Users/Anton/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/C:/Users/Anton/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/C:/Users/Anton/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml
+[debug] including url: jar:file:/C:/Users/Anton/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/C:/Users/Anton/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/C:/Users/Anton/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/C:/Users/Anton/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/C:/Users/Anton/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] including url: jar:file:/C:/Users/Anton/.sbt/boot/scala-2.12.7/org.scala-sbt/sbt/1.2.8/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml
+[debug] settings loaded (29ms)
+[debug] 	default cache: C:\Users\Anton\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] settings loaded (31ms)
+[debug] 	main [chain] [shared, public]
+[debug] 	default cache: C:\Users\Anton\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	local [file]
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] settings loaded (31ms)
+[debug] 	default cache: C:\Users\Anton\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] settings loaded (31ms)
+[debug] 	default cache: C:\Users\Anton\.ivy2\cache
+[debug] 	default resolver: default
+[debug] 	-- 5 resolvers:
+[debug] 	shared [file]
+[debug] 	default [chain] [local, main]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] settings loaded (31ms)
+[debug] 	default cache: C:\Users\Anton\.ivy2\cache
+[debug] 	default resolver: default
+[debug] settings loaded (31ms)
+[debug] 	-- 5 resolvers:
+[debug] 	default cache: C:\Users\Anton\.ivy2\cache
+[debug] 	shared [file]
+[debug] 	default resolver: default
+[debug] 	default [chain] [local, main]
+[debug] 	-- 5 resolvers:
+[debug] 	public [ibiblio]
+[debug] 	shared [file]
+[debug] 	main [chain] [shared, public]
+[debug] 	default [chain] [local, main]
+[debug] 	local [file]
+[debug] 	public [ibiblio]
+[debug] 	main [chain] [shared, public]
+[debug] 	local [file]
+[debug] 	[NOT REQUIRED] org.apache.commons#commons-math3;3.2!commons-math3.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.commons#commons-lang3;3.4!commons-lang3.jar(src)
+[debug] 	[NOT REQUIRED] io.spray#spray-json_2.12;1.3.2!spray-json_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.storm-enroute#scalameter_2.12;0.8.2!scalameter_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-databind;2.8.4!jackson-databind.jar(src)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-annotations;2.8.4!jackson-annotations.jar(src)
+[debug] 	[NOT REQUIRED] org.ow2.asm#asm;5.0.4!asm.jar(src)
+[debug] 	[NOT REQUIRED] org.mongodb#casbah-commons_2.12.0-RC1;3.1.1!casbah-commons_2.12.0-RC1.jar(src)
+[debug] 	[NOT REQUIRED] com.github.nscala-time#nscala-time_2.12.0-RC1;2.14.0!nscala-time_2.12.0-RC1.jar(src)
+[debug] 	[NOT REQUIRED] org.joda#joda-convert;1.2!joda-convert.jar(src)
+[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.6.0!slf4j-api.jar(src)
+[debug] 	[NOT REQUIRED] joda-time#joda-time;2.9.4!joda-time.jar(src)
+[debug] 	[NOT REQUIRED] com.storm-enroute#scalameter-core_2.12;0.8.2!scalameter-core_2.12.jar(src)
+[debug] 	[NOT REQUIRED] commons-io#commons-io;2.4!commons-io.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4!scala-parser-combinators_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.5!scala-xml_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.mongodb#casbah-query_2.12.0-RC1;3.1.1!casbah-query_2.12.0-RC1.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.8!scala-reflect.jar(src)
-[debug] 		tried /home/ancaor/.ivy2/local/org.scala-lang.modules/scala-xml_2.12/1.0.5/srcs/scala-xml_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.5/scala-xml_2.12-1.0.5-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4-sources.jar
-[info] 	[SUCCESSFUL ] commons-io#commons-io;2.4!commons-io.jar(src) (242ms)
-[debug] 		tried /home/ancaor/.ivy2/local/com.fasterxml.jackson.core/jackson-core/2.8.4/srcs/jackson-core-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.4/jackson-core-2.8.4-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.4/jackson-core-2.8.4-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.4/jackson-core-2.8.4-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/storm-enroute/scalameter-core_2.12/0.8.2/scalameter-core_2.12-0.8.2-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4!scala-parser-combinators_2.12.jar(src) (202ms)
-[debug] 		tried /home/ancaor/.ivy2/local/com.fasterxml.jackson.module/jackson-module-scala_2.12/2.8.4/srcs/jackson-module-scala_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.8.4/jackson-module-scala_2.12-2.8.4-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/mongodb/casbah-query_2.12.0-RC1/3.1.1/casbah-query_2.12.0-RC1-3.1.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-query_2.12.0-RC1/3.1.1/casbah-query_2.12.0-RC1-3.1.1-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.5/scala-xml_2.12-1.0.5-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.5/scala-xml_2.12-1.0.5-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/joda-time/joda-time/2.9.4/joda-time-2.9.4-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/storm-enroute/scalameter-core_2.12/0.8.2/scalameter-core_2.12-0.8.2-sources.jar
-[info] 	[SUCCESSFUL ] com.storm-enroute#scalameter-core_2.12;0.8.2!scalameter-core_2.12.jar(src) (388ms)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.module#jackson-module-scala_2.12;2.8.4!jackson-module-scala_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.8.4!jackson-core.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar(src)
-[debug] 		tried /home/ancaor/.ivy2/local/org.mongodb/casbah-core_2.12.0-RC1/3.1.1/srcs/casbah-core_2.12.0-RC1-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/mongodb/casbah-core_2.12.0-RC1/3.1.1/casbah-core_2.12.0-RC1-3.1.1-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.4/jackson-core-2.8.4-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/joda-time/joda-time/2.9.4/joda-time-2.9.4-sources.jar
-[info] 	[SUCCESSFUL ] joda-time#joda-time;2.9.4!joda-time.jar(src) (723ms)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.12;3.0.5!scalatest_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.mongodb#casbah-core_2.12.0-RC1;3.1.1!casbah-core_2.12.0-RC1.jar(src)
 [debug] 	[NOT REQUIRED] org.scalactic#scalactic_2.12;3.0.5!scalactic_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.12;3.0.5!scalatest_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.8!scala-compiler.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar(src)
-[info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.8.4/jackson-module-scala_2.12-2.8.4-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.8.4/jackson-module-scala_2.12-2.8.4-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.4/jackson-core-2.8.4-sources.jar
-[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-core;2.8.4!jackson-core.jar(src) (245ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-query_2.12.0-RC1/3.1.1/casbah-query_2.12.0-RC1-3.1.1-sources.jar.sha1
-[info] downloading https://repo1.maven.org/maven2/org/mongodb/casbah-core_2.12.0-RC1/3.1.1/casbah-core_2.12.0-RC1-3.1.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-core_2.12.0-RC1/3.1.1/casbah-core_2.12.0-RC1-3.1.1-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.5/scala-xml_2.12-1.0.5-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/mongodb/casbah-query_2.12.0-RC1/3.1.1/casbah-query_2.12.0-RC1-3.1.1-sources.jar
-[info] 	[SUCCESSFUL ] org.mongodb#casbah-query_2.12.0-RC1;3.1.1!casbah-query_2.12.0-RC1.jar(src) (394ms)
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.5/scala-xml_2.12-1.0.5-sources.jar
-[info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.12;1.0.5!scala-xml_2.12.jar(src) (405ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.8.4/jackson-module-scala_2.12-2.8.4-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/mongodb/casbah-core_2.12.0-RC1/3.1.1/casbah-core_2.12.0-RC1-3.1.1-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.8.4/jackson-module-scala_2.12-2.8.4-sources.jar
-[info] 	[SUCCESSFUL ] com.fasterxml.jackson.module#jackson-module-scala_2.12;2.8.4!jackson-module-scala_2.12.jar(src) (393ms)
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/mongodb/casbah-core_2.12.0-RC1/3.1.1/casbah-core_2.12.0-RC1-3.1.1-sources.jar
-[info] 	[SUCCESSFUL ] org.mongodb#casbah-core_2.12.0-RC1;3.1.1!casbah-core_2.12.0-RC1.jar(src) (393ms)
-[error] a required artifact is not listed by module descriptor: *#*!*.*
-[error] a required artifact is not listed by module descriptor: *#*!*.*
-[error] a required artifact is not listed by module descriptor: *#*!*.*
-[error] a required artifact is not listed by module descriptor: *#*!*.*
-[error] a required artifact is not listed by module descriptor: *#*!*.*
-[error] a required artifact is not listed by module descriptor: *#*!*.*
-[debug] :: resolution report :: resolve 343ms :: artifacts dl 1869ms
-[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
-[warn] 	::              FAILED DOWNLOADS            ::
-[warn] 	:: ^ see resolution messages for details  ^ ::
-[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
-[warn] 	:: org.scala-tools.testing#test-interface;0.5!test-interface.jar(src)
-[warn] 	:: org.mongodb#casbah_2.12.0-RC1;3.1.1!casbah_2.12.0-RC1.jar(src)
-[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
-[debug] 	report for default#practica2$sources;0.1 compile produced in /home/ancaor/GitHub/NTP/Practicas/Practica2/target/scala-2.12/resolution-cache/reports/default-practica2$sources-compile.xml
-[debug] 	report for default#practica2$sources;0.1 runtime produced in /home/ancaor/GitHub/NTP/Practicas/Practica2/target/scala-2.12/resolution-cache/reports/default-practica2$sources-runtime.xml
-[debug] 	report for default#practica2$sources;0.1 test produced in /home/ancaor/GitHub/NTP/Practicas/Practica2/target/scala-2.12/resolution-cache/reports/default-practica2$sources-test.xml
-[debug] 	report for default#practica2$sources;0.1 provided produced in /home/ancaor/GitHub/NTP/Practicas/Practica2/target/scala-2.12/resolution-cache/reports/default-practica2$sources-provided.xml
-[debug] 	report for default#practica2$sources;0.1 optional produced in /home/ancaor/GitHub/NTP/Practicas/Practica2/target/scala-2.12/resolution-cache/reports/default-practica2$sources-optional.xml
-[debug] 	report for default#practica2$sources;0.1 compile-internal produced in /home/ancaor/GitHub/NTP/Practicas/Practica2/target/scala-2.12/resolution-cache/reports/default-practica2$sources-compile-internal.xml
-[debug] 	report for default#practica2$sources;0.1 runtime-internal produced in /home/ancaor/GitHub/NTP/Practicas/Practica2/target/scala-2.12/resolution-cache/reports/default-practica2$sources-runtime-internal.xml
-[debug] 	report for default#practica2$sources;0.1 test-internal produced in /home/ancaor/GitHub/NTP/Practicas/Practica2/target/scala-2.12/resolution-cache/reports/default-practica2$sources-test-internal.xml
-[debug] 	report for default#practica2$sources;0.1 plugin produced in /home/ancaor/GitHub/NTP/Practicas/Practica2/target/scala-2.12/resolution-cache/reports/default-practica2$sources-plugin.xml
-[debug] 	report for default#practica2$sources;0.1 pom produced in /home/ancaor/GitHub/NTP/Practicas/Practica2/target/scala-2.12/resolution-cache/reports/default-practica2$sources-pom.xml
-[debug] 	report for default#practica2$sources;0.1 scala-tool produced in /home/ancaor/GitHub/NTP/Practicas/Practica2/target/scala-2.12/resolution-cache/reports/default-practica2$sources-scala-tool.xml
-[debug] 	resolve done (343ms resolve - 1869ms download)
+[debug] :: resolution report :: resolve 715ms :: artifacts dl 46ms
+[debug] 	report for default#practica2$sources;0.1 compile produced in C:\Users\Anton\Documents\Github\NTP\Practicas\Practica2\target\scala-2.12\resolution-cache\reports\default-practica2$sources-compile.xml
+[debug] 	report for default#practica2$sources;0.1 runtime produced in C:\Users\Anton\Documents\Github\NTP\Practicas\Practica2\target\scala-2.12\resolution-cache\reports\default-practica2$sources-runtime.xml
+[debug] 	report for default#practica2$sources;0.1 test produced in C:\Users\Anton\Documents\Github\NTP\Practicas\Practica2\target\scala-2.12\resolution-cache\reports\default-practica2$sources-test.xml
+[debug] 	report for default#practica2$sources;0.1 provided produced in C:\Users\Anton\Documents\Github\NTP\Practicas\Practica2\target\scala-2.12\resolution-cache\reports\default-practica2$sources-provided.xml
+[debug] 	report for default#practica2$sources;0.1 optional produced in C:\Users\Anton\Documents\Github\NTP\Practicas\Practica2\target\scala-2.12\resolution-cache\reports\default-practica2$sources-optional.xml
+[debug] 	report for default#practica2$sources;0.1 compile-internal produced in C:\Users\Anton\Documents\Github\NTP\Practicas\Practica2\target\scala-2.12\resolution-cache\reports\default-practica2$sources-compile-internal.xml
+[debug] 	report for default#practica2$sources;0.1 runtime-internal produced in C:\Users\Anton\Documents\Github\NTP\Practicas\Practica2\target\scala-2.12\resolution-cache\reports\default-practica2$sources-runtime-internal.xml
+[debug] 	report for default#practica2$sources;0.1 test-internal produced in C:\Users\Anton\Documents\Github\NTP\Practicas\Practica2\target\scala-2.12\resolution-cache\reports\default-practica2$sources-test-internal.xml
+[debug] 	report for default#practica2$sources;0.1 plugin produced in C:\Users\Anton\Documents\Github\NTP\Practicas\Practica2\target\scala-2.12\resolution-cache\reports\default-practica2$sources-plugin.xml
+[debug] 	report for default#practica2$sources;0.1 pom produced in C:\Users\Anton\Documents\Github\NTP\Practicas\Practica2\target\scala-2.12\resolution-cache\reports\default-practica2$sources-pom.xml
+[debug] 	report for default#practica2$sources;0.1 scala-tool produced in C:\Users\Anton\Documents\Github\NTP\Practicas\Practica2\target\scala-2.12\resolution-cache\reports\default-practica2$sources-scala-tool.xml
+[debug] 	resolve done (715ms resolve - 46ms download)

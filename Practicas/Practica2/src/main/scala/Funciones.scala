@@ -1,4 +1,5 @@
 import scala.annotation.tailrec
+import Math.sqrt,Math.floor
 
 object Funciones {
 
@@ -61,15 +62,117 @@ object Funciones {
 
   // Ejercicio 4. Contador de posibles cambios de moneda // exige monedas orden descendente ejem[5,2,1]
 
+
   def listarCambiosPosibles(cantidad:Int,monedas:List[Int]) : List[List[Int]] = {
 
-    def loop(cantidad: Int, monedas: List[Int]): Int = {
-      if (cantidad < 0 || monedas.isEmpty ) 0
-      else if (cantidad == 0 ) 1
-      else loop(cantidad, monedas.tail) + loop(cantidad - monedas.head, monedas)
+    def loop(cantidad: Int, monedas: List[Int],acum:List[List[Int]],listaLocal:List[Int]): List[List[Int]] = {
+      if (cantidad < 0 || monedas.isEmpty ){
+        acum  // devuelve las soluciones que ya habia
+      }
+      else if (cantidad == 0 ){
+       listaLocal :: acum  // añado la solucion encontrada a la lista de soluciones
+      }
+      else {
+
+        /*
+        * A continuacion se hace la concatenacion de dos llamadas recursivas que devuelven listas,
+        *
+        * En la primera llamada a loop se descarta el primer tipo de moneda que se tiene y se procede a intentar calcular el cambio con el resto
+        *
+        * En la segunda llamada se utiliza el primer tipo de moneda y se mantiene en la lista para que se pueda usar posteriormente
+        * */
+
+        loop(cantidad, monedas.tail,acum,listaLocal) ::: loop(cantidad - monedas.head, monedas,acum,monedas.head :: listaLocal)
+
+
+      }
     }
-    loop(cantidad, monedas)
+
+    var acum = List()
+
+    // importante que el orden de las monedas sea decreciente
+    loop(cantidad, monedas.sorted(Ordering.Int.reverse),acum,List())
   }
+
+  //Ejercicio 5. Busqueda binaria generica
+
+
+  def busquedaBinaria[A](coleccion : Array[A], aBuscar: A, criterio : (A,A) => Boolean) : Int = {
+
+    /**
+      * Metodo recursivo auxiliar de busquedaBinaria
+      * @param coleccion Array en el que se busca el elemento aBuscar
+      * @param acum posicion acumulada del Array, originalmente es 0 ya que se comienza a buscar
+      *             desde el inicio del Array original, tambien puede verse como la posicion origen del array original
+      * @return -1 si no encontrado o la posicion del elemento aBuscar si lo ha encontrado
+      */
+
+    @annotation.tailrec
+    def go(coleccion: Array[A], acum: Int = 0): Int = {
+
+      val mitad = coleccion.length / 2 // posicion de la mitad del Array
+      val valorMitad = coleccion(mitad) // valor de la posicion de la mitad
+
+      if (valorMitad == aBuscar) acum + mitad // Si el valor que buscamos esta en la mitad se devuelve su posicion
+      else if (coleccion.length == 1) -1 // Si solo queda un elemento no se ha encontrado
+      else {
+        if (criterio(valorMitad, aBuscar)) {
+
+          if (mitad + 1 == coleccion.length) -1
+          else go(coleccion.slice(mitad + 1, coleccion.length), acum + mitad + 1)
+
+        }
+        else {
+          if (mitad == 0) -1
+          else go(coleccion.slice(0, mitad), acum)
+        }
+      }
+    }
+
+    if(coleccion.length == 0) -1
+    else go(coleccion)
+  }
+
+
+
+  //Ejercicio 6. Busqueda a Saltos generica
+
+
+  def busquedaASaltos[A](coleccion : Array[A], aBuscar: A, criterio : (A,A) => Boolean) : Int = {
+
+    val blockSize = Math.floor(sqrt(coleccion.size)).toInt // tamaño de bloque
+    var step  = blockSize;
+
+    val coleccionSize = coleccion.length
+
+    var prev = 0;
+
+    while( criterio(  coleccion(Math.min(step,coleccionSize)-1),aBuscar)) {
+
+      prev = step
+      step += blockSize
+      if(prev >= coleccionSize) -1
+
+    }
+
+    while(criterio(coleccion(prev),aBuscar)) {
+      prev+=1
+      if(prev == Math.min(step,coleccionSize)) -1
+    }
+
+    if(coleccion(prev) == aBuscar) prev
+    else -1
+
+
+  }
+
+
+
+
+
+
+
+
 
 
 
@@ -89,7 +192,12 @@ object Funciones {
      // Se muestra el valor que debe ocupar la columna 5 en la fila 10
      println(calcularValorTrianguloPascal(14, 1))
 
+    println()
+
     //*****************************************
+
+    println("................... Series ...................")
+
 
     println("Serie Fibonacci para t=8: ")
     println(serie(FibonacciLucas)(0,1,5))
@@ -102,27 +210,52 @@ object Funciones {
     println("Serie Jacobsthal para t=6:")
     println(serie(Jacobsthal)(0,1,6))
 
+    println()
+
 
     /****************************************************/
+    println("................... Parentesis ...................")
 
     val cadena ="Te lo dije (eso esta (todavia) hecho))"
     println(chequearBalance(cadena.toList))
-
+    println()
 
     /****************************************************/
 
     //Cambio monedas
 
-    println("Ejercicio Monedas")
+    println("................... Cambio de monedas ...................")
 
-    val aux = List(2)
-    println(aux.tail)
+    val monedas = List(2,5,1)
+    val cantidad = 10
 
-    val monedas = List(1,2,5)
-    val cantidad = 5
 
-    listarCambiosPosibles(cantidad,monedas)
+    val cambios = listarCambiosPosibles(cantidad,monedas)
+
+    for (lista <- cambios) {
+      println( lista.toString() + " = " + lista.reduce(_+_))
+    }
+
+    println()
+
+    println("................... Busqueda Binaria ...................")
+    val coleccion = Array(0,1,1,2,3,5,9,13,21,34,55,89,145,237,377,610)
+    val aBuscar = serie(FibonacciLucas)(0,1,10)
+
+    println(coleccion(busquedaBinaria(coleccion,55,(a:Int,b:Int)=> a < b)))
+    println(aBuscar == coleccion(busquedaBinaria(coleccion,55,(a:Int,b:Int)=> a < b)))
+
+    println("................... Busqueda a saltos ...................")
+
+    println(coleccion(busquedaASaltos(coleccion,55,(a:Int,b:Int)=> a < b)))
+    println(aBuscar == coleccion(busquedaASaltos(coleccion,55,(a:Int,b:Int)=> a < b)))
 
   }
+
+
+
+
+
+
 
 }

@@ -167,6 +167,37 @@ object Funciones {
   }
 
 
+  def busquedaASaltosRecursivo[A](coleccion : Array[A], aBuscar: A, criterio : (A,A) => Boolean) : Int = {
+
+    //0,1,1,2,3,5,9,13,21,34,55,89,145,237,377,610
+
+    def go(coleccion2 : Array[A], acum: Int) : Int = {
+      val blockSize = Math.floor(sqrt(coleccion2.size)).toInt // tamaño de bloque
+      println("Acum_old: " + acum)
+      println("Coleccion:")
+      coleccion2.foreach(println(_))
+      println()
+      println("Blocksize : " + blockSize)
+      println("Coleccion(blocksize - 1 ): " + coleccion2(blockSize-1))
+
+      if(criterio(coleccion2(blockSize-1),aBuscar)){
+        val newAcum = acum + blockSize
+        println("Acum: " + newAcum)
+        val newColeccion = coleccion2.slice(blockSize+1,coleccion2.length)
+        println("New Coleccion:")
+        newColeccion.foreach(println(_))
+        println()
+
+        go(newColeccion,newAcum)
+
+      }else acum+blockSize+1
+    }
+
+    go(coleccion,0)
+
+
+  }
+
 
 
 
@@ -249,6 +280,9 @@ object Funciones {
 
     println(coleccion(busquedaASaltos(coleccion,55,(a:Int,b:Int)=> a < b)))
     println(aBuscar == coleccion(busquedaASaltos(coleccion,55,(a:Int,b:Int)=> a < b)))
+
+    println(coleccion(busquedaASaltosRecursivo(coleccion,55,(a:Int,b:Int)=> a < b)))
+    //println(aBuscar == coleccion(busquedaASaltosRecursivo(coleccion,55,(a:Int,b:Int)=> a < b)))
 
   }
 

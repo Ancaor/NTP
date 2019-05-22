@@ -2,24 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="086de62e-04fe-4607-b00b-35795d84ff37" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Practica2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Practica2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/Funciones.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Funciones.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/BusquedaASaltosTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/BusquedaASaltosTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/practica2$sources/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/practica2$sources/0.1/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/practica2$sources/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/practica2$sources/0.1/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-practica2$sources-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-practica2$sources-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-practica2$sources-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-practica2$sources-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-practica2$sources-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-practica2$sources-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-practica2$sources-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-practica2$sources-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-practica2$sources-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-practica2$sources-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-practica2$sources-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-practica2$sources-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-practica2$sources-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-practica2$sources-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-practica2$sources-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-practica2$sources-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-practica2$sources-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-practica2$sources-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-practica2$sources-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-practica2$sources-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-practica2$sources-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-practica2$sources-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/BusquedaBinariaTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/BusquedaBinariaTest.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,8 +26,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Funciones.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="216" column="28" selection-start-line="216" selection-start-column="18" selection-end-line="216" selection-end-column="28" />
+            <state relative-caret-position="553">
+              <caret line="327" lean-forward="true" selection-start-line="327" selection-end-line="327" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -62,11 +47,23 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/BusquedaBinariaTest.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/BusquedaASaltosTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="126">
+              <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="34" selection-end-column="3" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
@@ -86,13 +83,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/SeriesTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1008">
-              <caret line="59" column="4" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="4" />
+            <state relative-caret-position="414">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
               <folding>
                 <element signature="e#1#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/BenchmarkAlgoritmosBusqueda.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+              <folding>
+                <element signature="e#1#28#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -116,10 +125,11 @@
         <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/src/test/scala/ContadorParentesisTest.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/CambioMonedasTest.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/BusquedaBinariaTest.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/Funciones.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/BusquedaASaltosTest.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/SeriesTest.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/BenchmarkAlgoritmosBusqueda.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/Funciones.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/BusquedaBinariaTest.scala" />
       </list>
     </option>
   </component>
@@ -183,7 +193,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558522916438" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558526731521" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -205,27 +215,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="ScalaTest.SeriesTest">
-    <configuration name="Funciones" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Funciones" />
+  <component name="RunManager" selected="Application.TrianguloCheck">
+    <configuration name="TrianguloCheck" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="TrianguloCheck" />
       <module name="Practica2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BusquedaASaltosTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="Practica2" />
-      <setting name="path" value="BusquedaASaltosTest" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <envs />
-      <setting name="testKind" value="Class" />
-      <setting name="path" value="BusquedaASaltosTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -264,6 +257,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ContadorParentesisTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="Practica2" />
+      <setting name="path" value="ContadorParentesisTest" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <envs />
+      <setting name="testKind" value="Class" />
+      <setting name="path" value="ContadorParentesisTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SeriesTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="Practica2" />
       <setting name="path" value="SeriesTest" />
@@ -283,11 +293,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TrianguloCheck" />
         <item itemvalue="ScalaTest.SeriesTest" />
-        <item itemvalue="ScalaTest.BusquedaASaltosTest" />
-        <item itemvalue="Application.Funciones" />
-        <item itemvalue="ScalaTest.BusquedaASaltosTest" />
-        <item itemvalue="ScalaTest.BusquedaASaltosTest" />
+        <item itemvalue="ScalaTest.ContadorParentesisTest" />
+        <item itemvalue="ScalaTest.CambioMonedasTest" />
+        <item itemvalue="ScalaTest.BusquedaBinariaTest" />
       </list>
     </recent_temporary>
   </component>
@@ -341,29 +351,11 @@
       <workItem from="1557988557931" duration="22000" />
       <workItem from="1557992031459" duration="270000" />
       <workItem from="1558511131841" duration="5712000" />
-      <workItem from="1558519602248" duration="3311000" />
+      <workItem from="1558519602248" duration="7122000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BusquedaASaltosTest - 2019.05.22 at 12h 43m 53s.xml">
-      <configuration name="BusquedaASaltosTest" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="BusquedaASaltosTest - 2019.05.22 at 12h 44m 07s.xml">
-      <configuration name="BusquedaASaltosTest" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="SeriesTest - 2019.05.22 at 12h 55m 55s.xml">
-      <configuration name="SeriesTest" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="SeriesTest - 2019.05.22 at 12h 57m 52s.xml">
-      <configuration name="SeriesTest" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="SeriesTest - 2019.05.22 at 12h 59m 07s.xml">
-      <configuration name="SeriesTest" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="SeriesTest - 2019.05.22 at 12h 59m 35s.xml">
-      <configuration name="SeriesTest" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="SeriesTest - 2019.05.22 at 13h 00m 15s.xml">
       <configuration name="SeriesTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -376,15 +368,33 @@
     <history-entry file="SeriesTest - 2019.05.22 at 13h 01m 52s.xml">
       <configuration name="SeriesTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
+    <history-entry file="BusquedaASaltosTest - 2019.05.22 at 14h 03m 15s.xml">
+      <configuration name="BusquedaASaltosTest" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="BusquedaBinariaTest - 2019.05.22 at 14h 03m 21s.xml">
+      <configuration name="BusquedaBinariaTest" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="BusquedaBinariaTest - 2019.05.22 at 14h 04m 20s.xml">
+      <configuration name="BusquedaBinariaTest" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="CambioMonedasTest - 2019.05.22 at 14h 04m 28s.xml">
+      <configuration name="CambioMonedasTest" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ContadorParentesisTest - 2019.05.22 at 14h 04m 41s.xml">
+      <configuration name="ContadorParentesisTest" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="SeriesTest - 2019.05.22 at 14h 04m 47s.xml">
+      <configuration name="SeriesTest" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41227000" />
+    <option name="totallyTimeSpent" value="45038000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1238" y="0" width="1329" height="1407" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24586289" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29393223" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -440,26 +450,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/BusquedaBinariaTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="32" column="52" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/BusquedaASaltosTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/TrianguloCheck.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -480,22 +470,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/SeriesTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="e#1#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Funciones.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="216" column="28" selection-start-line="216" selection-start-column="18" selection-end-line="216" selection-end-column="28" />
+        <state relative-caret-position="553">
+          <caret line="327" lean-forward="true" selection-start-line="327" selection-end-line="327" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/SeriesTest.scala">
+    <entry file="file://$PROJECT_DIR$/src/test/scala/BusquedaASaltosTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="59" column="4" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="4" />
+        <state relative-caret-position="126">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="34" selection-end-column="3" />
           <folding>
-            <element signature="e#1#30#0" expanded="true" />
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/BenchmarkAlgoritmosBusqueda.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="e#1#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/BusquedaBinariaTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>

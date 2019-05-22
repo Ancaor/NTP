@@ -2,45 +2,32 @@ import org.scalatest.FunSuite
 import Funciones.busquedaBinaria
 
 class BusquedaBinariaTest extends FunSuite {
-
   val r = scala.util.Random
-  var start = 1;
-  var end = 20;
+  var start = 0;
+  var end = 10;
+  var end2 = 100;
+
+  var coleccion = new Array[Int](end2)
+  for(x <- 0 to end2-1) coleccion(x) = x*2
 
 
+  test("Busqueda de elemento en posicion 54"){
+    val criterio = (a:Int,b:Int) => a < b
+    val aBuscarIndex = 54
+    val aBuscar = coleccion(aBuscarIndex)
 
+    println("Encontrado elemento en posicion 54 ? : " + (coleccion(busquedaBinaria(coleccion,aBuscar,criterio)) == aBuscar))
 
-
-  test("Busqueda de un elemento"){
-    var criterio = (a:Int,b:Int) => a < b
-    var coleccion:Array[Int] = new Array[Int](end+1)
-    for(i <- start to end) yield coleccion(i) = r.nextInt(100)
-    coleccion = coleccion.sortWith(criterio)
-
-    //coleccion.foreach(print(_))
-
-    var aBuscarIndex = 1 + r.nextInt((end-start) +1)
-    println("index = " + aBuscarIndex)
-    var aBuscar = coleccion(aBuscarIndex)
-    println("valor = " + aBuscar)
-    println(busquedaBinaria(coleccion,aBuscar,criterio))
     assert(busquedaBinaria(coleccion,aBuscar,criterio) == aBuscarIndex)
   }
 
-  end = 100
-  test("Busqueda de otro elemento elemento"){
-    var criterio = (a:Int,b:Int) => a < b
-    var coleccion:Array[Int] = new Array[Int](end+1)
-    for(i <- start to end) yield coleccion(i) = r.nextInt(500)
-    coleccion = coleccion.sortWith(criterio)
+  test("Busqueda de elemento en posicion 99"){
+    val criterio = (a:Int,b:Int) => a < b
+    val aBuscarIndex = 99
+    val aBuscar = coleccion(aBuscarIndex)
 
-    //coleccion.foreach(print(_))
+    println("Encontrado elemento en posicion 99 ? : " + (coleccion(busquedaBinaria(coleccion,aBuscar,criterio)) == aBuscar))
 
-    var aBuscarIndex = 1 + r.nextInt((end-start) +1)
-    println("index = " + aBuscarIndex)
-    var aBuscar = coleccion(aBuscarIndex)
-    println("valor = " + aBuscar)
-    println(busquedaBinaria(coleccion,aBuscar,criterio))
     assert(busquedaBinaria(coleccion,aBuscar,criterio) == aBuscarIndex)
   }
 

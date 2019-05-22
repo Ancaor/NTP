@@ -1,4 +1,6 @@
 import Funciones.jumpSearch
+import Funciones.serie
+import Funciones.FibonacciLucas
 import org.scalatest.FunSuite
 
 class BusquedaASaltosTest extends FunSuite {
@@ -8,42 +10,29 @@ class BusquedaASaltosTest extends FunSuite {
   var end = 10;
   var end2 = 100;
 
+  var coleccion = new Array[Int](end2)
+  for(x <- 0 to end2-1) coleccion(x) = x*2
 
 
+  test("Busqueda de elemento en posicion 54"){
+    val criterio = (a:Int,b:Int) => a < b
+    val aBuscarIndex = 54
+    val aBuscar = coleccion(aBuscarIndex)
 
-  test("Busqueda de un elemento"){
-    var criterio = (a:Int,b:Int) => a < b
-    var coleccion:Array[Int] = new Array[Int](end+1)
-    for(i <- start to end) yield coleccion(i) = r.nextInt(10)
-    coleccion = coleccion.sortWith(criterio)
+    println("Encontrado elemento en posicion 54 ? : " + (coleccion(jumpSearch(coleccion,aBuscar,criterio)) == aBuscar))
 
-    coleccion.foreach(print(_))
-
-    var aBuscarIndex = 1 + r.nextInt((end-start) +1)
-    println("index = " + aBuscarIndex)
-    var aBuscar = coleccion(aBuscarIndex)
-    println("valor = " + aBuscar)
-    println(jumpSearch(coleccion,aBuscar,criterio))
     assert(jumpSearch(coleccion,aBuscar,criterio) == aBuscarIndex)
-}
-
-
-/*
-  test("Busqueda de otro elemento elemento"){
-    var criterio = (a:Int,b:Int) => a < b
-    var coleccion2:Array[Int] = new Array[Int](end2+1)
-    for(i <- start to end2) yield coleccion2(i) = r.nextInt(500)
-    coleccion2 = coleccion2.sortWith(criterio)
-
-    //coleccion.foreach(print(_))
-
-    var aBuscarIndex2 = 1 + r.nextInt((end2-start) +1)
-    println("index = " + aBuscarIndex2)
-    var aBuscar2 = coleccion2(aBuscarIndex2)
-    println("valor = " + aBuscar2)
-    println(jumpSearch(coleccion2,aBuscar2,criterio))
-    assert(jumpSearch(coleccion2,aBuscar2,criterio) == aBuscarIndex2)
   }
-*/
+
+  test("Busqueda de elemento en posicion 99"){
+    val criterio = (a:Int,b:Int) => a < b
+    val aBuscarIndex = 99
+    val aBuscar = coleccion(aBuscarIndex)
+
+    println("Encontrado elemento en posicion 99 ? : " + (coleccion(jumpSearch(coleccion,aBuscar,criterio)) == aBuscar))
+
+    assert(jumpSearch(coleccion,aBuscar,criterio) == aBuscarIndex)
+  }
+
 
 }

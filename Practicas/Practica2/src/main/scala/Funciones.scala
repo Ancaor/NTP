@@ -186,7 +186,7 @@ object Funciones {
     println("................... Triangulo de Pascal ...................")
 
        // Se muestran 10 filas del trinagulo de Pascal
-    for (row <- 0 to 25) {
+    for (row <- 0 to 10) {
      // Se muestran 10 y 10 filas
      for (col <- 0 to row)
       print(calcularValorTrianguloPascal(row, col) + " ")

@@ -135,44 +135,50 @@ object Funciones {
 
 
 
-  //Ejercicio 6. Busqueda a Saltos generica
+  //Ejercicio 6. Busqueda a Saltos generica recursiva
 
 
-  def busquedaASaltos[A](coleccion : Array[A], aBuscar: A, criterio : (A,A) => Boolean) : Int = {
+  def jumpSearch[A](coleccion : Array[A], aBuscar: A, criterio : (A,A) => Boolean) : Int = {
 
     val blockSize = Math.floor(sqrt(coleccion.size)).toInt // tamaño de bloque
-    var step  = blockSize;
-
     val coleccionSize = coleccion.length
 
-    var prev = 0;
+    def goBloque(posInicial: Int, BlockSize: Int): Int = {
 
-    while( criterio(  coleccion(Math.min(step,coleccionSize)-1),aBuscar)) {
+      val step = posInicial + blockSize
 
-      prev = step
-      step += blockSize
-      if(prev >= coleccionSize) -1
+      if (criterio(coleccion(Math.min(step, coleccionSize) - 1), aBuscar)) {
+
+        val newPosInicial = step
+        if (step >= coleccionSize) -1
+        else {
+          goBloque(newPosInicial, blockSize)
+        }
+
+      } else {
+        goLineal(posInicial)
+      }
 
     }
 
-    while(criterio(coleccion(prev),aBuscar)) {
-      prev+=1
-      if(prev == Math.min(step,coleccionSize)) -1
+    def goLineal(posInicial: Int): Int = {
+      var prev = posInicial
+      val step = posInicial + blockSize
+      while(criterio(coleccion(prev),aBuscar)){
+        prev += 1
+        if(prev == Math.min(step,coleccionSize)) -1
+      }
+
+
+      if(coleccion(prev) == aBuscar) prev
+      else -1
+
     }
 
-    if(coleccion(prev) == aBuscar) prev
-    else -1
 
+    goBloque(0, blockSize)
 
   }
-
-
-
-
-
-
-
-
 
 
 
@@ -245,10 +251,10 @@ object Funciones {
     println(coleccion(busquedaBinaria(coleccion,55,(a:Int,b:Int)=> a < b)))
     println(aBuscar == coleccion(busquedaBinaria(coleccion,55,(a:Int,b:Int)=> a < b)))
 
-    println("................... Busqueda a saltos ...................")
+    println("................... Busqueda a saltos recursiva...................")
+    println(coleccion(jumpSearch(coleccion,55,(a:Int,b:Int)=> a < b)))
+    println(aBuscar == coleccion(jumpSearch(coleccion,55,(a:Int,b:Int)=> a < b)))
 
-    println(coleccion(busquedaASaltos(coleccion,55,(a:Int,b:Int)=> a < b)))
-    println(aBuscar == coleccion(busquedaASaltos(coleccion,55,(a:Int,b:Int)=> a < b)))
 
   }
 

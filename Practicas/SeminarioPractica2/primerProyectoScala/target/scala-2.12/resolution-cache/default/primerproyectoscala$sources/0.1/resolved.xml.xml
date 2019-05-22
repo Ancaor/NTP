@@ -4,7 +4,7 @@
 		module="primerproyectoscala$sources"
 		revision="0.1"
 		status="integration"
-		publication="20190516084455"
+		publication="20190522094504"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

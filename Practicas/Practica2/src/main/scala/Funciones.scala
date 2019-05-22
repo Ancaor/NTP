@@ -255,6 +255,11 @@ object Funciones {
     println(coleccion(jumpSearch(coleccion,55,(a:Int,b:Int)=> a < b)))
     println(aBuscar == coleccion(jumpSearch(coleccion,55,(a:Int,b:Int)=> a < b)))
 
+    val col2 = Array(1,1,2,4,4,4,7,7,7,8,9)
+
+    println(coleccion(jumpSearch(coleccion,55,(a:Int,b:Int)=> a < b)))
+
+    println(col2(jumpSearch(col2,8,(a:Int,b:Int)=> a < b)))
 
   }
 

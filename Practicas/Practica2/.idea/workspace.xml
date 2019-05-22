@@ -4,26 +4,10 @@
     <list default="true" id="086de62e-04fe-4607-b00b-35795d84ff37" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/Funciones.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Funciones.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/.idea/modules/primerProyectoScala.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/.idea/modules/primerProyectoScala.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/default/primerproyectoscala$sources/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/default/primerproyectoscala$sources/0.1/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/default/primerproyectoscala$sources/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/default/primerproyectoscala$sources/0.1/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/reports/default-primerproyectoscala$sources-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/reports/default-primerproyectoscala$sources-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/reports/default-primerproyectoscala$sources-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/reports/default-primerproyectoscala$sources-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/reports/default-primerproyectoscala$sources-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/reports/default-primerproyectoscala$sources-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/reports/default-primerproyectoscala$sources-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/reports/default-primerproyectoscala$sources-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/reports/default-primerproyectoscala$sources-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/reports/default-primerproyectoscala$sources-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/reports/default-primerproyectoscala$sources-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/reports/default-primerproyectoscala$sources-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/reports/default-primerproyectoscala$sources-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/reports/default-primerproyectoscala$sources-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/reports/default-primerproyectoscala$sources-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/reports/default-primerproyectoscala$sources-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/reports/default-primerproyectoscala$sources-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/reports/default-primerproyectoscala$sources-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/reports/default-primerproyectoscala$sources-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/reports/default-primerproyectoscala$sources-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/reports/default-primerproyectoscala$sources-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/scala-2.12/resolution-cache/reports/default-primerproyectoscala$sources-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/streams/$global/$global/dumpStructure/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/streams/$global/$global/dumpStructure/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../SeminarioPractica2/primerProyectoScala/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/BusquedaASaltosTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/BusquedaASaltosTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Funciones$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/Funciones$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Funciones.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/Funciones.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/BusquedaASaltosTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/test-classes/BusquedaASaltosTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -42,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Funciones.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="251" column="86" selection-start-line="251" selection-start-column="86" selection-end-line="251" selection-end-column="86" />
+            <state relative-caret-position="375">
+              <caret line="261" column="49" lean-forward="true" selection-start-line="261" selection-start-column="49" selection-end-line="261" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -54,7 +38,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/CambioMonedasTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
+            <state relative-caret-position="420">
               <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
@@ -75,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/scala/BusquedaASaltosTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="33" column="57" selection-start-line="33" selection-start-column="57" selection-end-line="33" selection-end-column="57" />
+            <state relative-caret-position="120">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -118,8 +102,8 @@
         <option value="$PROJECT_DIR$/src/test/scala/ContadorParentesisTest.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/CambioMonedasTest.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/BusquedaBinariaTest.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/BusquedaASaltosTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Funciones.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/BusquedaASaltosTest.scala" />
       </list>
     </option>
   </component>
@@ -184,7 +168,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558515196832" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558516907124" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -206,7 +190,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Funciones">
+  <component name="RunManager" selected="ScalaTest.BusquedaASaltosTest">
     <configuration name="Funciones" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Funciones" />
       <module name="Practica2" />
@@ -274,11 +258,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="ScalaTest.BusquedaASaltosTest" />
         <item itemvalue="Application.Funciones" />
         <item itemvalue="ScalaTest.BusquedaASaltosTest" />
         <item itemvalue="ScalaTest.BusquedaBinariaTest" />
         <item itemvalue="ScalaTest.CambioMonedasTest" />
-        <item itemvalue="Application.TrianguloCheck" />
       </list>
     </recent_temporary>
   </component>
@@ -332,50 +316,50 @@
       <workItem from="1557945950482" duration="9471000" />
       <workItem from="1557988557931" duration="22000" />
       <workItem from="1557992031459" duration="270000" />
-      <workItem from="1558511131841" duration="4064000" />
+      <workItem from="1558511131841" duration="5712000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BusquedaBinariaTest - 2019.05.15 at 23h 29m 43s.xml">
-      <configuration name="BusquedaBinariaTest" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="BusquedaASaltosTest - 2019.05.22 at 11h 06m 40s.xml">
+      <configuration name="BusquedaASaltosTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="BusquedaBinariaTest - 2019.05.15 at 23h 30m 00s.xml">
-      <configuration name="BusquedaBinariaTest" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="BusquedaASaltosTest - 2019.05.22 at 11h 08m 40s.xml">
+      <configuration name="BusquedaASaltosTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="BusquedaBinariaTest - 2019.05.15 at 23h 30m 30s.xml">
-      <configuration name="BusquedaBinariaTest" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="BusquedaASaltosTest - 2019.05.22 at 11h 09m 14s.xml">
+      <configuration name="BusquedaASaltosTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="BusquedaBinariaTest - 2019.05.15 at 23h 30m 39s.xml">
-      <configuration name="BusquedaBinariaTest" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="BusquedaASaltosTest - 2019.05.22 at 11h 10m 36s.xml">
+      <configuration name="BusquedaASaltosTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="BusquedaBinariaTest - 2019.05.15 at 23h 31m 06s.xml">
-      <configuration name="BusquedaBinariaTest" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="BusquedaASaltosTest - 2019.05.22 at 11h 10m 59s.xml">
+      <configuration name="BusquedaASaltosTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="BusquedaBinariaTest - 2019.05.15 at 23h 33m 21s.xml">
-      <configuration name="BusquedaBinariaTest" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="BusquedaASaltosTest - 2019.05.22 at 11h 11m 38s.xml">
+      <configuration name="BusquedaASaltosTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="BusquedaBinariaTest - 2019.05.15 at 23h 33m 34s.xml">
-      <configuration name="BusquedaBinariaTest" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="BusquedaASaltosTest - 2019.05.22 at 11h 13m 22s.xml">
+      <configuration name="BusquedaASaltosTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="BusquedaBinariaTest - 2019.05.15 at 23h 35m 04s.xml">
-      <configuration name="BusquedaBinariaTest" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="BusquedaASaltosTest - 2019.05.22 at 11h 14m 30s.xml">
+      <configuration name="BusquedaASaltosTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="BusquedaBinariaTest - 2019.05.15 at 23h 35m 36s.xml">
-      <configuration name="BusquedaBinariaTest" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="BusquedaASaltosTest - 2019.05.22 at 11h 15m 13s.xml">
+      <configuration name="BusquedaASaltosTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="BusquedaASaltosTest - 2019.05.15 at 23h 36m 29s.xml">
+    <history-entry file="BusquedaASaltosTest - 2019.05.22 at 11h 16m 00s.xml">
       <configuration name="BusquedaASaltosTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36268000" />
+    <option name="totallyTimeSpent" value="37916000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="24" width="1928" height="1060" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1292735" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22168803" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -384,7 +368,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2892741" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2892741" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -412,6 +396,18 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" log-message="true" suspend="NONE" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/test/scala/BusquedaASaltosTest.scala</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
@@ -431,23 +427,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Funciones.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="251" column="86" selection-start-line="251" selection-start-column="86" selection-end-line="251" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/CambioMonedasTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/BusquedaBinariaTest.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -458,22 +437,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/BusquedaASaltosTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="33" column="57" selection-start-line="33" selection-start-column="57" selection-end-line="33" selection-end-column="57" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/ContadorParentesisTest.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="4" column="47" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="47" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/CambioMonedasTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Funciones.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="261" column="49" lean-forward="true" selection-start-line="261" selection-start-column="49" selection-end-line="261" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/BusquedaASaltosTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>

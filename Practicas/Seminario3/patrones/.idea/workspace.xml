@@ -2,102 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1e72e6e-4fb8-42ae-a1b6-d88a729d224b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Estrategia/AccesoHuella.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Estrategia/AccesoPassword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Estrategia/CifradoNormal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Estrategia/CifradoNulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Estrategia/ComportamientoAcceso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Estrategia/ComportamientoCifrado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Estrategia/ControlAcceso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Estrategia/Prueba.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/.idea/modules/Practica2-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica2/.idea/modules/Practica2-build.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/.idea/modules/Practica2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica2/.idea/modules/Practica2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/project/target/config-classes/$6f12156a462f8208bb1c$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/project/target/config-classes/$6f12156a462f8208bb1c.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/project/target/config-classes/$6f12156a462f8208bb1c.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/project/target/config-classes/$834cdc6da0504dddde88$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/project/target/config-classes/$834cdc6da0504dddde88.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/project/target/config-classes/$834cdc6da0504dddde88.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/project/target/config-classes/$9749a4fa5cf24ac0c6c1$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/project/target/config-classes/$9749a4fa5cf24ac0c6c1.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/project/target/config-classes/$9749a4fa5cf24ac0c6c1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/project/target/config-classes/$987e9652ad2b0188028a$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/project/target/config-classes/$987e9652ad2b0188028a.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/project/target/config-classes/$987e9652ad2b0188028a.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/project/target/config-classes/$b4035b403138c83bafc6$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/project/target/config-classes/$b4035b403138c83bafc6.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/project/target/config-classes/$b4035b403138c83bafc6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/project/target/config-classes/$bc4f291522f8a389631a$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/project/target/config-classes/$bc4f291522f8a389631a.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/project/target/config-classes/$bc4f291522f8a389631a.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/project/target/config-classes/$e6202831268ea4b8d850$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/project/target/config-classes/$e6202831268ea4b8d850.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/project/target/config-classes/$e6202831268ea4b8d850.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/project/target/scala-2.12/sbt-1.0/resolution-cache/default/practica2-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica2/project/target/scala-2.12/sbt-1.0/resolution-cache/default/practica2-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/project/target/scala-2.12/sbt-1.0/resolution-cache/default/practica2-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica2/project/target/scala-2.12/sbt-1.0/resolution-cache/default/practica2-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-practica2-build-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica2/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-practica2-build-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-practica2-build-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica2/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-practica2-build-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-practica2-build-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica2/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-practica2-build-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-practica2-build-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica2/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-practica2-build-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-practica2-build-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica2/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-practica2-build-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-practica2-build-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica2/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-practica2-build-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-practica2-build-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica2/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-practica2-build-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-practica2-build-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica2/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-practica2-build-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-practica2-build-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica2/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-practica2-build-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-practica2-build-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica2/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-practica2-build-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-practica2-build-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica2/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-practica2-build-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/project/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica2/project/target/streams/$global/update/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/project/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica2/project/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica2/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/project/target/streams/compile/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica2/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/project/target/streams/compile/exportedProducts/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica2/project/target/streams/compile/exportedProducts/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica2/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/project/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica2/project/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/project/target/streams/runtime/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica2/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/project/target/streams/runtime/exportedProducts/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica2/project/target/streams/runtime/exportedProducts/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/project/target/streams/runtime/fullClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica2/project/target/streams/runtime/fullClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica2/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/target/.history" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica2/target/.history" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/target/scala-2.12/resolution-cache/default/practica2$sources/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica2/target/scala-2.12/resolution-cache/default/practica2$sources/0.1/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/target/scala-2.12/resolution-cache/default/practica2$sources/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica2/target/scala-2.12/resolution-cache/default/practica2$sources/0.1/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/target/scala-2.12/resolution-cache/default/practica2_2.12/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica2/target/scala-2.12/resolution-cache/default/practica2_2.12/0.1/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/target/scala-2.12/resolution-cache/default/practica2_2.12/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica2/target/scala-2.12/resolution-cache/default/practica2_2.12/0.1/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/target/scala-2.12/resolution-cache/reports/default-practica2$sources-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica2/target/scala-2.12/resolution-cache/reports/default-practica2$sources-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/target/scala-2.12/resolution-cache/reports/default-practica2$sources-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica2/target/scala-2.12/resolution-cache/reports/default-practica2$sources-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/target/scala-2.12/resolution-cache/reports/default-practica2$sources-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica2/target/scala-2.12/resolution-cache/reports/default-practica2$sources-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/target/scala-2.12/resolution-cache/reports/default-practica2$sources-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica2/target/scala-2.12/resolution-cache/reports/default-practica2$sources-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/target/scala-2.12/resolution-cache/reports/default-practica2$sources-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica2/target/scala-2.12/resolution-cache/reports/default-practica2$sources-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/target/scala-2.12/resolution-cache/reports/default-practica2$sources-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica2/target/scala-2.12/resolution-cache/reports/default-practica2$sources-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/target/scala-2.12/resolution-cache/reports/default-practica2$sources-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica2/target/scala-2.12/resolution-cache/reports/default-practica2$sources-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/target/scala-2.12/resolution-cache/reports/default-practica2$sources-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica2/target/scala-2.12/resolution-cache/reports/default-practica2$sources-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/target/scala-2.12/resolution-cache/reports/default-practica2$sources-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica2/target/scala-2.12/resolution-cache/reports/default-practica2$sources-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/target/scala-2.12/resolution-cache/reports/default-practica2$sources-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica2/target/scala-2.12/resolution-cache/reports/default-practica2$sources-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/target/scala-2.12/resolution-cache/reports/default-practica2$sources-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica2/target/scala-2.12/resolution-cache/reports/default-practica2$sources-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/target/scala-2.12/resolution-cache/reports/default-practica2_2.12-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica2/target/scala-2.12/resolution-cache/reports/default-practica2_2.12-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/target/scala-2.12/resolution-cache/reports/default-practica2_2.12-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica2/target/scala-2.12/resolution-cache/reports/default-practica2_2.12-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/target/scala-2.12/resolution-cache/reports/default-practica2_2.12-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica2/target/scala-2.12/resolution-cache/reports/default-practica2_2.12-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/target/scala-2.12/resolution-cache/reports/default-practica2_2.12-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica2/target/scala-2.12/resolution-cache/reports/default-practica2_2.12-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/target/scala-2.12/resolution-cache/reports/default-practica2_2.12-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica2/target/scala-2.12/resolution-cache/reports/default-practica2_2.12-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/target/scala-2.12/resolution-cache/reports/default-practica2_2.12-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica2/target/scala-2.12/resolution-cache/reports/default-practica2_2.12-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/target/scala-2.12/resolution-cache/reports/default-practica2_2.12-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica2/target/scala-2.12/resolution-cache/reports/default-practica2_2.12-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/target/scala-2.12/resolution-cache/reports/default-practica2_2.12-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica2/target/scala-2.12/resolution-cache/reports/default-practica2_2.12-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/target/scala-2.12/resolution-cache/reports/default-practica2_2.12-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica2/target/scala-2.12/resolution-cache/reports/default-practica2_2.12-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/target/scala-2.12/resolution-cache/reports/default-practica2_2.12-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica2/target/scala-2.12/resolution-cache/reports/default-practica2_2.12-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/target/scala-2.12/resolution-cache/reports/default-practica2_2.12-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica2/target/scala-2.12/resolution-cache/reports/default-practica2_2.12-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/target/streams/$global/$global/dumpStructure/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica2/target/streams/$global/$global/dumpStructure/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica2/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica2/target/streams/$global/update/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica2/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica2/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica2/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica2/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica2/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/target/streams/runtime/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica2/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/target/streams/runtime/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica2/target/streams/runtime/managedClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/target/streams/test/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica2/target/streams/test/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Practica2/target/streams/test/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practica2/target/streams/test/managedClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adaptador/AdaptadorCifrado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adaptador/AdaptadorLib1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adaptador/AdaptadorLib2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adaptador/CifradorLibreria1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adaptador/CifradorLibreria2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adaptador/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -109,50 +20,87 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SingletonV1/GestorBBDD.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-              <folding>
-                <element signature="e#266#267#0" expanded="true" />
-                <element signature="e#299#300#0" expanded="true" />
-                <element signature="e#553#554#0" expanded="true" />
-                <element signature="e#574#575#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Estrategia/ComportamientoCifrado.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+            <state relative-caret-position="75">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Estrategia/ComportamientoAcceso.java">
+        <entry file="file://$PROJECT_DIR$/src/Adaptador/CifradorLibreria1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
+            <state relative-caret-position="90">
+              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
               <folding>
-                <element signature="e#94#95#0" expanded="true" />
-                <element signature="e#115#116#0" expanded="true" />
+                <element signature="e#88#89#0" expanded="true" />
+                <element signature="e#109#110#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Estrategia/AccesoPassword.java">
+        <entry file="file://$PROJECT_DIR$/src/Adaptador/CifradorLibreria2.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
               <folding>
-                <element signature="e#122#123#0" expanded="true" />
-                <element signature="e#143#144#0" expanded="true" />
+                <element signature="e#97#98#0" expanded="true" />
+                <element signature="e#118#119#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Adaptador/AdaptadorCifrado.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Adaptador/AdaptadorLib1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="e#187#188#0" expanded="true" />
+                <element signature="e#210#211#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Adaptador/AdaptadorLib2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+              <folding>
+                <element signature="e#164#165#0" expanded="true" />
+                <element signature="e#194#195#0" expanded="true" />
+                <element signature="e#244#245#0" expanded="true" />
+                <element signature="e#267#268#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Adaptador/Cliente.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="e#137#138#0" expanded="true" />
+                <element signature="e#167#168#0" expanded="true" />
+                <element signature="e#206#207#0" expanded="true" />
+                <element signature="e#230#231#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -186,49 +134,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Estrategia/Prueba.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
               <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Estrategia/CifradoNormal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-              <folding>
-                <element signature="e#134#135#0" expanded="true" />
-                <element signature="e#155#156#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Estrategia/CifradoNulo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-              <folding>
-                <element signature="e#132#133#0" expanded="true" />
-                <element signature="e#153#154#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SingletonV1/Tarea.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -261,6 +171,13 @@
         <option value="$PROJECT_DIR$/src/Estrategia/AccesoHuella.java" />
         <option value="$PROJECT_DIR$/src/Estrategia/ControlAcceso.java" />
         <option value="$PROJECT_DIR$/src/Estrategia/Prueba.java" />
+        <option value="$PROJECT_DIR$/src/Adaptador/CifradorLibreria1.java" />
+        <option value="$PROJECT_DIR$/src/Adaptador/CifradorLibreria2.java" />
+        <option value="$PROJECT_DIR$/src/Adaptador/AdaptadorLib1.java" />
+        <option value="$PROJECT_DIR$/src/Adaptador/AdaptadorCifrado.java" />
+        <option value="$PROJECT_DIR$/src/Adaptador/AdaptadorLib2.java" />
+        <option value="$PROJECT_DIR$/src/Adaptador/Prueba.java" />
+        <option value="$PROJECT_DIR$/src/Adaptador/Cliente.java" />
       </list>
     </option>
   </component>
@@ -294,7 +211,7 @@
               <item name="patrones" type="b2602c69:ProjectViewProjectNode" />
               <item name="patrones" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Estrategia" type="462c0819:PsiDirectoryNode" />
+              <item name="Adaptador" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -305,7 +222,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558598652845" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558600207779" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -365,12 +282,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1558593713062</updated>
-      <workItem from="1558593717620" duration="3407000" />
+      <workItem from="1558593717620" duration="4967000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3407000" />
+    <option name="totallyTimeSpent" value="4967000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="24" width="1928" height="1060" extended-state="6" />
@@ -489,13 +406,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Estrategia/ComportamientoCifrado.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Estrategia/ControlAcceso.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -513,6 +423,79 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Estrategia/ComportamientoCifrado.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Adaptador/CifradorLibreria1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <element signature="e#88#89#0" expanded="true" />
+            <element signature="e#109#110#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Adaptador/CifradorLibreria2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <element signature="e#97#98#0" expanded="true" />
+            <element signature="e#118#119#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Adaptador/AdaptadorCifrado.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Adaptador/AdaptadorLib1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Adaptador/AdaptadorLib2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#244#245#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Adaptador/Cliente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#137#138#0" expanded="true" />
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

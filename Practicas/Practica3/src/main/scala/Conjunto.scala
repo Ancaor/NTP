@@ -125,7 +125,7 @@ object Conjunto {
   }
 
   /**
-    * Método para mapear un conjunto dado con una funcion dada
+    * Método para mapear un conjunto dado con una funcion dada sin salirse del dominio(+-LIMITE)
     * @param c Conjunto de partida
     * @param funcion Funcion dada para mapear
     * @return Conjunto resultante del mapeo de c con la funcion.
